@@ -1,42 +1,27 @@
+
 # RaavanHackto!
 
-```
-we are creating this comunity so that other developers can get benifits of it.
+## About Project
 
+we are creating this community so that other developers can get benefits of it. In this project all developers together will contribute their designs of what they have created and other developers will use  designs created by other developers to create their own projects and prototypes.
 
-## Purpose
-In this **RaavanHackto** you have to create Signup and Loginup form. In the registration form of everyone, whoever is the best and most attractive will be rewarded.
 
 ## How to contribute
  1. Make a Fork.
  2. Clone the repository to your local desktop.
- ```
- git clone paste_link_you_copied
- ```
- 3. Create a new branch (It's necessary).
- ```
- git checkout -b branchName
- ```
- 4. Make changes and Add to Staging here.
- ```
- git add .
- ```
- 5. Commit changes.
- ```
- git commit -m "Message you want to write"
- ```
- * Always write the message short and easy to understand (ideally 3 to 5 words).
- 6. Push the changes so that Pull request will be generated.
- ```
- git push -u origin branchName
- ```
- 7. Make PR.
- 8. Commits should be descriptive.
- 9. Try to minimize conflicts.
- 10. Follow these steps only after you have Git installed in your system.
+ 3. Select the folder(what you are creating)
+ 4. Create new folder inside the selected folder and give it a name (It's necessary).
+ 5. Make changes and Add to Staging here.
+ 6. Commit changes [always write the message short and easy to understand (ideally 3 to 5 words).]
+ 7. Push the changes so that Pull request will be generated.
+ 8. Make PR.
+ 9. Commits should be descriptive.
 
-## What Do You Contribute
+## What To Contribute
 
->  1. You can create a Signup or Loginup  form here
->  2. You can create this Signup or Loginup  form in any language and you can design it any way 
->   3. You can create as many fields as you want, but fields with email and password are necessary.
+#### You can design a 
+>  1. **Sign up form .**
+>  2.  **Log in  form.**
+>  3.  **Landing page.**
+>  4.  **Portfolio website.**
+>  
