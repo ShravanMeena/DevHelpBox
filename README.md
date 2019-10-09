@@ -1,6 +1,7 @@
 # RaavanHackto!
 
-This is a platform where you will be rewarded according to your ability. The top participants participating in this will be given gifts by RaavanHackto.
+```
+we are creating this comunity so that other developers can get benifits of it.
 
 
 ## Purpose
