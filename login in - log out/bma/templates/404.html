@@ -1,0 +1,27 @@
+{% extends 'bma/base_simples.html' %}
+
+{% block page_header_button %}
+  {% if user.is_authenticated and not user.is_superuser %}
+    {% if user.is_not_new %}
+      <a href="{% url 'evento_registro' %}" class="btn btn-default"><span class="glyphicon glyphicon-plus"></span> Criar evento!</a>
+    {% else %}
+      <a href="{% url 'usuario_registro' pk=user.id %}" class="btn btn-warning"><span class="glyphicon glyphicon-pencil"></span> Complete seu cadastro!</a>
+    {% endif %}
+  {% endif %}
+{% endblock %}
+
+{% block icone_dinamico %}
+  {% if user.is_authenticated %}
+    <strong class="top-greetings"> Hello {{ user.username }}! </strong>
+    <small><a href="{% url 'logout' %}" class="btn btn-primary btn-md"> Log out</a></small>
+  {% else %}
+    <a href="{% url 'login' %}" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-lock"></span> Login</a>
+    <a href="{% url 'usuario_auth' %}" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-plus"></span> Cadastre-se!</a>
+  {% endif %}
+{% endblock %}
+  
+{% block content %}
+  <h1>404</h1>
+  <h2>Procurei e procurei, mas não achei o que você queria... malz!</h2>
+  <small>mentira, mal procurei. :D</small>
+{% endblock %}
