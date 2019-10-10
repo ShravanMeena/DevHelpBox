@@ -27,7 +27,7 @@ we are creating this community so that other developers can get benefits of it. 
 
 
 # License 
-### _You are free to use my creation but give me credit._
+### _You are free to use our creation but give me credit._
 
 ## Contributing
 
