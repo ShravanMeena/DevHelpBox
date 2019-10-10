@@ -24,4 +24,11 @@ we are creating this community so that other developers can get benefits of it. 
 >  2.  **Log in  form.**
 >  3.  **Landing page.**
 >  4.  **Portfolio website.**
->  
+
+
+# License 
+### _You are free to use my creation but give me credit._
+
+## Contributing
+
+Thank you for your interest! All types of contributions welcome. 
