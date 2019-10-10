@@ -1,0 +1,11 @@
+{% extends "bma/base_simples.html" %}
+
+
+{% block icone_dinamico %}
+  <a href="{% url 'login' %}" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-lock"></span> Login</a>
+  <a href="{% url 'usuario_auth' %}" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-plus"></span> Cadastre-se!</a>
+{% endblock %}
+
+{% block content %}
+  <h1>vlw, flw!</h1>
+{% endblock %}
