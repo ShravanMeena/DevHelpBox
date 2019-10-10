@@ -16,7 +16,7 @@ body {
     background-position: center;
 }
 
-/* colors 8a3aff, 6f79ff, 3a9fff black-> 1f4568  grey->8198ae*/
+
 .sect {
     padding: 90px 0;
     position: relative;
@@ -25,10 +25,6 @@ body {
 
 .collapse {
     display: block;
-}
-
-.sect--grey {
-    /*background-color: #ebeff9;*/
 }
 
 .sect--violet {
@@ -75,7 +71,6 @@ body {
     background-color: #fff;
     border-radius: 6px;
     box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
-    /*0px 22px 20px -10px rgba(0, 0, 0,0.2)*/
     padding: 35px 35px 40px 35px;
     text-align: center;
     transition: all 0.4s;
@@ -310,7 +305,7 @@ body {
     margin-right: 10px;
 }
 
-.carousel {}
+
 
 .row__carousel {
     display: inline-block;
