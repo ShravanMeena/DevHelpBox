@@ -1,0 +1,187 @@
+.container-fluid.main {
+    position: relative;
+    padding: 0;
+}
+
+.navbar-default {
+    background-image: none;
+    background-color: transparent;
+    border-radius: 0px;
+    border: 0;
+    box-shadow: none;
+    padding: 10px;
+    position: absolute;
+ 
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.navbar-default .navbar-brand {
+    font-family: Verdana;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+.carousel .background {
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+@media (max-width:991px) {
+    .carousel .background {
+        background-size: cover;
+        
+    }
+}
+
+.carousel .background.a {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.pexels.com/photos/92090/pexels-photo-92090-large.jpeg");
+}
+
+.carousel .background.b {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.pexels.com/photos/93750/pexels-photo-93750-large.jpeg");
+}
+
+.carousel .background.c {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.pexels.com/photos/76827/bahia-ocean-bay-boat-76827-large.jpeg");
+}
+
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    transition: opacity 0.5s;
+    
+}
+
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+}
+
+
+
+
+
+
+@media all and (transform-3d),
+(-webkit-transform-3d) {
+
+    .carousel-fade .carousel-inner>.item.next,
+    .carousel-fade .carousel-inner>.item.active.right {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    .carousel-fade .carousel-inner>.item.prev,
+    .carousel-fade .carousel-inner>.item.active.left {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    .carousel-fade .carousel-inner>.item.next.left,
+    .carousel-fade .carousel-inner>.item.prev.right,
+    .carousel-fade .carousel-inner>.item.active {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+
+
+.covertext {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    right: 0px;
+
+}
+
+.title {
+    font-family: Verdana;
+    font-weight: 600;
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.subtitle {
+    font-family: Verdana;
+    font-size: 23px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.explore {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.explore .btn-lg,
+.explore .btn-lg:hover {
+    border-radius: 30px;
+    padding: 15px 25px;
+    font-size: 22px;
+    background-image: none;
+    background-color: #FF4000;
+    border-color: #FF4000;
+    color: #ffffff;
+}
+
+.btn,
+.btn:hover {
+    border-radius: 0px;
+    background-image: none;
+    background-color: #FF4000;
+    border-color: #FF4000;
+    color: #ffffff;
+    margin-bottom: 20px;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    color: #ffffff;
+    outline: none;
+}
