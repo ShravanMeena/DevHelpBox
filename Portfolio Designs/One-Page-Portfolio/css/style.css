@@ -11,7 +11,7 @@
   letter-spacing: 0.03em;
 }
 a {
-  color: #7447ae;
+  color: #2c2338;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -45,7 +45,8 @@ img {
 
 /* Hero Section */
 header.hero {
-  background: url(../assets/hero-bg.jpg) no-repeat center center fixed;
+  /* background: url(../assets/hero-bg.jpg) no-repeat center center fixed; */
+  background-color: #222;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -280,7 +281,7 @@ h1.heading.pink:after {
 
 /* Contact Banner */
 .contact-banner {
-  background: url(../assets/bg-pat.png) #664fee repeat;
+  background: url(../assets/bg-pat.png) #151229 repeat;
   color: #fff;
   padding: 6em;
 }
