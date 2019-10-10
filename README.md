@@ -27,6 +27,13 @@ we are creating this community so that other developers can get benefits of it. 
 >  5. **Calculator.**
 >  6. **Contact Form.**
 
+## Technology used in this project
+* HTML
+* CSS
+* JavaScript
+* JQuery
+* BootStrap
+* Any Framework/Library
 
 # License 
 ### _You are free to use our creation but give me credit._
