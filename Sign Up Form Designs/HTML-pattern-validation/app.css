@@ -1,0 +1,66 @@
+body{
+    font-family: basic-sans, sans-serif;
+    font-size:1.2rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#ddd;
+    min-height: 100vh;
+  
+  }
+  
+  .form{
+    border-radius:4px;
+    background:white;
+    width:45vw;
+    box-shadow: 0 0 3em rgba(0,0,0,.15);
+    padding:3em;
+
+  }
+  
+  .title{
+    text-transform:uppercase;
+    color: #ee6352;
+    text-align:center;
+    font-weight:900;
+    font-size:3rem;
+    
+  }
+  
+  label{
+    display:block;
+    margin-bottom:1.5em;
+    display:flex;
+    flex-direction:column;
+  }
+  span{
+    font-size:0.8rem;
+    opacity:0.6;
+  }
+  
+  input{
+    font-family:inherit;
+    padding:1em;
+    background: #efefef;
+    border:0;
+    font-weight: 600;
+  }
+  
+  input:invalid{
+    border:2px solid red;
+  }
+  
+  input:valid{
+    border: 2px solid lightgreen;
+  }
+  button{
+    font-family:inherit;
+    color:white;
+    background: #ee6352;
+    padding: .75em 1.25em; 
+    border: 0;
+    font-weight:900;
+    width:100%;
+    border-radius:4px;
+    cursor:pointer;
+  }
