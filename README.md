@@ -21,9 +21,11 @@ we are creating this community so that other developers can get benefits of it. 
 
 #### You can design a 
 >  1. **Sign up form .**
->  2.  **Log in  form.**
->  3.  **Landing page.**
->  4.  **Portfolio website.**
+>  2. **Log in  form.**
+>  3. **Landing page.**
+>  4. **Portfolio website.**
+>  5. **Calculator.**
+>  6. **Contact Form.**
 
 
 # License 
