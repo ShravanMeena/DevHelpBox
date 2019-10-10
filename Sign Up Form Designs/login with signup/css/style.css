@@ -1,0 +1,118 @@
+
+body {
+  font-family: 'Quicksand', Arial, sans-serif;
+  font-size: 12px;
+}
+
+.login-box {
+  background: #b2b2ff;
+  background: -webkit-linear-gradient(to bottom, #FFB88C, #b2b2ff);
+  background: linear-gradient(to bottom, #FFB88C, #b2b2ff);
+  float: left;
+  width: 100%;
+  padding: 100% 0px;
+}
+
+.tab-content {
+  padding-bottom: 4rem;
+}
+
+.banner-sec {
+  background-size: cover;
+  min-height: 500px;
+  padding: 0;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  background: #fff;
+  -webkit-box-shadow: 0 15px 6px -5px #777;
+  -moz-box-shadow: 0 15px 6px -5px #777;
+  box-shadow: 0 15px 6px -5px #777;
+}
+
+.carousel-caption {
+  text-align: left;
+  left: 5%;
+}
+
+.login-sec {
+  padding: 30px 30px;
+  position: relative;
+}
+
+.login-sec ul li a {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.login-sec .copy-text {
+  position: absolute;
+  width: 80%;
+  bottom: 20px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.login-sec .copy-text i {
+  color: #FEB58A;
+}
+
+.login-sec .copy-text a {
+  color: #E36262;
+}
+
+.btn-login {
+  background: #DE6262;
+  color: #fff;
+  font-weight: 600;
+}
+
+.banner-text {
+  width: 70%;
+  position: absolute;
+  bottom: 40px;
+  padding-left: 20px;
+}
+
+.banner-text h2 {
+  color: #fff;
+  font-weight: 600;
+}
+
+.banner-text h2:after {
+  content: " ";
+  width: 100px;
+  height: 5px;
+  background: #FFF;
+  display: block;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+.banner-text p {
+  color: #fff;
+}
+
+form label, label small {
+  font-weight: 500;
+}
+
+@media (max-width: 575px) {
+  .banner-sec {
+    display: none; 
+  } 
+}
+@media (max-width: 767px) {
+  .banner-sec {
+    display: none; 
+  } 
+}
