@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=0.6">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="validate.css">
+
+
+	<title></title>
+
+</head>
+<body>
+	
+	<div id="particles-js">
+	
+	
+		<div class="container-fluid">
+			<form method="get" action="submit1.html" class="cont" onsubmit="return ValidateForm()" >
+			  <h1 style="font-size: 30px; margin: 10px; text-align: center;">Register Here</h1>
+			  <div class="row">
+			    
+			    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><input style="text-align: center;margin: 10px;
+" type="text" class="form-control" id="name" name="name" aria-describedby="emailHelp" placeholder="Name">
+			    	<pre id="name_error" class="error"></pre></div>
+			    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><input style="text-align: center;margin: 10px;
+" type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="E-mail">
+			    <pre id="email_error" class="error"></pre></div>
+			    
+			  </div>
+			  
+
+			  <div class="row">
+			    
+			    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><input style="text-align: center;margin: 10px;
+" type="text" class="form-control" id="username" name="username" aria-describedby="emailHelp" placeholder="Username">
+			    <pre id="username_error" class="error"></pre></div>
+			    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><input style="text-align: center;margin: 10px;
+" type="password" class="form-control" id="password" name="password" aria-describedby="emailHelp" placeholder="Password">
+			    <pre id="password_error" class="error"></pre></div>
+			    
+			  </div>
+
+			  <div class="row"> 
+			    
+			    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><input style="text-align: center;margin: 10px;
+" type="password" class="form-control" id="confirm_password" name="confirm_password"aria-describedby="emailHelp" placeholder="Confirm Password"><p id="confirm_password_error" class="error"></p>
+			    <select id="gender" name="gender" class="form-control" style="text-align: center;margin: 10px;">
+				   <option type="radio" value="gender"> Gender<br></option>
+				   <option type="radio" value="male"> Male<br></option>
+				   <option type="radio" value="female"> Female<br></option>
+				   <option type="radio" value="other"> Other<br></option><br>
+					
+				</select><pre id="gender_error" class="error"></pre>
+				</div>
+			    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><input style="text-align: center;margin: 10px;
+" type="number" class="form-control" id="age" name="age" aria-describedby="emailHelp" placeholder="Age">
+			    	<pre class="error"></pre>
+			    <select id="colour" name="favourite_colour" class="form-control" style="text-align: center;margin: 10px;">
+			    	<option value="favourite_colour" style="background:font-color">Favourite Colour</option>
+					<option value="red" style="background:red">Red</option>
+				    <option value="yellow" style="background:yellow">Yellow</option>
+				    <option value="purple" style="background:purple">Purple</option>
+				    <option value="orange" style="background:orange">Orange</option>
+				    <option value="cyan" style="background:cyan">Cyan</option>
+				    <option value="blue" style="background:blue">Blue</option>
+				    <option value="grey" style="background:grey">Grey</option>
+				    <option value="pink" style="background:pink">Pink</option>
+				    <option value="black" style="background:black">Black</option>
+				</select><pre id="favourite_colour_error" class="error"></pre></div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+				<label><input id="rememberme" name="rememberme" value="remember" type="checkbox" /> &nbsp;Remember me</label></div>
+							    
+			  </div>
+
+
+			
+			  <button  style="text-align: center; background-color: black; color: white;margin: 10px;" type="submit" class="form-control">Sign Up</button>
+			  <p style="margin: 10px;font-weight: 500;">"Already a Member?"<a class="reg" href="form2.html" style="color: red">Login</a>
+			</form>
+		</div>
+		<!-- <canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;" width="167" height="972"></canvas> -->
+	</div>
+	<script src="validate1.js"></script>
+	<script src="particles.js"></script>
+	<script src="app.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>

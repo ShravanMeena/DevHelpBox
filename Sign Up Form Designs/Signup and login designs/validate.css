@@ -1,0 +1,123 @@
+.simpleform{
+	width: 70%;
+	margin: 20px auto;
+	padding: 6px 20px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+
+
+	display: block;
+	width: 100%;
+	height: calc(1.5em + .75rem +2px);
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+
+    
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+
+}
+
+.simpleform input{
+	width: 100%;
+	margin: 4px 0px;
+	padding: 2px 4px;
+}
+#particles-js{
+	height: 100%;
+}
+
+.simpleform button{
+	margin: 8px 0px;
+}
+
+.wrong-input {
+	border: 1px solid red;
+	animation: shake 0.5s;
+	animation-iteration-count: 2;
+	font-size: 1rem;
+
+
+	display: block;
+	width: 100%;
+	height: calc(1.5em + .75rem +2px);
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+
+ 
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.form-control{
+		display: block;
+	width: 100%;
+	height: calc(1.5em + .75rem +2px);
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+
+    
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+#heading {
+	text-align: center;
+	font-weight: 200px;
+	font-size: 75px;
+
+
+display: block;
+	width: 100%;
+	height: calc(1.5em + .75rem +2px);
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+
+    
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.error{
+	color: red;
+	font-size: 75%;
+}
+.cont {
+    background-color: (0,0,0,0.5);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-70%);
+    
+   }
+.cont1 {
+    background-color: (0,0,0,0.5);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-70%);
+    
+   }
+
+.cont2 {
+    background-color: (0,0,0,0.5);
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%,-70%);
+    
+   }
