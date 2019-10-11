@@ -26,6 +26,7 @@ we are creating this community so that other developers can get benefits of it. 
 >  4. **Portfolio website.**
 >  5. **Calculator.**
 >  6. **Contact Form.**
+>  7. **Basic Website.**
 
 ## Technology used in this project
 * HTML
