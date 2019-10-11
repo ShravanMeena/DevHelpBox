@@ -34,11 +34,10 @@ we are creating this community so that other developers can get benefits of it. 
 * JavaScript
 * JQuery
 * BootStrap
-* Any Framework/Library
+* React
+* Angular
 
 # License 
 ### _You are free to use our creation but give me credit._
 
-## Contributing
-
-Thank you for your interest! All types of contributions welcome. 
+**Thank you for your interest! All types of contributions welcome.** 
