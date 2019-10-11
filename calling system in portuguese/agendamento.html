@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>ABA LOG - Atendimento</title>
+	
+	<!-- Font Weasome -->
+	<link rel="stylesheet" href="css/fontsaw/font-awesome.css">
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+     <!--Inicio do cabeçalho do sistema -->
+     <header>
+      <div class="container">
+        <!-- linha inicial do cabeçalho sistema  -->
+        <div class="row">
+          <div id="header-cabeçalho">
+           <div id="icone-header"><i class="fa fa-user fa-3x"></i></div>
+           <div id="saudacao-header"> <h3>Olá, <span>Fulano</span></h3></div>
+           <div id="saudacao-calendar"><span>Sabado</span>, 10 de <span>Dezembro</span> de 2016.</div>
+         </div>
+       </div>
+       <!-- final linha do cabeçalho -->
+     </div>
+   </header>
+   <nav class="navbar navbar-default">
+     <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menuprincipal">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="menuprincipal">
+        <ul class="nav navbar-nav">
+          <!-- menu 1 -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Agendamento<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="agendamento.html">Agendamentos</a></li>
+              <li><a href="agendList.html">Consultar Agendamentos</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Solicitação Expressa</a></li>
+            </ul>
+          </li>
+          <!-- menu 2 -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reclamações<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Registrar Reclamações</a></li>
+              <li><a href="#">Consultar Reclamações</a></li>
+            </ul>
+          </li>
+          <!-- menu 3 -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Expedição<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="AcompaPedidos.html">Acompanhamento de pedido</a></li>
+              <li><a href="DetPedidos.html">Detalhes do pedido</a></li>
+              <li><a href="OS-Pedidos.html">O.S pedido</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href=""><i class="fa fa-unlock-alt" aria-hidden="true"></i></a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <!-- Cabeçalho do sistema-->
+  <content>
+
+    <section id="laboratorio">
+     <div id="conteudo" class="container">
+      <div class="row">
+       <h1>BEM VINDO AO SISTEMA "ABA LOG!"</h1>
+       <div class="col-lg-12">
+        <div class="form-group fnd-form">
+         <label for="selecioneUnidade"><h4>Selecione  a unidade</h4></label>
+         <select class="form-control">
+          <option>Laboratorio - Higienópolis </option>
+          <option>Laboratorio - Jardins </option>
+          <option>Laboratorio - Pinheiros </option>
+          <option>Laboratorio - Faria Lima</option>
+          <option>Laboratorio - Vila Sônia</option>
+        </select>
+
+        <label for="selecioneUnidade"><h4>Selecione  Serviço</h4></label>
+        <select class="form-control">
+          <option>Entrega por Sedex</option>
+          <option>Entrega exepressa por motoboy</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<section>
+ <div class="container">
+  <div class="row">
+   <div class="col-xs-6">
+    <div class="form-group fnd-form">
+     <label for="EmailPaciente"><h4>Email Paciente</h4></label>
+     <input type="text" class="form-control" placeholder="Email do paciente">
+   </div>
+ </div>
+ <div class="col-xs-6">
+  <div class="form-group fnd-form">
+   <label for="custoServico"><h4>C.Custo</h4></label>
+   <input type="text" class="form-control" placeholder="C. Custo">
+ </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Email paciente - C.custo -->
+<section id="nome-Pac-nm-Prot">
+ <div class="container">
+  <div class="row">
+   <div class="col-xs-6">
+    <div class="form-group fnd-form">
+     <label for="nomePaciente"><h4>Nome do Paciente</h4></label>
+     <input type="text" class="form-control" placeholder="Nome do paciente">
+   </div>
+ </div>
+ <div class="col-xs-6">
+  <div class="form-group fnd-form">
+   <label for="protocoloPaciente"><h4>Numero do Protocolo (Protocolo Principal)</h4></label>
+   <input type="text" class="form-control" placeholder="Numero do protocolo">
+ </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Dados Paciente -->
+  		<!-- <section>
+  			<div class="container">
+  				<div class="row">
+  					<div class="col-xs-6">
+  						<div class="form-group">
+  							<label for="protocoloPaciente"><h4>CEP Laboratorio</h4></label>
+  							<input type="text" class="form-control" placeholder="Numero do protocolo">
+  						</div>
+  					</div>
+  					<div class="col-xs-6">
+  						<div class="form-group">
+  							<label for="protocoloPaciente"><h4>CEP Paciente</h4></label>
+  							<input type="text" class="form-control" placeholder="Numero do protocolo">
+  						</div>
+  					</div>
+  				</div>
+  			</section> -->
+  			<section>
+  				<div class="container">
+  					<div class="row">
+  						<div class="col-xs-6">
+  							<div class="form-group fnd-form">
+  								<label for="nomePaciente"><h4>CEP Laboratorio</h4></label>
+  								<input type="text" class="form-control" placeholder="Numero do protocolo">
+  								<div class="col-xs-*">
+  									<label for="enderecolaboratorio"><h4>Endereco</h4></label>
+  									<input type="text" class="form-control" placeholder="Numero do protocolo">	
+  								</div>
+  								<div class="col-xs-*">
+  									<label for="numerolaratorio"><h4>Numero</h4></label>
+  									<input type="text" class="form-control" placeholder="Numero do protocolo">
+  								</div>
+
+  							</div>
+  						</div>
+  						<div class="col-xs-6">
+  							<div class="form-group fnd-form">	
+  								<label for="cepPaciente"><h4>CEP Paciente</h4></label>
+  								<input type="text" class="form-control" placeholder="CEP">
+  								<div class="col-xs-*">
+  									<label for="enderecoPaciente"><h4>Endereco</h4></label>
+  									<input type="text" class="form-control" placeholder="Endereço">	
+  								</div>
+  								<div class="col-xs-*">
+  									<label for="numeroPaciente"><h4>Numero</h4></label>
+  									<input type="text" class="form-control" placeholder="Numero">
+  								</div>
+  							</div>
+  						</div>
+  					</div>
+  				</div>
+  			</section>
+
+  			<section>
+  				<div class="container">
+  					<div class="row">
+
+  						<div class="col-xs-6">
+  							<div class="form-group fnd-form">	
+  								<label for="contatoOperacional"><h4>Nome Contato Operacional</h4></label>
+  								<input type="text" class="form-control" placeholder="Contato Operacional">
+  								<div class="col-xs-*">
+  									<label for="contatoOp1"><h4>Contato</h4></label>
+  									<input type="text" class="form-control" placeholder="Nome contato">	
+  								</div>
+  								<div class="col-xs-*">
+  									<label for="nomeOperadoraOp1"><h4>Operadora</h4></label>
+  									<input type="text" class="form-control" placeholder="Nome Operadora">
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-xs-6">
+  							<div class="form-group fnd-form">
+  								<label for="nomecontatoPaciente"><h4>Nome Contato do Paciente</h4></label>
+  								<input type="text" class="form-control" placeholder="Cep">
+  								<div class="col-xs-*">
+  									<label for="NomecontatoPac1"><h4>Contato</h4></label>
+  									<input type="text" class="form-control" placeholder="Nome Contato">	
+  								</div>
+  								<div class="col-xs-*">
+  									<label for="nomeOperadoraPac1"><h4>Operadora</h4></label>
+  									<input type="text" class="form-control" placeholder="Nome Operadora">
+  								</div>
+
+  							</div>
+  						</div>
+  					</div>
+  				</div>
+  			</section>
+  			<section>
+  				<div class="container">
+  					<div class="row">
+  						<div class="organiza">
+  							<button type="submit" class="btn btn-primary">Enviar</button><button type="submit" class="btn btn-primary">Limpar</button>
+  						</div>
+  					</div>
+  				</div>
+  			</section>
+  		</content>
+  		<footer>
+  			<div id="footer-center" class="container">
+  				<div class="row">rodape</div>
+  			</div>
+  		</footer>
+
+  		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  		<!-- Include all compiled plugins (below), or include individual files as needed -->
+  		<script src="js/bootstrap.min.js"></script>
+  	</body>
+  	</html>

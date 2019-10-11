@@ -1,0 +1,107 @@
+* {
+margin:0;
+padding:0;
+list-style:none;
+vertical-align:baseline;
+}
+
+body{
+	background-color: #dcdcdc;
+	padding: 0px;
+	margin: 0px;
+}
+header{
+	background-color:#cccecb;
+	color: black;
+}
+#header-cabeçalho{
+	padding: 0px;
+	margin: 0px;
+}
+#icone-header{
+	float: left;
+	padding: 10px 5px;
+	margin: 0px 10px;
+}
+#saudacao-header{
+	float: left;
+}
+#saudacao-header span{
+	font-weight: bold;
+	color: #333
+}
+#saudacao-calendar{
+	float: right;
+	padding: 20px;
+}
+#saudacao-calendar span{
+	font-weight: bolder;
+	color: #333;
+}
+#conteudo h1{
+	font-weight: bold;
+	text-shadow: 1px 1px 4px #fff
+}
+#conteudo h1{
+	text-align: center;
+}
+.fnd-form{
+	border-radius: 4px;
+	background-color: #fff;
+	padding: 10px;
+	margin: 5px 10px;
+}
+.fnd-form label h4{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    color: #333;
+}
+.organiza{
+	padding: 10px 20px;
+}
+.organiza button{
+	margin:5px 10px;
+}
+/******************************************************************************************************************
+*										MENU NAVEGAÇAO DO SITE
+*******************************************************************************************************************/
+.navbar-default {
+    background-color: #000;
+    border-color: #333;
+}
+/*.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: #fff;
+	background-color: #000;
+}
+*/
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #ccc;
+}
+/******************************************************************************************************************/
+/*									FOOTER CONFIGURAÇÃO
+/******************************************************************************************************************/
+footer{
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	padding: 60px 0px;
+	margin: 60px 0px;
+}
+
+footer ul{
+	display: inline-block;
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+footer ul li{
+
+}
+footer h1, h2, h3, h4, h5, h6{
+	padding: 5px 0px;
+	margin: 3px 0px;
+}

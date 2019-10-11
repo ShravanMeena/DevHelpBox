@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>ABAS LOG - Atendimento</title>
+	
+	<!-- Font Weasome -->
+	<link rel="stylesheet" href="css/fontsaw/font-awesome.css">
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+     <!--Inicio do cabeçalho do sistema -->
+     <header>
+      <div class="container">
+        <!-- linha inicial do cabeçalho sistema  -->
+        <div class="row">
+          <div id="header-cabeçalho">
+           <div id="icone-header"><i class="fa fa-user fa-3x"></i></div>
+           <div id="saudacao-header"> <h3>Olá, <span>Fulano</span></h3></div>
+           <div id="saudacao-calendar"><span>Sabado</span>, 10 de <span>Dezembro</span> de 2016.</div>
+         </div>
+       </div>
+       <!-- final linha do cabeçalho -->
+     </div>
+   </header>
+   <nav class="navbar navbar-default">
+     <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menuprincipal">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="menuprincipal">
+        <ul class="nav navbar-nav">
+          <!-- menu 1 -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Agendamento<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Agendamentos</a></li>
+              <li><a href="#">Agendamentos Programados</a></li>
+              <li><a href="#">Consultar Agendamentos</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Solicitação Expressa</a></li>
+            </ul>
+          </li>
+          <!-- menu 2 -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reclamações<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="reclamacoes.html">Registrar Reclamações</a></li>
+              <li><a href="recList.html">Consultar Reclamações</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href=""><i class="fa fa-unlock-alt" aria-hidden="true"></i></a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <!-- Cabeçalho do sistema-->
+  <content>
+    <section>
+     <div id="conteudo" class="container">
+      <div class="row">
+       <h1>Consultar Reclamações</h1>
+     </div>
+   </section>
+   
+   <section>
+    <div class="container">
+     <div class="row">
+       <div class="panel panel-default">
+        <!-- Default panel contents -->
+        <div class="panel-heading">Panel heading</div>
+
+        <!-- Table -->
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Protocolo</th>
+              <th>O.S interna</th>
+              <th>Nome Completo</th>
+              <th style="text-align:center">Editar</th>
+              <th style="text-align:center">Apagar</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="#">1601900</a></td>
+              <td><a href="#">0EPG</a></td>
+              <td><a href="#">Fulano De Tal</a></td>
+              <td align="center"><a href="#"><i class="fa fa-pencil-square fa-3" aria-hidden="true"></i></td>
+              <td align="center"><a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+              <td><a href="#">1601901</a></td>
+              <td><a href="#">0EPI</a></td>
+              <td><a href="#">Fulano De Tal</a></td>
+              <td align="center"><a href="#"><i class="fa fa-pencil-square fa-3" aria-hidden="true"></i></td>
+              <td align="center"><a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+              <td><a href="#">1601902</a></td>
+              <td><a href="#">0EPJ</a></td>
+              <td><a href="#">Fulano De Tal</a></td>
+              <td align="center"><a href="#"><i class="fa fa-pencil-square fa-3" aria-hidden="true"></i></td>
+              <td align="center"><a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>      
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+   <div class="row">
+    <div class="organiza">
+     <button type="submit" class="btn btn-primary">Enviar</button><button type="submit" class="btn btn-primary">Limpar</button>
+   </div>
+ </div>
+</div>
+</section>
+</content>
+<footer>
+ <div id="footer-center" class="container">
+  <div class="row">rodape</div>
+</div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
