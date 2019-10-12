@@ -1,0 +1,171 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #000; }
+
+.header {
+  position: relative;
+  background-image: url(images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%); }
+  .header__logo {
+    width: 15rem;
+    margin-right: 15rem; }
+  .header__content {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%); }
+    @media only screen and (max-width: 991px) {
+      .header__content {
+        z-index: 10 !important; } }
+    @media only screen and (max-width: 600px) {
+      .header__content {
+        top: 30%;
+        left: 30%;
+        transform: translate(-30%, -30%); } }
+    @media only screen and (min-width: 992px) {
+      .header__content--text {
+        margin-left: -20rem; } }
+    .header__content--text-p {
+      font-size: 1.8rem;
+      font-weight: 400;
+      color: #fff; }
+    .header__content--text-head-1, .header__content--text-head-2 {
+      font-size: 5rem;
+      color: #fff;
+      font-weight: 500;
+      letter-spacing: .2rem; }
+      @media only screen and (max-width: 1300px) {
+        .header__content--text-head-1, .header__content--text-head-2 {
+          font-size: 3.5rem; } }
+    .header__content--text-head-1 span,
+    .header__content--text-head-2 span {
+      color: aquamarine; }
+    .header__content--box-img {
+      width: 50rem;
+      margin-left: 4rem; }
+      @media only screen and (max-width: 1300px) {
+        .header__content--box-img {
+          width: 40rem; } }
+      @media only screen and (max-width: 600px) {
+        .header__content--box-img {
+          display: none; } }
+
+.navbar {
+  background-color: transparent !important;
+  padding: 3rem 5rem; }
+  @media only screen and (max-width: 991px) {
+    .navbar {
+      z-index: 1000 !important;
+      text-align: center; } }
+  @media only screen and (max-width: 991px) {
+    .navbar-nav {
+      background-color: #222 !important;
+      padding: 0;
+      z-index: 1000 !important;
+      display: block;
+      height: 60vh; } }
+
+.nav-item {
+  margin-left: 5rem; }
+  @media only screen and (max-width: 1300px) {
+    .nav-item {
+      margin-left: 3rem; } }
+  .nav-item:first-child {
+    border: 1px solid #fff;
+    border-radius: 10rem;
+    padding: .2rem 1rem; }
+
+.nav-link {
+  color: #fff !important;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 2.2rem; }
+  @media only screen and (max-width: 1300px) {
+    .nav-link {
+      font-size: 1.8rem; } }
+
+.outline {
+  margin: 8rem 0;
+  text-align: center; }
+  .outline-title {
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: #000;
+    border-bottom: .5rem solid aquamarine;
+    display: inline-block;
+    margin-bottom: 6rem; }
+  .outline__box {
+    width: 90%;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+    border-radius: 1rem; }
+    .outline__box:hover {
+      background-color: aquamarine; }
+    .outline__box-img {
+      width: 100%; }
+    .outline__box-text {
+      text-align: start;
+      color: #000;
+      font-size: 1.5rem;
+      margin: 1rem 0;
+      border-left: .5rem solid aquamarine;
+      padding-left: .5rem;
+      margin-bottom: 2rem; }
+    .outline__box-btn {
+      border: none;
+      border-radius: 10rem;
+      background-color: orange !important;
+      color: #fff;
+      font-weight: 500;
+      padding: .3rem 1.3rem; }
+      .outline__box-btn:hover {
+        transform: translateY(-0.2rem); }
+
+.about {
+  margin: 8rem 0;
+  background-color: aquamarine;
+  padding: 8rem 0;
+  clip-path: polygon(0 0, 100% 19%, 100% 98%, 0% 100%); }
+  .about__img {
+    max-width: 30vw;
+    margin-top: 3rem; }
+    @media only screen and (max-width: 767px) {
+      .about__img {
+        max-width: 50vw; } }
+  .about__text {
+    font-size: 2.2rem;
+    color: #fff;
+    margin-top: 6rem; }
+
+.patner {
+  margin: 8rem 0; }
+  .patner__img {
+    max-width: 50%; }
+
+.contact {
+  background-color: #222;
+  padding: 4rem 0; }
+  .contact__img {
+    margin: 0 auto;
+    max-width: 30rem;
+    display: flex;
+    justify-content: center; }
