@@ -1,0 +1,34 @@
+.header {
+  height: 95vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary, 0.8),
+      rgba($color-primary-dark, 0.8),
+      rgba($color-primary-light, 0.8)
+    ),
+    url(../img/hero.jpg);
+  background-size: cover;
+  background-position: top;
+  //The polygon works with for points ant each node recives a x & y position
+  //clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  //clip-path: polygon(0 0, 100% 50%, 0 100%);
+  clip-path: ellipse(160vw 85vh at 0% 0%);
+  -webkit-clip-path: ellipse(160vw 85vh at 0% 0%);
+  &__logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+  }
+
+  &__logo {
+    height: 3.5rem;
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
