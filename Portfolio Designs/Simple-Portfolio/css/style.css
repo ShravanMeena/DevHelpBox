@@ -1,0 +1,52 @@
+.sidebar {
+    width: 30vw;
+    left: 0px;
+    position: absolute;
+    margin: 2vw; 
+}
+
+.sidebar .links ul li {
+    list-style-position: outside
+}
+
+.content ul{
+    list-style: none
+}
+
+.main {
+    width: 70vw;
+    right: 0px;
+    position: absolute;
+    margin: 2vw;
+    padding-left: 1vw;
+    border-left: 1px solid black;
+    padding-bottom: 2vw
+}
+
+img {
+    width: 50vw;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.content ul li {
+    /*border-bottom: 1px solid black;*/
+    padding-bottom: 1vw
+}
