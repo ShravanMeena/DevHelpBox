@@ -27,6 +27,7 @@ we are creating this community so that other developers can get benefits of it. 
 >  5. **Calculator.**
 >  6. **Contact Form.**
 >  7. **Basic Website.**
+>  8. **Game**
 
 ## Technology used in this project
 * HTML
@@ -36,8 +37,5 @@ we are creating this community so that other developers can get benefits of it. 
 * BootStrap
 * React
 * Angular
-
-# License 
-### _You are free to use our creation but give me credit._
 
 **Thank you for your interest! All types of contributions welcome.** 
