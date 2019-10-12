@@ -1,0 +1,172 @@
+
+.testimonials
+{
+
+    margin:200px auto 100px;
+    display:grid;
+    grid-auto-columns: repeat(auto-fit,minmax(350px, 1fr));
+    grid-gap:20px;
+}
+.testimonials .card
+{
+    position: relative;
+    width:350px;
+    margin:0 auto;
+    background: #333;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0,0,0,.5);
+    overflow: hidden;
+}
+
+
+
+.testimonials .card .layer
+{
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: calc(100% - 2px);
+    width: 100%;
+    background: linear-gradient(#03a9f4, #e91ee3);
+    height:100%;
+    transition: 0.5s;
+}
+
+.testimonials .card:hover .layer
+{
+    top: 0;
+}
+    
+
+
+.testimonials .card .content
+{
+    position: relative;
+    z-index: 2;
+
+}
+.testimonials .card .content p
+{
+    font-size:18px;
+    line-height: 24px;
+    color: #fff;
+}
+#
+.testimonials .card .content .image1
+{
+    width:100px;
+    height:100px;
+    margin: 0 auto;
+    border-radius: 50px;
+    overflow: hidden;
+    border: 4px solid #fff;
+}
+
+
+quotes css
+.h1{
+  text-shadow: 2px 2px 5px red;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+.quote
+{
+    width: 1200px;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: 2;
+
+    margin:200px auto 100px;
+    display:grid;
+    grid-auto-columns: repeat(auto-fit,minmax(550px, -2fr));
+    grid-gap:20px;
+}
+.quote .box
+{
+    position: relative;
+    width: 360px;
+    grid-row-end: 400px;
+    background: #ccc;
+    overflow: hidden;
+    transition: .5s;
+    z-index: 2;
+    box-sizing: border-box;
+    padding: 30px;
+    box-shadow: -10px 25px 50px rgba(0,0,0,.2);
+}
+
+.quote .box:hover
+{
+    box-shadow: -20px 50px 100px rgba(0,0,0,.5);
+}
+
+.quote .bg
+{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+    opacity: 0; 
+    transition: 0.5s;
+    pointer-events: none;
+    width:100%;
+    height: 100%;
+}
+
+.quote .box.box1:hover
+{
+    opacity: 1;
+    background: linear-gradient(#03A9F4,#E91E63);
+
+}
+
+.quote .box.box2:hover
+{
+    opacity: 1;
+    background: linear-gradient(#FFC107,#19fd36);
+
+}
+
+.quote .box.box3:hover
+{
+    opacity: 1;
+    background: linear-gradient(#FFC107,#E91E63);
+
+}
