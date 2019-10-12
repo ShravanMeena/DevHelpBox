@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple Portfolio</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Roboto&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="sidebar">
+        <div class="header"><h1>Person Name</h1></div>
+        <div class="links">
+            <ul>
+                <li class="side"><a href="?x=about">About me</a></li>
+                <li class="side"><a href="?x=portf">Portfolio</a></li>
+                <li class="side"><a href="?x=contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main" id="about">
+        <div class="header"><h2>About me</h2></div>
+        <div class="content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ultricies tristique nibh et fringilla. Integer rhoncus vitae neque sed porttitor. Sed non pellentesque sem. Ut eleifend, sem at luctus commodo, nisi purus accumsan nibh, nec tempor tortor nunc quis sapien. Suspendisse pulvinar lacus eget ipsum sagittis consectetur. Nullam auctor nisl mauris, venenatis mattis magna mattis vestibulum. Maecenas pharetra tempus mattis. Vivamus malesuada vestibulum odio ornare interdum.<br><br>
+            Suspendisse mollis quam aliquam pretium faucibus. Cras magna mauris, semper at ligula sit amet, elementum euismod elit. Vivamus tellus arcu, condimentum a suscipit venenatis, viverra sit amet quam. Ut id nisi ex. Aliquam mollis feugiat metus sed congue. Fusce vel venenatis urna. Donec eu varius orci. Sed eget consequat massa. In ullamcorper tristique eros in eleifend. Curabitur quis enim est. Nam aliquam dictum faucibus. Suspendisse lobortis rutrum magna at pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum consectetur ornare sem vitae egestas. 
+        </div>
+    </div>
+    <div class="main" id="portf" style="display: none">
+        <div class="header"><h2>Portfolio</h2></div>
+        <div class="content">
+            A good chunk of my work can be found on my Github located at:<br>
+            <a href="https://github.com/IOIIIO"><u>https://github.com/IOIIIO</u></a><br>
+            Some projects that stand out include:
+            <ul>
+                <li>
+                    <a href="https://kb.amd-osx.com"><h3>AMD OS X Knowledge Base</h3></a>
+                    Knowledge Base/FAQ-esque website, with content automatically generated from a JS table.<br><br>
+                    Code to be released soon™!<br><br>
+                    <img src="assets/kb.png"><br>
+                </li>
+                <li>
+                    <a href="https://discordapp.com/oauth2/authorize?client_id=412203055820439553&scope=bot"><h3>BL-Bot</h3></a>
+                    A simple Discord bot written in Python. Based on RedBot, but featuring a lot of my own plugins and code.<br><br>
+                    Code: <a href="https://github.com/IOIIIO/BL-Bot"><u>GitHub</u></a><br><br>
+                    <img src="assets/bl.png"><br>
+                </li>
+                <li>
+                    <a href=""><h3>HiggsBot</h3></a>
+                    A Discord bot written from scratch in Python. Made with 2 friends for the 2019 Discord Hack-a-ton. It can run code supplied to it via chat in isolated chroots.<br><br>
+                    Code: <a href="https://github.com/higgsbot"><u>GitHub</u></a><br><br>
+                    <img src="assets/hb.png"><br>
+                </li>
+                <li>
+                    <a href="https://kb.amd-osx.com/guides/HS/"><h3>AMD OS X hackintosh guide</h3></a>
+                    A guide written for use with gitbook on how to set up an AMD CPU based hackintosh. Now obsolete due to new developments in kernel patching.<br><br>
+                    Code: <a href="https://github.com/amd-osx-kb/HighSierraLegacy"><u>GitHub</u></a><br><br>
+                    <img src="assets/guide.png"><br>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main" id="contact" style="display: none">
+        <div class="header"><h2>Contact</h2></div>
+        <div class="content">
+            I can be contacted on Discord by the user tag <code>NoOne#8086</code>.<br>
+            Alternatively I can also be contacted by mail at lorem@ipsum.com<br>
+            Or by phone at +31666666666
+        </div>
+    </div>
+</body>
