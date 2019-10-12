@@ -1,5 +1,8 @@
+<p align="center">
+  <img src="https://github.com/ShravanMeena/DevHelpBox/blob/master/DevHelpBOX.jpg?raw=true" alt="DevHelpBox Logo"/>
+</p>
 
-![Logo](DevHelpBOX.jpg)
+
 ## About Project
 
 we are creating this community so that other developers can get benefits of it. In this project all developers together will contribute their designs of what they have created and other developers will use  designs created by other developers to create their own projects and prototypes.
