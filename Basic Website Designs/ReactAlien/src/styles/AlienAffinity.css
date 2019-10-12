@@ -1,0 +1,13 @@
+#main-app{
+  transform: translateY(35%);
+}
+img{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  height: 325px;
+  border: solid #ff6b6b;
+  border-radius: 8px;
+  box-shadow: 3px 3px #ff6b6b;
+}
