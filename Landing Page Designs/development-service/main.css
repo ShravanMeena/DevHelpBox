@@ -1,0 +1,50 @@
+*{box-sizing:border-box;margin:0;padding:0;text-align:center;font-family:arial;}
+
+p{font-size:16px;}
+
+.row{padding:50px 0 20px 0;}
+.blue-h2{color:#2980b9;position:relative;padding-top:30px;}
+.white-h2{color:#fff;position:relative;padding-top:30px;}
+.blue-h2:before{content:" ";position:absolute;bottom:-10px;width:4%;height:5px;left:48%;background:#2980b9;border-radius:10px;}
+.white-h2:before{content:" ";position:absolute;bottom:-10px;width:4%;height:5px;left:48%;background:#fff;border-radius:10px;}
+.set-bot{width:100%;position:absolute;bottom:0;left:0;}
+.set-top{width:100%;position:absolute;top:0;left:0;}
+
+
+#part-one{background-image:url(images/hero-01.jpg);background-size:cover;width:100%;height:750px;position:relative;background-attachment:fixed; color:#fff;}
+#part-one .scroll-down{position:absolute;bottom:4%;left:45.5%}
+#part-one .navbar-toggle{border:2px solid #fff;}
+#part-one .navbar-toggle .icon-bar{background-color:#fff;}
+#part-one .container{padding:10px 0;}
+#part-one ul li a{margin:15px 0;color:#fff;}
+#part-one ul li a:hover{color:#000;}
+#part-one .container>.navbar-header {margin-right:0px;}
+#part-one .navbar + .container{padding-top:70px;}
+#part-one .navbar + .container p{margin-bottom:0;margin:30px auto;width:750px;}
+#part-one .navbar + .container button{background:transparent;padding:5px 30px;border:2px solid #fff;color:#fff;}
+#part-one .navbar + .container button:hover{background:#fff;color:#000;}
+
+#part-three{background-image:url(images/hero-04.jpg);background-size:cover;width:100%;height:750px;position:relative;background-attachment:fixed;}
+#part-three .container{padding:140px;}
+#part-three .row img{width:100%;}
+#part-three .row .col-sm-4{padding:0;position:relative;}
+#part-three .row .col-sm-4:before{content:" ";width:100%;height:100%;background:rgba(41, 128, 185, 0.4);position:absolute;}
+
+#part-four img{width:100%;}
+#part-four b{color:#2980b9;margin:}
+
+#part-five{background-image:url(images/hero-05.jpg);background-size:cover;width:100%;height:750px;position:relative;background-attachment:fixed;}
+#part-five .container{padding:140px 0;color:#fff;}
+#part-five p{padding:20px 0 40px 0;}
+
+#part-six  .slide{height:200px;width:100%;}
+#part-six .carousel-caption {text-shadow:none;left:15%;right:15%;top:20%;}
+#part-six i{ font-size: 20px;color: rgb(145, 145, 145);}
+#part-six h4{color:#2980b9;}
+#part-six .glyphicon {color:#000;}
+#part-six .carousel-control{background:#fff;}
+
+#part-seven{background-image:url(images/hero-04.jpg);background-size:cover;width:100%;height:600px;position:relative;background-attachment:fixed;color:#fff;}
+#part-seven .container{padding:140px 0 0 0;}
+#part-seven .container .row  + p{padding-top:20px;}
+

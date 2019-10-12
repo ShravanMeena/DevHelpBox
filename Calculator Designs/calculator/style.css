@@ -1,0 +1,10 @@
+body {background:#6fb76c;}
+.calculator {width:320px; background: #2a3d51; padding:20px 10px 30px; display:grid; border-radius:15px; margin:80px auto;}
+
+.output #d {width:50%; margin:0 auto; background:#f15c59; margin:20px; color:#fff; padding:15px; font-size:20px; border:10px solid #5e626d; color:#000; border-radius:15px;}
+.output button {padding:12px 20px; background:#d17c3c; border:0px; border-bottom:5px solid #446280; border-radius:4px;}
+
+.button-grp {width:95%;margin:0 auto;}
+.button-grp1 {float:left;width:75%;}
+.button-grp2 {float:left;width:25%;}
+.button-grp button {padding:12px 20px; margin:10px; background:#2d81d5; border:0px; border-bottom:5px solid #446280; border-radius:4px;}
