@@ -12,3 +12,5 @@ In this case, Golang, HTML, and Docker were used to show how fun and easy Golang
     - Then, visit ```localhost:8080``` in your favorite browser. 
 
 *When using the Docker command(s), it's unnecessary to have Go installed and setup on your computer (THIS is one of the main beauties behind the bacon, which is GO!).*
+
+- Hunter Hartline -- [hunterhartline@gmail.com]
