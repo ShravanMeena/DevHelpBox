@@ -1,0 +1,46 @@
+body {
+    background-color: #ffc3a0;
+    text-align: center;
+}
+
+.calculator {
+    background-color: dodgerblue;
+    padding: 10px 20px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.display {
+    text-align: right;
+    margin: 15px 0px;
+    padding: 20px;
+    background-color: gray;
+    border-bottom: 5px solid rgb(73, 72, 72);
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px 0px;
+}
+
+.grid-btn {
+    color: gray;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 5px solid darkgray;
+}
+
+.clr-btn, .eql-btn {
+    border-bottom: 5px solid darkorange;
+    background-color: orange;
+    color: white;
+}
+
+.ops-btn {
+    border-bottom: 5px solid darkgreen;
+    background-color: green;
+    color: white;
+}
