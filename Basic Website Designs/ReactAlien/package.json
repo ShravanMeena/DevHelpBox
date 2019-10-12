@@ -1,0 +1,31 @@
+{
+  "name": "aliens",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "animejs": "^2.2.0",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-scripts": "2.1.1",
+    "simple-flexbox": "^1.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "eslint-plugin-react": "^7.11.1",
+    "why-did-you-update": "^0.2.0"
+  }
+}
