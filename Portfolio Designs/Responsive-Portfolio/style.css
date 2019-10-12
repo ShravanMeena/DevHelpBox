@@ -1,0 +1,117 @@
+*{box-sizing:border-box;margin:0;padding:0;font-family: "Roboto", arial;}
+
+ body { position: relative;}
+ button {outline:none !important;}
+.affix {top: 0;width: 100%;z-index: 9999 !important;}
+ 
+h3, h4{font-weight:bold !important;color: rgb(86, 99, 102) !important;}
+p{color: rgb(145, 145, 145);font-size:16px;line-height: 1.667;}
+
+#part-one{background:url(http://sahilsinghportfolio.000webhostapp.com/img/bg3.jpg);background-size:cover;height:100vh;text-align:center;color:#fff;position:relative;}
+#part-one h1{padding-top:15%;margin:0;font-size:60px;}
+#part-one i{color:#fff;position:absolute;bottom:10px;animation: float 1.5s ease 11s infinite;}
+@keyframes float {0% {bottom:10px;} 50% {bottom:40px;} 100% {bottom:10px;} }
+
+#part-two .navbar-inverse{background:#252e30;border:none;border-radius:0;}
+#part-two .navbar-inverse .navbar-nav a {color:#fff;font-weight:bold;}
+#part-two .navbar-inverse .navbar-nav a:hover{color:#2cab62;}
+#part-two .navbar-inverse .navbar-brand{color:#fff;font-weight:bold;padding:7px;}
+#part-two .navbar-inverse .navbar-brand span{color:#2cab62;}
+#part-two .navbar-inverse .navbar-brand img{display:inline-block;margin-right:10px;}
+#part-two h3{padding:30px 0 20px 0;}
+#part-two p{padding-bottom:40px;}
+
+#part-three {background:#f2f2f1;}
+#part-three .col-sm-5 img{width:100%;margin-left:-23%;}
+#part-three h3{padding:40px 0 20px 0;}
+#part-three .col-sm-2 img{padding-top:15px;}
+#part-three .col-sm-7 .row{margin-top:20px;}
+
+#part-four .row{margin:50px 0;}
+#part-four h3{margin-bottom:30px;}
+#part-four button{background:transparent;border:2px solid #2ecc71; color:#2ecc71;margin-top:20px;border-radius:0;}
+#part-four button:hover{background:#2ecc71;color:#fff;}
+#part-four .full-div{width:90%;height:20px;background:#f2f2f1;color:#fff;text-align:right;margin-bottom:40px;}
+#part-four .div1{width:0%;height:20px;background:#2ecc71;padding-right:7px;transition:all ease 1s;}
+#part-four .div2{width:0%;height:20px;background:#2ecc71;padding-right:7px;transition:all ease 1s;}
+#part-four .div3{width:0%;height:20px;background:#2ecc71;padding-right:7px;transition:all ease 1s;}
+#part-four .div4{width:0%;height:20px;background:#2ecc71;padding-right:7px;transition:all ease 1s;}
+
+#part-five{background:#f2f2f1;text-align:center;position:relative;}
+#part-five .container{padding:60px 0;}
+#part-five h3{margin-bottom:30px;}
+#part-five button{background:transparent;border:2px solid #2ecc71; color:#2ecc71;margin:20px 0;border-radius:0;}
+#part-five button:hover{background:#2ecc71;color:#fff;}
+#part-five  #myModal .close{background-color:inherit;color:#000;border:none;}
+#part-five  #myModal h4{padding-top:20px;}
+#part-five  #myModal img{margin:20px;}
+#part-five .box-rotate{background:#f2f2f1;height:40px;width:40px;transform: rotate(45deg);position:absolute;bottom:-20px;left:48.5%;}
+
+#part-six .row{margin:50px 0;}
+#part-six h3{margin-bottom:30px;}
+#part-six h4{margin-top:80px;}
+#part-six h5{color:#919191;}
+#part-six .line{background-color:#ccc;height:1px;width:100%;margin:25px 0;}
+#part-six  button{padding:4px 10px;background:#2ecc71;color:#fff;border:none;}
+
+#part-seven{background:#f2f2f1;}
+#part-seven .container{padding:30px 0;}
+#part-seven h4{padding:20px 0;}
+#part-seven li{border:1px solid #2ecc71 !important;}
+#part-seven .carousel-indicators .active{background-color:#2ecc71;}
+#part-seven .slide{height:270px;width:100%;}
+#part-seven .carousel-caption {text-shadow:none;left:10%;right:10%;}
+#part-seven i{  font-size: 20px;color: rgb(145, 145, 145);}
+
+#part-eight .container{text-align:center;padding:50px 0;}
+#part-eight p{padding:20px 60px 0px 60px;}
+#part-eight .col-sm-4{padding:15px;position:relative;}
+#part-eight .row{margin:40px 0 40px 0 ;}
+#part-eight .filter1{background:#252e30;height:300px;width:100%;text-align:left;padding:50px;}
+#part-eight .filter1 h4{margin:0;color:#fff !important;}
+#part-eight ul{list-style-type:none;padding-top:30px;}
+#part-eight ul li a{color:#868787; font-size:18px;font-style:normal;text-decoration:none;}
+#part-eight ul li a:hover{color:#fff;cursor:pointer;}
+#part-eight .col-sm-4 .img-hover{background:rgba(46, 204, 113,0.7);width:94%;height:91%;top:15px;left:15px;position:absolute;display:none;}
+#part-eight .col-sm-4 .img-hover i{font-size:40px !important;color:#fff;margin-top:25%;}
+#part-eight .col-sm-4:hover .img-hover{display:block;cursor:pointer;color:#fff;}
+
+#part-nine {background:#252e30;}
+#part-nine .row{margin:50px 0;}
+#part-nine form{margin:50px 0 0 50px;}
+#part-nine label{display:block;color:#fff;margin-top:30px;font-weight:300;}
+#part-nine h3{color:#fff !important;margin-bottom:30px;}
+#part-nine pre{background:#252e30;color:rgb(145, 145, 145);border:none;font-size:16px;font-family:"Roboto";}
+#part-nine span{color:#fff;padding-right:20px;text-decoration:none;}
+#part-nine input{background:#4b5456;width:100%;border:none;padding:15px;color:#fff;outline:none;}
+#part-nine textarea{background:#4b5456;width:100%;border:none;padding:15px;color:#fff;outline:none;height:250px;}
+#part-nine input:nth-of-type(3){width:auto;margin-top:30px;background:#191f21;padding:10px 20px;}
+
+#part-ten {background:#191f21;}
+#part-ten .container{text-align:center;padding:50px 0;}
+#part-ten .fa {padding: 10px;font-size: 20px !important;width: 40px;text-align: center;margin: 5px 2px;border-radius: 50%;background:#4b5456;color:#191f21;}
+#part-ten .fa:hover{color:#fff;text-decoration:none;}
+
+
+@media screen and (min-width:320px) and (max-width:1024px){
+	#part-eight .col-sm-4:hover .img-hover{display:none;}
+	#part-eight .col-sm-4 img{width:100%;}
+	#part-nine form{margin:50px 0px;}
+	#part-three .col-sm-5 img {margin-left: 0%;}
+	#part-one i {left:47%;}
+}
+
+@media screen and (min-width:481px) and (max-width:767px) {
+	#part-eight .col-sm-4 img{width:auto;}
+	#part-one h1{padding-top:10%;font-size:40px;}
+	#part-three .row{text-align:center;margin-bottom:20px;}
+	#part-four .col-sm-6:nth-of-type(1){margin-bottom:60px;}
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+	#part-one h1{padding-top:40%;font-size:40px;margin:0 5px;}
+	#part-three .row{text-align:center;margin-bottom:20px;}
+	#part-four .col-sm-6:nth-of-type(1){margin-bottom:60px;}
+	#part-seven i{  font-size: 16px;}
+	#part-five  #myModal img{width:30%;}
+}
