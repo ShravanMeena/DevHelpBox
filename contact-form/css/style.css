@@ -1,0 +1,449 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+/*h1, h2, h3, h4, h5, h6,*/ p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Dispositivos pequenos (tablets, 768px e superiores) */
+@media (max-width: 750px) {
+	.banner{
+		display: none;
+	}
+	.link{
+		margin-top: 10px;
+	}
+	.box-icons{
+		margin: 5px 0px;
+	}
+	.pedidos{
+		margin: 5px 0px;
+	}
+	footer{
+		margin: 10px 0px;
+	}
+    .h2, .h3, .h4, .h5, .h6{
+    	font-family: bebas-neue, sans-serif;
+	font-style: normal;
+    	text-align: center;
+    	font-size: 30px !important;
+
+    }
+    img{
+    	padding: 5px 0px;
+    }
+
+}
+
+/* Dispositivos médios (desktops, 992px e superiores) */
+@media (min-width: 768px) and (max-width: 970px){ 
+ 	.banner{
+		display: none;
+	}
+	.link{
+		margin-top: 10px;
+	}
+	.box-icons{
+		margin: 5px 0px;
+	}
+	.pedidos{
+		margin: 5px 0px;
+	}
+	img{
+		margin: 5px 0px;
+	}
+}
+
+/* Dispositivos grandes (desktops grandes, 1200px e superiores) */
+@media (min-width: 992px) and (max-width: 1200px) { ... }
+
+
+
+/******************************************************************************************************************************/
+/*  ***********************************          fim reset meyer      *********************************************************/
+/******************************************************************************************************************************/
+body{
+	background-color: #fff;
+	font-family: 'arial', sans-serif, helvetica;
+	color: #FF7f00;
+
+}
+
+header{
+	width: 100%;
+	padding: 10px;
+	background: #fff;
+	border-bottom: 2px solid #ccc;
+}
+
+nav{
+	margin: 20px;
+}
+.navbar-nav{
+	padding: 0px 10px; 
+}
+.navbar-brand{
+	width: auto;
+	height: 100%;
+	padding: 5px 0px;
+	margin: -10px 0px;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	display: inline;
+	margin: 5px;
+	background: #FF7f00;
+	border-radius: 4px;
+}
+nav ul li a:link, a:visited{
+	
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 2px solid #FF7f00;
+	border-radius: 4px;
+}
+
+nav ul li a:focus, nav ul li a:hover {
+    text-decoration: none;
+	background: #FFfff;
+	color: #FF7f00;
+	width: 100%;
+	border-radius: 4px;
+}
+.msociais{
+	border-left: 4px  solid #FF7f00;
+	margin: 5px 0px;
+	padding: 10px 20px;
+	background-color: #fff;
+}
+.msociais span#rsocial a:hover{
+	color: yellow;
+}
+.msociais span#rsocial a:link, a:visited !important{
+	color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.navbar {
+    position: relative;
+    min-height: 90px;
+    /* margin-bottom: 20px; */
+    border: 1px solid #0000;
+}
+.navbar-brand {
+    float: left;
+    font-size: 18px;
+    line-height: 20px;
+}
+main{
+	margin-top: 40px;
+}
+footer{
+	margin: 50px 0px 0px;
+	border-top: 5px solid #ff7f00;
+}
+.rodape{
+	border-top: 3px solid #B25901;
+	padding: 0px;
+	margin: 0px;
+}
+#rsocial{
+	background: #fff;
+	margin: 0px;
+	padding: 5px;
+}
+i{
+	color: #FF7f00;
+}
+img{
+	width: 100%;
+}
+.banner{
+	margin-top: 0px;
+	max-height: 430px;
+	background: green;
+	margin-bottom: 20px;
+
+}
+.link{
+	margin-bottom: 40px;
+}
+.box-icons{
+	padding: 40px 0px;
+	background: #FF7f00;
+	border-right: 4px solid #B25901; 
+	border-bottom: 4px solid #B25901;
+	text-align: center;
+}
+.box-icons h3{
+	color: #fff;
+	text-transform: uppercase;
+}
+.news{
+	padding: 20px 40px;
+	background: #dddddd;
+	border-right: 4px solid #B25901; 
+	border-bottom: 4px solid #B25901;
+	color: #B25901;
+}
+.news{
+	font-weight: bold;
+}
+.news h1, h2, h3, h4, h5{
+	padding: 0px;
+	margin: 5px 0px;
+}
+.news h2{
+	text-transform: uppercase;
+	/*font-size: 20px;*/
+	font-weight: bold;
+}
+.news h3{
+	text-transform: unset;
+	font-size: 18px;
+	font-weight: 40;
+	margin-bottom: 5px;
+}
+.dashed{
+	padding: 10px;
+	border: 3px dashed #fff;
+}
+.dashed>p{
+	padding: 0px;
+	margin: 4px 0px;
+}
+.modify {
+    padding: 6px 35px;
+    margin: 10px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+div.form-group label {
+    margin-top: 0px;
+}
+.pedidos{
+  padding: 15px;
+  background: #ffa640;
+  color: #B25901;
+  border-right: 4px solid #B25901; 
+  border-bottom: 4px solid #B25901;
+  margin-bottom: 20px;
+}
+.pedidos h2{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/*************************************************************************************/
+/*****                              icones : sprites site                      *******/
+/*************************************************************************************/
+.iconeSprites{
+	background-image: url(../images/sprites.png);
+	width: 410px;
+	height: 216px;
+	background-repeat: no-repeat;
+}
+
+.limon{
+	width: 100px;
+	height: 100px;
+	background-position: 3px 3px;
+	margin: 0 auto;
+}
+.glass{
+	width: 100px;
+	height: 100px;
+	background-position: -106px 3px;
+	margin: 0 auto;
+}
+.contato{
+	width: 100px;
+	height: 100px;
+	background-position: -208px 3px;
+	margin: 0 auto;
+}
+.checked{
+	width: 100px;
+	height: 100px;
+	background-position: -309px 3px;
+	margin: 0 auto;
+	padding: 10px 0px;
+}
+.logo{
+	width: 144px;
+	height: 100px;
+	background-position: -3px -110px;
+	margin: 0 auto;
+
+}
+.space{
+	padding: 40px 0px;
+	text-align: center;
+	color: #B25901;
+}
+.space h3, h4{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.space h3.h3, h4.h4{
+	padding: 0px;
+	margin: 5px 0px;
+}
+.space p{
+	margin: 0px;
+}
+.h2, .h3, .h4, .h5, .h6{
+	color: #FF7f00;
+	text-transform: uppercase;
+	border-bottom: 3px;
+	padding: 10px 0px;
+	margin-bottom: 40px;
+}
+.h2{
+	font-family: bebas-neue, sans-serif;
+	font-style: normal;
+	font-size: 50px;
+}
+.h3{
+	font-family: bebas-neue, sans-serif;
+	font-style: normal;
+	font-size: 35px;
+}
+p{
+	margin: 20px 0px;
+}
+.line{
+	padding: 5px 0px;
+	border-bottom: 4px solid #FF7f00;
+}
+.box-produtos>img{
+	margin: 5px 0px;
+	padding: 0px;
+}
+.box-produtos>h3.h3{
+	margin-bottom: 5px;
+}
+.box-produtos>p{
+	padding: 0px;
+	margin-bottom: 40px;
+}
+.box-noticia-blog{
+	width: 100%;
+	background-color: #E5E7E9;
+	padding: 10px 0px;
+	margin: 5px 0px;
+	display: inline-block;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+}
+.box-noticia-blog>.col-md-8>.h3{
+	margin: 0px;
+	padding: 0px;
+}
+.box-noticia-blog>.col-md-8>.h3>p{
+	padding: 5px 0px;
+	margin: 0px 10px;
+
+}
+.lista-count{
+	margin: 10px 0px;
+	padding: 5px 10px;
+	width: 100%;
+	display: inline-block;
+}
+.list-on{
+	padding: 5px 10px;
+	margin: 5px 0px;
+	color: #fff;
+	background-color: #FF7F00;
+	border:2px solid  #B25A01;
+	border-radius: 4px;
+}
+.list-off{	
+	padding: 5px 10px;
+	margin: 5px 0px;
+	color: #FF7F00;
+	background-color: #fff;
+	border:2px solid  #FF7F00;
+	border-radius: 4px;
+
+}
+.box-contato{
+
+}
+.space-box{
+	padding: 0px;
+	margin-bottom: 40px;
+	display: inline-block;
+}
+.box-contato .col-md-6 .h2{
+	font-size: 35px;
+	padding: 5px 0px;
+	margin: 0px;
+}
+.box-contato .col-md-6 p{
+	padding: 0px;
+	margin: 5px 0px;
+}
+
+.form-group > label{
+	text-transform: uppercase;
+	font-family: bebas-neue, sans-serif;
+	font-size: 20px;
+}
+input[type=text], input[type=email]{
+	background-color: #ddd;
+	border-radius: 4px;
+	border: 1px solid #888;
+}
+textarea.form-control {
+	background-color: #ddd;
+	border-radius: 4px;
+	border: 1px solid #888;
+}
