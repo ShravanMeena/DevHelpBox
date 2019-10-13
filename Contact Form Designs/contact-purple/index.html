@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact Us</title>
+    <meta charset="utf-8" />
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+	<header>Contact Us</header>
+	<main>
+		<form id="contact" method="post">
+			<label for="name">Name<span class="star">*</span> <input type="text" id="name" name="name" placeholder="Name" required></label>
+			<label for="email">Email<span class="star">*</span> <input type="email" id="email" name="email" placeholder="Email" required></label>
+			<label for="reason">Tell us why you're getting in contact <select id="reason" name="reason">
+				<option value="query">I have a query</option>
+				<option value="problem">I have a problem with the website</option>
+				<option value="chat" selected>Just to chat</option>
+				<option value="other" selected>Other</option>
+			</select></label>
+			<label for="info">What would you like to say to us?<span class="star">*</span> 
+			<textarea id="info" name="info" placeholder="Type your message here" required></textarea></label>
+			<input type="submit" id="submit" value="Submit">
+		</form>
+	</main>
+</body>
+</html>
