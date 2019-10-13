@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +13,39 @@
     <h6> Name :</h6>
     <input type="text" id="user_name">
     <h6> Background Image: </h6>
-    <input type="text" placeholder="Enter URL of background image">
+    <input type="text" id="background-url" placeholder="Enter URL of background image">
+    <h6> Font Color: </h6>
+    <input type="color" id="fontColor" value="#ffffff">
+    <br>
+    <br>
+    <input type="button" value="Create Landing Page" id="create-btn" onclick="createLandingPage()">
 </div>
+<script>
+var selection_div = document.getElementById("selection_div")
+var isCustomized = JSON.parse(localStorage.getItem("isCustomized"))
+var userNameContainer = document.getElementById("name_holder")
+if(isCustomized==null)
+{
+    selection_div.style.display="block"
+}
+
+function createLandingPage()
+{
+    var user_name = document.getElementById("user_name").value;
+    var background_image = document.getElementById("background-url").value;
+    var font_color = document.getElementById("fontColor").value;
+    localStorage.setItem("isCustomized",true)
+    localStorage.setItem("user_name",user_name)
+    localStorage.setItem("backgound_image",background_image)
+    localStorage.setItem("fontColor",font_color)
+    selection_div.style.display="none";
+    userNameContainer.innerHTML=user_name;
+    userNameContainer.style.color = font_color;
+    document.getElementById('html').style.background= `url("${background_image}")center center fixed`
+    document.getElementById('html').style.backgroundRepeat = `no-repeat`
+    document.getElementById('html').style.backgroundPosition = "center"
+    document.getElementById('html').style.backgroundAttachment = "fixed";
+}
+</script>
 </body>
 </html>
