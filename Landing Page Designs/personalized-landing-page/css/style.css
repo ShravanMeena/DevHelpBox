@@ -1,12 +1,7 @@
-body { 
-    /* Image Location */ 
-    background-image: url("../resources/images/nature.jpeg"); 
-  
-    /* Background image is centered vertically and horizontally at all times */ 
-    background-position: center center; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed; 
-    background-size: cover; 
-    /* Font Colour */ 
-    color:white; 
+html { 
+    background: url("../resources/images/nature.jpeg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 } 
