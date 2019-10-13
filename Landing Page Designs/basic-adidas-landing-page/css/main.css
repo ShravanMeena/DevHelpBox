@@ -1,0 +1,356 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container,header{
+    width:100%;
+}
+
+header{
+    display: flex;
+    padding-left:15px;
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+    position: fixed;
+    background-color: #fff;
+    z-index: 9;
+}
+
+
+
+.nav{
+    width:33%;
+}
+
+.nav nav{
+    width:100%;
+}
+
+.nav nav ul{
+    width:100%;
+    height: 78px;
+    
+}
+
+nav ul li{
+    list-style-type: none;
+    float:left;
+    padding:5px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    padding:23px;
+    color:#000;
+    
+}
+
+.logo-holder img{
+    width:30%;
+    height: 73px;
+    margin-left:120px;
+}
+
+.search-icon img,.heart-icon img {
+    width:30px;
+
+}
+
+.search-icon,.heart-icon{
+    width:50%;
+    height: 30px;
+    margin-top:20px; 
+    float: right;
+}
+
+.icons{
+    
+    display: flex;
+    width:40%;
+    margin:0px auto;
+}
+
+.bg-img{
+    background-image: url(../img/409661.jpg);
+    background-repeat: no-repeat;
+    max-width:100%;
+    height: 84vh;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.overlay{
+    background-color:rgba(0, 0, 0, 0.548);
+    width:100%;
+    height:84vh;
+}
+
+.bg-txt h2{
+    color:#fff;
+    text-align:center;
+}
+
+.bg-txt{
+    width:30%;
+    right:0px;
+    top:210px;
+    position: absolute;
+    z-index: 999999999999999;
+}
+
+
+.bg-txt p{
+    color:#fff;
+    text-align: center;
+    padding:20px;
+}
+
+.bg-btn{
+    width:10%;
+    border:1px solid #fff;
+    position: absolute;
+    right:130px;
+    top:350px;
+    text-align: center;
+}
+
+.bg-btn a{
+    text-decoration:none;
+    display: block;
+    padding:10px;
+    color:#fff;
+    width: 100%;
+}
+
+.bg-btn a:hover{
+    background-color: #fff;
+    color:#000;
+}
+
+
+.section{
+    width:100%;
+}
+
+
+
+.shop-court{
+    width:100%;
+    /* border:1px solid red; */
+    padding:30px 0px 20px 0px;
+}
+
+.shop-court-txt,.shop-court p{
+    text-align: center;
+}
+
+.shop-court p{
+    padding-top:30px;
+}
+
+.row{
+    /* border:1px solid red; */
+    display: flex;
+    padding:10px;
+}
+
+
+.col-6{
+    /* border:1px solid red; */
+    width:50%;
+    margin-right:10px;
+    margin-left:100px;
+    height: 460px;
+}
+
+.col-4{
+    /* border:1px solid red; */
+    width:30%;
+    margin-right:10px;
+    margin-left:40px;
+    height: 465px;
+    
+}
+
+.col-4,.col-6{
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.left-img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.right-img{
+    width:100%;
+    height: 465px;
+    object-fit: cover;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.mt-10{
+    margin-top:10rem;
+}
+
+.col-md-3{
+    width:25%;
+    margin:0px 10px;
+}
+.products{
+    padding:35px;
+    position: relative;
+}
+.product-detail{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.price,.rating{
+    width:50%;
+}
+
+.m-10{
+    margin:10px;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.gold {
+    color:gold;
+}
+
+.ml-5{
+    margin-left:5px;
+}
+
+.wt-100{
+    width:100%;
+}
+
+.card{
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card-overlay{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.863);
+    display: none;
+    text-align: center;
+}
+
+.product img{
+    height: 100%;
+}
+
+
+.card-overlay a {
+    text-decoration: none;
+    color:#000;
+    display: block;
+}
+
+.card-overlay p {
+    border-radius:5px;
+    width:40%;
+    padding:10px;
+    margin:6rem auto;
+    background-color: #fff;
+
+}
+
+.product{
+    position: relative;
+    width:100%;
+    cursor: pointer;
+}
+
+.product:hover .card-overlay{
+    display: block;
+}
+
+footer{
+    bottom:0px;
+    padding:0rem 2rem;
+}
+
+
+.col-md-4{
+    width:30%;
+    padding:10px;
+}
+
+.logo{
+    width:30%;
+}
+
+.footer-title{
+    width:60%;
+    padding:50px 0px 0px 10px;
+}
+
+
+.title-grid{
+    display: flex;
+    width:100%;
+}
+
+.about{
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.about p {
+    line-height: 1.4rem;
+}
+
+
+.col-md-8{
+    width:70%;
+}
+
+.col-md-3 ul{
+    list-style-type: none;
+}
+
+.col-md-3 ul li{
+    padding:4px 0px;
+}
+
+.hr{
+    border-top:1px solid rgb(155, 152, 152);
+}
+
+.mt-3{
+    margin-top: 10px;
+}
+
+.link{
+    padding:5px;
+    text-decoration: none;
+    color:#000;
+}
+
+.col-md-3 ul li a{
+    text-decoration: none;
+    color:#000;
+}
+
+.copyright{
+    text-align: center;
+    padding:30px;
+    background-color: #000000;
+    color:#fff;
+}

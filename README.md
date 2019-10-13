@@ -1,5 +1,7 @@
+<p align="center">
+  <img src="https://github.com/ShravanMeena/DevHelpBox/blob/master/DevHelpBOX.jpg?raw=true" alt="DevHelpBox Logo"/>
+</p>
 
-# RaavanHackto!
 
 ## About Project
 
@@ -26,6 +28,8 @@ we are creating this community so that other developers can get benefits of it. 
 >  4. **Portfolio website.**
 >  5. **Calculator.**
 >  6. **Contact Form.**
+>  7. **Basic Website.**
+>  8. **Game**
 
 ## Technology used in this project
 * HTML
@@ -33,11 +37,9 @@ we are creating this community so that other developers can get benefits of it. 
 * JavaScript
 * JQuery
 * BootStrap
-* Any Framework/Library
+* React
+* Angular
 
-# License 
-### _You are free to use our creation but give me credit._
+**Thank you for your interest! All types of contributions are welcome.**
 
-## Contributing
-
-Thank you for your interest! All types of contributions welcome. 
+```Happy Coding!```
