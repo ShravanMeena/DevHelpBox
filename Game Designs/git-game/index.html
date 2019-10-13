@@ -33,9 +33,9 @@
           <p>Question 1</p>
           <h5> What is git?</h5>
           <select class="form-control" id="question1">
-                <input   value="a"> Version Control System
-                <input   value="b"> Content Management System
-                <input   value="c"> Memory Management System
+                <option   value="a"> Content Management System
+                <option   value="b"> Version Control System
+                <option   value="c"> Memory Management System
              </select>
         </div>
    
@@ -84,16 +84,36 @@
         </div>
       </div>
       <br>
-      <button class="btn btn-success" onsubmit="calculateMarks()" id="submit_btn"> Submit Answers </button>
+      <button class="btn btn-success" onclick="calculateMarks()" id="submit_btn"> Submit Answers </button>
       <br>
       <br>
 <script>
-var answer1 = document.getElementById("question1").value;
-var answer2 = document.getElementById("question2").value;
 
 function calculateMarks()
 {
+var answer1 = document.getElementById("question1").value;
+var answer2 = document.getElementById("question2").value;
+var answer3 = document.getElementById("question3").value;
+var answer4 = document.getElementById("question4").value;
+var score=0;
+if(answer1=="b")
+{
+    score=score+10;
+}
+if(answer2=="c")
+{
+    score=score+10;
+}
+if(answer3=="b")
+{
+    score=score+10;
+}
+if(answer4=="c")
+{
+    score=score+10;
 
+}
+alert(`You Scored ${score} / 40`)
 }
 </script>
 </body>
