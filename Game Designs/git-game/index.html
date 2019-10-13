@@ -13,12 +13,16 @@
     display: block;
     width: 80%;
 }
+#submit_btn{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 </style>
 </head>
 <body>
     <nav class="navbar navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#">Git Game</a>
-        <a class="navbar-brand" href="#">Your Score : <span id="score">0</span> / 40 </a>
       </nav>
       <br>
       <br>
@@ -28,15 +32,13 @@
         <div class="card-header">
           <p>Question 1</p>
           <h5> What is git?</h5>
-
+          <select class="form-control" id="question1">
+                <input   value="a"> Version Control System
+                <input   value="b"> Content Management System
+                <input   value="c"> Memory Management System
+             </select>
         </div>
-        <div class="card-body" style="font-size:1.2em">
-           <input type="checkbox" id="question1" value="a"> Version Control System
-           <br>
-           <input type="checkbox" id="question1" value="b"> Content Management System
-           <br>
-           <input type="checkbox" id="question1" value="c"> Memory Management System
-          </div>
+   
       </div>
       <br>
       <!-- Question 2-->
@@ -44,18 +46,14 @@
         <div class="card-header">
           <p>Question 2</p>
           <h5> Which command would you use to commit long messages in git?</h5>
-
+          <select class="form-control"  id="question2">
+                <option  value="a"> git push
+                <option   value="b"> git commit -m [message]
+                <option  value="c"> git commit
+                <option   value="c"> git commit --long
+             </select>
         </div>
-        <div class="card-body" style="font-size:1.2em">
-           <input type="checkbox" id="question2" value="a"> git push
-           <br>
-           <input type="checkbox" id="question2" value="b"> git commit -m [message]
-           <br>
-           <input type="checkbox" id="question2" value="c"> git commit
-           <br>
-           <input type="checkbox" id="question2" value="c"> git commit --long
-
-          </div>
+  
       </div>
       <br>
       <!-- Question 3 -->
@@ -63,12 +61,12 @@
         <div class="card-header">
           <p>Question 3</p>
           <h5> Can another branch be a default branch in git apart from 'master' branch?</h5>
+          <select class="form-control" id="question3">
+                <option  value="a"> No
+                <option   value="b"> Yes
+
+        </select>
         </div>
-        <div class="card-body" style="font-size:1.2em">
-           <input type="checkbox" id="question3" value="a"> Yes
-           <br>
-           <input type="checkbox" id="question3" value="b"> No
-          </div>
       </div>
       <br>
       <!-- Question 4 -->
@@ -76,17 +74,27 @@
         <div class="card-header">
           <p>Question 4</p>
           <h5> Which command is used to change branch in git</h5>
+          <select class="form-control" id="question4">
+                <option  value="a"> git branch change [branch_name]
+                <option  value="b"> git branch [branch_name]
+                <option  value="c"> git checkout [branch_name]
+                <option  value="d"> git [branch_name] checkout
+
+        </select>
         </div>
-        <div class="card-body" style="font-size:1.2em">
-           <input type="checkbox" id="question4" value="a"> git branch change [branch_name]
-           <br>
-           <input type="checkbox" id="question4" value="b"> git branch [branch_name]
-           <br>
-           <input type="checkbox" id="question4" value="b"> git checkout [branch_name]
-           <br>
-           <input type="checkbox" id="question4" value="b"> git [branch_name] checkout
-          </div>
       </div>
       <br>
+      <button class="btn btn-success" onsubmit="calculateMarks()" id="submit_btn"> Submit Answers </button>
+      <br>
+      <br>
+<script>
+var answer1 = document.getElementById("question1").value;
+var answer2 = document.getElementById("question2").value;
+
+function calculateMarks()
+{
+
+}
+</script>
 </body>
 </html>
