@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Signup Form</title>
+  </head>
+  <style>
+    body {
+      background: chocolate;
+    }
+    section {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    form {
+      display: flex;
+      flex-flow: column;
+    }
+
+    input {
+      margin-bottom: 10px;
+      border: 0;
+      border-radius: 6px;
+      padding: 10px;
+    }
+
+    button {
+      color: white;
+      background: black;
+      padding: 10px;
+      border: 0;
+      cursor: pointer;
+      transition: all 300ms ease-in-out;
+    }
+
+    button:hover {
+      transform: translateY(-2px);
+    }
+
+    #error {
+      text-align: center;
+      margin-bottom: 10px;
+      font-weight: bold;
+      padding: 5px;
+      background: red;
+      display: none;
+    }
+  </style>
+
+  <body>
+    <section>
+      <h1>Sign Up to this awesome Website</h1>
+      <form id="login-form" method="post">
+        <input name="name" placeholder="Your Name" />
+        <input name="username" required placeholder="Email or Username" />
+        <input
+          name="password"
+          required
+          placeholder="Please enter a Password"
+          type="password"
+        />
+        <input
+          name="passwordRepeat"
+          required
+          placeholder="Please repeat the Password"
+          type="password"
+        />
+        <div id="error">Passwords don't match!</div>
+        <button>Sign Up</button>
+      </form>
+    </section>
+  </body>
+
+  <script>
+    function handleSubmit(e) {
+      e.preventDefault();
+      const formData = new FormData(e.target);
+      const password = formData.get("password");
+      const passwordRepeat = formData.get("passwordRepeat");
+      let error = document.getElementById("error");
+
+      if (password.length < 8) {
+        error.innerHTML = "The password must be at least 8 characters!";
+      }
+
+      if (passwordRepeat == password) {
+        form.reset();
+      } else {
+        error.style = "display: initial;";
+      }
+    }
+
+    const form = document.getElementById("login-form");
+    form.addEventListener("submit", handleSubmit);
+  </script>
+</html>
