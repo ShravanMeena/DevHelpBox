@@ -1,0 +1,98 @@
+@media only screen and (max-device-width: 900px) {
+    .left-nav,.right-nav {
+      display: none;
+    }
+
+    .logo-holder img{
+        width:100%;
+        margin:0px;
+    }
+
+    .logo-holder{
+        margin:0px auto;
+    }
+
+    .bg-img{
+        background-image: url(../img/409661.jpg);
+        background-repeat: no-repeat;
+        max-width:100%;
+        height: 50vh;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .overlay{
+        background-color:rgba(0, 0, 0, 0.548);
+        width:100%;
+        height:50vh;
+    }
+
+    .bg-txt,.bg-btn{
+        position: absolute;
+        top:30%;
+        left:50%;
+        width:100%;
+        transform: translate(-50%,-50%);
+    }
+
+    .bg-btn{
+        top:40%;
+        width:10rem;
+    }
+    .row{
+        display: block;
+        padding-left:30px;
+    }
+
+    .col-md-6{
+        width:95%;
+        margin:0px;
+    }
+
+    .large-card{
+        height: 14rem;
+        margin-bottom:10px;
+    }
+
+    .right-card{
+        display: none;
+    }
+
+    .col-md-3{
+        width:100%;
+        margin:10px 0px;
+    }
+
+    .col-md-4,.col-md-8{
+        width:100%;
+    }
+
+    .mp-0{
+        margin:0px;
+        padding:0px;
+    }
+
+    .display-flex{
+        display: flex;
+    }
+
+    .col-3{
+        width:50%;
+    }
+
+    .display-none{
+        display: none;
+    }
+
+    .title-grid{
+        display: block;
+        width:100%;
+    }
+    .footer-title{
+        width:100%;
+    }
+    .logo{
+        display: none;
+    }
+
+  }

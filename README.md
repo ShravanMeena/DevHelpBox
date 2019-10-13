@@ -1,9 +1,13 @@
+<p align="center">
+  <img src="https://github.com/ShravanMeena/DevHelpBox/blob/master/DevHelpBOX.jpg?raw=true" alt="DevHelpBox Logo"/>
+</p>
 
-# DevHelpBox
+<p align="center">
+  <a href="https://github.com/ShravanMeena/DevHelpBox/blob/master/LICENSE.md"><img src="https://img.shields.io/npm/l/vue.svg" alt="License"></a>
+</p> 
 
 ## About Project
-
-we are creating this community so that other developers can get benefits of it. In this project all developers together will contribute their designs of what they have created and other developers will use  designs created by other developers to create their own projects and prototypes.
+DevHelpBox is an MIT-licensed open source project with its ongoing development made possible entirely by the support of awesome contributors. DevHelpBox community is created so that other developers can get benefits from it. In this project, all developers contribute their designs. And all other developers use those designs to create their own projects and prototypes.
 
 
 ## How to contribute
@@ -27,6 +31,7 @@ we are creating this community so that other developers can get benefits of it. 
 >  5. **Calculator.**
 >  6. **Contact Form.**
 >  7. **Basic Website.**
+>  8. **Game**
 
 ## Technology used in this project
 * HTML
@@ -37,7 +42,6 @@ we are creating this community so that other developers can get benefits of it. 
 * React
 * Angular
 
-# License 
-### _You are free to use our creation but give me credit._
+**Thank you for your interest! All types of contributions are welcome.**
 
-**Thank you for your interest! All types of contributions welcome.** 
+```Happy Coding!```
