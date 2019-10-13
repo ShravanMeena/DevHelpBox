@@ -40,4 +40,6 @@ we are creating this community so that other developers can get benefits of it. 
 * React
 * Angular
 
-**Thank you for your interest! All types of contributions are welcome.** 
+**Thank you for your interest! All types of contributions are welcome.**
+
+```Happy Coding!```
