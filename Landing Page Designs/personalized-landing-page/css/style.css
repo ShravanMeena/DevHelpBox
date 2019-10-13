@@ -6,6 +6,9 @@ html {
     background-size: cover;
 } 
 
+#configure_ico:hover {
+    cursor: pointer;
+}
 #name_holder
 {
     text-align: center;
