@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Git Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<style>
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+}
+#submit_btn{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Git Game</a>
+      </nav>
+      <br>
+      <br>
+      <br>
+      <!-- Question 1-->
+      <div class="card">
+        <div class="card-header">
+          <p>Question 1</p>
+          <h5> What is git?</h5>
+          <select class="form-control" id="question1">
+                <option   value="a"> Content Management System
+                <option   value="b"> Version Control System
+                <option   value="c"> Memory Management System
+             </select>
+        </div>
+   
+      </div>
+      <br>
+      <!-- Question 2-->
+      <div class="card">
+        <div class="card-header">
+          <p>Question 2</p>
+          <h5> Which command would you use to commit long messages in git?</h5>
+          <select class="form-control"  id="question2">
+                <option  value="a"> git push
+                <option   value="b"> git commit -m [message]
+                <option  value="c"> git commit
+                <option   value="c"> git commit --long
+             </select>
+        </div>
+  
+      </div>
+      <br>
+      <!-- Question 3 -->
+      <div class="card">
+        <div class="card-header">
+          <p>Question 3</p>
+          <h5> Can another branch be a default branch in git apart from 'master' branch?</h5>
+          <select class="form-control" id="question3">
+                <option  value="a"> No
+                <option   value="b"> Yes
+
+        </select>
+        </div>
+      </div>
+      <br>
+      <!-- Question 4 -->
+      <div class="card">
+        <div class="card-header">
+          <p>Question 4</p>
+          <h5> Which command is used to change branch in git</h5>
+          <select class="form-control" id="question4">
+                <option  value="a"> git branch change [branch_name]
+                <option  value="b"> git branch [branch_name]
+                <option  value="c"> git checkout [branch_name]
+                <option  value="d"> git [branch_name] checkout
+
+        </select>
+        </div>
+      </div>
+      <br>
+      <button class="btn btn-success" onclick="calculateMarks()" id="submit_btn"> Submit Answers </button>
+      <br>
+      <br>
+<script>
+
+function calculateMarks()
+{
+var answer1 = document.getElementById("question1").value;
+var answer2 = document.getElementById("question2").value;
+var answer3 = document.getElementById("question3").value;
+var answer4 = document.getElementById("question4").value;
+var score=0;
+if(answer1=="b")
+{
+    score=score+10;
+}
+if(answer2=="c")
+{
+    score=score+10;
+}
+if(answer3=="b")
+{
+    score=score+10;
+}
+if(answer4=="c")
+{
+    score=score+10;
+
+}
+alert(`You Scored ${score} / 40`)
+}
+</script>
+</body>
+</html>

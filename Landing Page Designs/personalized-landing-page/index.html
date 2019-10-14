@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<h5 id="configure_ico" style="text-align: right;"> <i class="fa fa-cog" aria-hidden="true"></i>    Configure </h5>
+<h1 id="name_holder"></h1> 
+<div id="selection_div">
+    <h6> Name :</h6>
+    <input type="text" id="user_name">
+    <h6> Background Image: </h6>
+    <input type="text" id="background-url" placeholder="Enter URL of background image">
+    <h6> Font Color: </h6>
+    <input type="color" id="fontColor" value="#ffffff">
+    <br>
+    <br>
+    <input type="button" value="Create Landing Page" id="create-btn" onclick="createLandingPage()">
+</div>
+<script>
+
+    /// Script
+var selection_div = document.getElementById("selection_div")
+var isCustomized = JSON.parse(localStorage.getItem("isCustomized"))
+var configure_ico  = document.getElementById("configure_ico")
+var userNameContainer = document.getElementById("name_holder")
+
+configure_ico.addEventListener("click",()=>{
+    localStorage.clear();
+    userNameContainer.innerHTML=""
+        selection_div.style.display="block"
+
+})
+if(isCustomized==null)
+{
+    selection_div.style.display="block"
+}
+else
+{
+    var user_name = localStorage.getItem("user_name")
+    var background_image = localStorage.getItem("background_image")
+    var fontColor = localStorage.getItem("fontColor")
+    userNameContainer.innerHTML=user_name;
+    userNameContainer.style.color = fontColor;
+    configure_ico.style.color = fontColor;
+    document.getElementById('html').style.background= `url("${background_image}")center center fixed`
+    document.getElementById('html').style.backgroundRepeat = `no-repeat`
+    document.getElementById('html').style.backgroundPosition = "center"
+    document.getElementById('html').style.backgroundAttachment = "fixed";
+}
+
+function createLandingPage()
+{
+    var user_name = document.getElementById("user_name").value;
+    var background_image = document.getElementById("background-url").value;
+    var font_color = document.getElementById("fontColor").value;
+    localStorage.setItem("isCustomized",true)
+    localStorage.setItem("user_name",user_name)
+    localStorage.setItem("background_image",background_image)
+    localStorage.setItem("fontColor",font_color)
+    selection_div.style.display="none";
+    userNameContainer.innerHTML=user_name;
+    userNameContainer.style.color = font_color;
+    document.getElementById('html').style.background= `url("${background_image}")center center fixed`
+    document.getElementById('html').style.backgroundRepeat = `no-repeat`
+    document.getElementById('html').style.backgroundPosition = "center"
+    configure_ico.style.color = font_color;
+
+    document.getElementById('html').style.backgroundAttachment = "fixed";
+}
+</script>
+</body>
+</html>

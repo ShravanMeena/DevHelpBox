@@ -1,0 +1,65 @@
+/* Colour palette from https://colorhunt.co/palette/159621 */
+/* Carat arrow from Font Awesome https://fontawesome.com/license */
+
+html{
+	background-color: #c6cbef;
+	display: flex;
+	justify-content: center;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	color: #494ca2;
+	background-color: #fff;
+	margin: 20px;
+	padding: 20px;
+	border-radius: 10px;
+}
+header{
+	font-size: 2em;
+	text-align: center;
+}
+input, textarea, select{
+	font-family: 'Poppins', sans-serif;
+	color: #494ca2;
+	border: none;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: #e3e7f1;
+	max-width: 95%;
+}
+::placeholder, ::-webkit-input-placeholder, ::-moz-placeholder, :-moz-placeholder, :-ms-input-placeholder, ::-ms-input-placeholder{
+	color: #8186d5;
+	opacity: 0.75;
+}
+label, input, select, textarea{
+	display: block;
+}
+label{
+	margin-bottom: 20px;
+}
+select option{
+    background-color: #e3e7f1;
+}
+select{
+	-moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(./caret-down-solid.svg);
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+    padding-right: 25px;
+}
+#submit{
+	background-color: #c6cbef;
+	color: #494ca2;
+	padding: 10px 20px;
+	border: 1px solid #494ca2;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#submit:hover{
+	background-color: #e3e7f1;
+}
+.star{
+	color: #c93838;
+}
