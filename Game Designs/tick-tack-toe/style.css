@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  margin-top: 1em;
+  font-size: 2rem;
+}
+
+.scoreboard {
+  width: 40%;
+  justify-content: space-evenly;
+  display: flex;
+  margin-bottom: 2em;
+  font-size: 1.2rem;
+}
+
+.play-area {
+  display: grid;
+  width: 300px;
+  height: 300px;
+  grid-template-columns: auto auto auto;
+}
+
+.block {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: bold;
+  border: 3px solid black;
+  transition: background 0.2s ease-in-out;
+}
+
+.block:hover {
+  cursor: pointer;
+  background: rgb(15, 243, 15);
+}
+
+.occupied:hover {
+  background: rgb(255, 58, 58);
+}
+
+.win {
+  background: rgb(15, 243, 15);
+}
+
+.win:hover {
+  background: rgb(15, 243, 15);
+}
+
+[id="0"],
+[id="1"],
+[id="2"] {
+  border-top: none;
+}
+
+[id="0"],
+[id="3"],
+[id="6"] {
+  border-left: none;
+}
+
+[id="6"],
+[id="7"],
+[id="8"] {
+  border-bottom: none;
+}
+
+[id="2"],
+[id="5"],
+[id="8"] {
+  border-right: none;
+}
+
+.button-holder {
+  display: flex;
+  width: 70%;
+  margin: 2em auto;
+  justify-content: space-evenly;
+}
+
+button {
+  outline: none;
+  border: 4px solid green;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  background: none;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+  background: green;
+  color: white;
+}
+
+.playerWin {
+  color: green;
+}
+
+.computerWin {
+  color: red;
+}
+
+.draw {
+  color: darkorange;
+}
