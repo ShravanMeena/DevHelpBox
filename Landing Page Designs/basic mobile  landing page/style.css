@@ -1,0 +1,45 @@
+body{
+    background-image:url('mac.png'); no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Saira Stencil One', cursive;
+    
+}
+.jumbotron{
+    
+    background-color:lightgoldenrodyellow;
+    text-align:center;
+    padding:40px;
+    font-family: sans-serif;
+    
+}
+.rowheight
+{
+    
+
+    height:330px;
+    
+}
+h1{
+    
+    color:black;
+    font-size: 2.5em;
+    
+}
+.bg{
+    background-color:aqua;
+    opacity:0.8;
+    
+    
+}
+.footer{
+    background-color: #fff;
+    position:fixed;
+    bottom:0;
+    right:0;
+}
+p{
+    font-size:18px;
+    padding:5px;
+    font-family: 'Play', sans-serif;
+}
+
