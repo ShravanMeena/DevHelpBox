@@ -1,0 +1,237 @@
+
+.body{
+    font-family: 'Poppins',sans-serif;
+   width: 100%;
+}
+h1,h2,h3,h4{
+  margin: 0;
+}
+.mySidebar{
+    background: #f44336; 
+    float: left;
+    height: 100%;
+    width: 22.23%;
+   
+    position: fixed;
+    
+}
+.mainContainer{
+     margin-left: 26.23%;
+     width:73.77%;
+    margin-right: 0px;
+}
+
+.mySidebar h3{
+    color: white;
+    margin: 150px 10px 0px 30px;
+    font-size: 24px;
+    padding: 10px;
+}
+.mySidebar p{
+    color: white;
+    margin: 0 0 50px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.mySidebar li{
+    list-style-type: none;
+    font-size: 18px;
+    color: #fff;
+   padding: 10px;
+    padding-left: 0px;
+    font-weight: bold;
+}
+
+
+#heading{
+   padding: 120px;
+    padding-left: 0px;
+    font-size: 64px;
+    padding-bottom: 10px;
+}
+.sub-heading{
+    color: #f44336;
+    padding: 20px;
+    font-size: 48px;
+    padding-left: 0px;
+}
+hr{
+    border-radius: 4px;
+    width: 50px;
+    border: solid 5px red;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.half , .half2{
+    width: 50%;
+    float: left;
+}
+.half2{
+    margin-right: 0px;
+}
+ img{
+    width:95%;
+     margin-bottom: 10px;
+}
+.clearfix{
+    clear: both;
+}
+.services{
+    padding: 50px;
+    padding-left: 0px;
+    margin: 10px;
+    margin-left: 0px;
+}
+.desginers{
+    padding: 50px;
+    padding-left: 0px;
+    margin: 10px;
+    margin-left: 0px;    
+}
+.designers h3{
+    padding: 10px;
+    padding-left: 0px;
+    font-size: 18px;
+}
+
+.card1{
+    width: 29.59%;
+    float: left;
+    background: #f1f1f1;
+    margin: 10px;
+}
+.card1 img{
+    width: 100%;
+}
+.lastCard{
+    margin-right: 0px;
+}
+.profession{
+    color: #999;
+    padding-left: 5px;
+}
+.card-text{
+    color: #666;
+    padding: 5px;
+}
+.card1 h3{
+  margin-left: 5px;
+    padding-left: 5px;
+    font-size: 22px;
+    font-weight: normal;
+  
+}
+.lastCard{
+    margin-right: 0px;
+}
+.packages{
+    padding: 50px;
+    padding-left: 0px;
+    margin: 10px;
+    margin-right: 0px;
+    margin-left: 0px;    
+}
+
+.package{
+    width: 43%;
+    float: left;
+    background: #f1f1f1;
+    margin: 10px;
+}
+.package ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+}
+.package li{
+    padding: 20px;
+    text-align: center;
+    border-bottom: solid 0.5px #ddd;
+}
+#basic{
+    background:#666;
+    color: #fff;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 22px;
+}
+#pro{
+    background:#f44336;
+    color: #fff;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+span{
+    padding: 2px;
+    display: block;
+    color: #bbb;
+    font-weight: normal;
+}
+.cost{
+    font-size: 28px;
+    color: #444;
+}
+.basic-btn{
+    border: none;
+    background: #fff;
+    color: #333;
+    padding: 15px 20px;
+}
+.pro-btn{
+    border: none;
+    background: #f44336;
+    color: #fff;
+    padding: 15px 20px;
+}
+.pro-package{
+    margin-right: 0px;
+}
+.contact{
+    padding: 50px;
+    padding-left: 0px;
+    margin: 10px;
+    margin-left: 0px;    
+}
+.contact input{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 0;
+}
+.form{
+    font-size: 20px;
+    padding: 10px;
+}
+label{
+    padding: 10px;
+    padding-left: 0;
+    
+}
+.contact button{
+    width: 100%;
+    height: 50px;
+    border: none;
+    color: #fff;
+    background: #f44336;
+    padding: px;
+    margin: 5px 0px;
+}
+
+.footer{
+    height: 125px;
+    width: 100%;
+    background: #f1f1f1;
+    text-align: right;
+}
+.footer small{
+    font-size: 28px;
+    color: #aaa;
+}
