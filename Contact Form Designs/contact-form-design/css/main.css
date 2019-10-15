@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+.contact-card{
+    width:60%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    padding:5rem 3rem 5rem 0rem;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.col-md-6{
+    position: relative;
+}
+
+
+.left-card{
+    background-color: #28a745;
+    color:#fff;
+    width:80% ;
+    position: absolute;
+    left: -3rem;
+    height: 100%;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.568);
+    padding:20px;
+}
+
+.address-card{
+    margin-bottom:10px;
+}
+
+.left-card h2{
+    padding-bottom:10px;
+    text-align: center;
+}
+
+.social{
+    width:50%;
+    margin:70px auto;
+}
+
+
+.social a {
+    text-decoration: none;
+    color:#fff;
+}
+
+
+.container-fluid{
+    background-color:#5ba86d;
+    height: 100vh;
+}
