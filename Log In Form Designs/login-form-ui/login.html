@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="public/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="public/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <title>Login</title>
+</head>
+<body>
+    <div class="section"></div>
+    <div class="section" ></div>
+    <div class="container">                                        
+      <h5 class="indigo-text" style="text-align: center">Please, login into your account</h5>
+      <div class="section"></div>
+                                                                                                    
+      <form id="loginfrm" method="POST" onsubmit="return valid();">        
+                        
+          <div class="row">
+                  <div class="col s10">
+                    <div class="row">
+                      <div class="input-field col s10">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="username" type="text"name="username">
+                        <label for="username">Username</label>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+                  <div class="col s10">
+                    <div class="row">
+                      <div class="input-field col s10">
+                        <i class="material-icons prefix ">vpn_key</i>
+                        <input id="password" type="password"  name="password" >
+                        <label for="password">password</label>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+        <div class="center">
+              <button id="btnLogin" class="waves-effect waves-light blue btn">Login</button>
+          </div>    
+    </form> 
+                  
+  <div class="section"></div>
+  <div class="section"></div>
+                                        
+<!-- JS -->
+
+<script src="public/materialize.min.js"></script>
+<script src="public/validation.js"></script>
+<script>
+</script>
+</body> 
+</html> 
