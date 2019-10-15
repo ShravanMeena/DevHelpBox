@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Signup with [Company Name]</title>
+    <link href="bootstrap.min.css" rel="stylesheet" />
+    <style type="text/css">
+        body {
+            background-image: linear-gradient(180deg, blue, rgb(0, 238, 247));
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="col-sm-8 offset-sm-2">
+                            <h2 class="text-secondary text-center">[Comapany-Logo]</h2>
+                            <p class="text-primary text-center">Signup with [Comp-Name]</p>
+                            <form class="form-horizontal" method="post">
+                                <div class="form-group row">
+                                    <label for="name">Name</label>
+                                    <input class="form-control form-control-sm" name="name" id="name" type="text"
+                                        placeholder="e.g. John Smith" required>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="email">Email</label>
+                                    <input class="form-control form-control-sm" name="email" id="email" type="email"
+                                        placeholder="e.g. abc@example.com" required>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="password">Password</label>
+                                    <input class="form-control form-control-sm" name="password" id="password"
+                                        type="password" placeholder="e.g. letters and numbers" required>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="confirm-password">Confirm Password</label>
+                                    <input class="form-control form-control-sm" name="confirm-password" id="confirm-password"
+                                        type="password" placeholder="Type password again" required>
+                                </div>
+                                <div class="form-group">
+                                    <p class="small">By Signing up, you agree to our Terms and Conditions and Privacy
+                                        Policy</p>
+                                </div>
+                                <div class="form-group row">
+                                    <button class="btn btn-sm btn-dark btn-block" type="submit">Submit</button>
+                                </div>
+
+                            </form>
+                            <p class="text-center">OR</p>
+                            <button class="btn btn-sm btn-block btn-primary">Sign Up with Facebook</button>
+                            <button class="btn btn-sm btn-block btn-danger">Sign Up with Google</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
