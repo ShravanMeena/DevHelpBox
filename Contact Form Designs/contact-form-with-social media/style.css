@@ -1,0 +1,213 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("pawel-czerwinski--0xCCPIbl3M-unsplash.jpg");
+    background-size:cover ;
+    background-position: bottom;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+body .layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+body .heading-sm {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.contact-page-wrap {
+    padding: 50px 0;
+}
+
+.contact-form {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.contact-form .form-group {
+    position: relative;
+}
+
+.contact-form .form-group .form-control {
+    height: 52px;
+    font-size: 1.1rem;
+    color: gray;
+    background-color: #e2e2e2;
+}
+
+.contact-form .form-group textarea {
+    height: 110px !important;
+}
+
+.contact-form .form-group label {
+    position: absolute;
+    right: 12px;
+    color: #000;
+    top: 11px;
+    font-size: 1.2rem;
+}
+
+.contact-details .single-item {
+    padding-left: 50px;
+    color: #000;
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+    position: relative;
+}
+
+.contact-details .single-item .icon {
+    height: 40px;
+    width: 40px;
+    background-color: #FFD800;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
+
+.contact-details .single-item .icon i {
+    color: #000;
+    line-height: 40px;
+    font-size: 0.9rem;
+}
+
+.social .social-links .link {
+    height: 35px;
+    width: 35px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+body .btn-ajax {
+    height: 55px;
+    width: 55px;
+    background-color: #F63749;
+    color: #fff;
+    border-radius: 50%;
+    border: none;
+    display: inline-block;
+    text-align: center;
+}
+
+
+body .social-links .link {
+    display: inline-block;
+    margin: 0 2px;
+    font-size: 1.2rem;
+    transition: all 350ms;
+    height: 35px;
+    width: 35px;
+    background-color: #abbdc6;
+    text-align: center;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+
+body .social-links .link i {
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 34px;
+    transition: all 350ms;
+}
+
+body .social-links .link.facebook:hover {
+    background-color: #3b5998;
+}
+
+body .social-links .link.facebook:hover i {
+    color: #fff;
+}
+
+body .social-links .link.twitter:hover {
+    background-color: #55acee;
+}
+
+body .social-links .link.twitter:hover i {
+    color: #fff;
+}
+
+body .social-links .link.blogger:hover {
+    background-color: #f57d00;
+}
+
+body .social-links .link.blogger:hover i {
+    color: #fff;
+}
+
+body .social-links .link.youtube:hover {
+    background-color: #cd201f;
+}
+
+body .social-links .link.youtube:hover i {
+    color: #fff;
+}
+
+body .social-links .link.linkedin:hover {
+    background-color: #0077b5;
+}
+
+body .social-links .link.linkedin:hover i {
+    color: #fff;
+}
+
+.social .social-links .link.facebook {
+    background-color: #3b5998;
+}
+
+.social .social-links .link.twitter {
+    background-color: #55acee;
+}
+
+.social .social-links .link.linkedin {
+    background-color: #0077b5;
+}
+
+.social .social-links .link.youtube {
+    background-color: #cd201f;
+}
+
+.social .social-links .link.whatsapp {
+    background-color: #43d854;
+}
+
+.social .social-links .link.blogger {
+    background-color: #f57d00;
+}
+
+.social .social-links .link i {
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 35px;
+}
+
+.contact-map {
+    border-top: 10px solid #fff;
+    box-shadow: 0 0 20px #a9a4a4;
+    position: relative;
+    margin-top: 40px;
+}
+
+.contact-map .get-direction {
+    position: absolute;
+    background-color: #fff;
+    padding: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0px -8px 19px #e0dede;
+    bottom: 100%;
+    left: 120px;
+}
+
+.contact-map #map {
+    height: 600px;
+}
