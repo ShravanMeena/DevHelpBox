@@ -1,0 +1,85 @@
+
+td {
+    padding: 10px;
+}      
+input[type=text],select,textarea{
+    width:75%;
+    font-size:20px;
+    outline-color:#f56c6c;
+    font-family:Arial;
+}
+
+.txt{
+    font-size:20px;
+}
+input[type=submit]{
+     background : black; 
+     width:20%;
+     height: auto; 
+     font-size: 17px;
+     border-radius:  10px ;
+     border: 2px solid black;
+     color:white;
+     padding: 10px;
+     outline:none;
+     font-family: Ubuntu light;
+	 transition: all 0.2s ease;
+	 
+}
+input[type=button]{
+	background : black; 
+	font-size: 13px;
+	border-radius: 10px ;
+	border: 2px solid black;
+	color:white;
+	padding: 12px;
+	outline:none;
+	font-family: Ubuntu light;
+	transition: all 0.2s ease;
+	
+}
+input[type=button]:hover{
+    border-radius: 13px;
+    padding: 15px;
+    transition: all 0.2s ease;
+}
+
+input[type=submit]:hover{
+    border-radius: 20px;
+    width:30%;
+    height:50%;
+    padding: 10px;
+    transition: all 0.2s ease;
+}
+body {
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(-45deg, #e73c7e, #f56c6c,#9e9e9e, #f1f1f1 );
+	background-size: 400% 400%;
+	-webkit-animation: gradientBG 10s ease infinite;
+	        animation: gradientBG 10s ease infinite;
+}
+
+@-webkit-keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

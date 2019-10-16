@@ -1,0 +1,242 @@
+
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}summary{display:list-item}
+audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}
+audio:not([controls]){display:none;height:0}[hidden],template{display:none}
+a{background-color:transparent}a:active,a:hover{outline-width:0}
+abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}
+b,strong{font-weight:bolder}dfn{font-style:italic}mark{background:#ff0;color:#000}
+small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sub{bottom:-0.25em}sup{top:-0.5em}figure{margin:1em 40px}img{border-style:none}
+code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}hr{box-sizing:content-box;height:0;overflow:visible}
+button,input,select,textarea,optgroup{font:inherit;margin:0}optgroup{font-weight:bold}
+button,input{overflow:visible}button,select{text-transform:none}
+button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}
+button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}
+button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}
+fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}
+legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}
+[type=checkbox],[type=radio]{padding:0}
+[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}
+[type=search]{-webkit-appearance:textfield;outline-offset:-2px}
+[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+/* End extract */
+html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}.dig-serif{font-family:serif}
+h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.dig-wide{letter-spacing:4px}
+hr{border:0;border-top:1px solid #eee;margin:20px 0}
+.dig-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
+.dig-table,.dig-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.dig-table-all{border:1px solid #ccc}
+.dig-bordered tr,.dig-table-all tr{border-bottom:1px solid #ddd}.dig-striped tbody tr:nth-child(even){background-color:#f1f1f1}
+.dig-table-all tr:nth-child(odd){background-color:#fff}.dig-table-all tr:nth-child(even){background-color:#f1f1f1}
+.dig-hoverable tbody tr:hover,.dig-ul.dig-hoverable li:hover{background-color:#ccc}.dig-centered tr th,.dig-centered tr td{text-align:center}
+.dig-table td,.dig-table th,.dig-table-all td,.dig-table-all th{padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
+.dig-table th:first-child,.dig-table td:first-child,.dig-table-all th:first-child,.dig-table-all td:first-child{padding-left:16px}
+.dig-btn,.dig-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.dig-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+.dig-btn,.dig-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+.dig-disabled,.dig-btn:disabled,.dig-button:disabled{cursor:not-allowed;opacity:0.3}.dig-disabled *,:disabled *{pointer-events:none}
+.dig-btn.dig-disabled:hover,.dig-btn:disabled:hover{box-shadow:none}
+.dig-badge,.dig-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}.dig-badge{border-radius:50%}
+.dig-ul{list-style-type:none;padding:0;margin:0}.dig-ul li{padding:8px 16px;border-bottom:1px solid #ddd}.dig-ul li:last-child{border-bottom:none}
+.dig-tooltip,.dig-display-container{position:relative}.dig-tooltip .dig-text{display:none}.dig-tooltip:hover .dig-text{display:inline-block}
+.dig-ripple:active{opacity:0.5}.dig-ripple{transition:opacity 0s}
+.dig-input{padding:8px;display:block;border:none;border-bottom:1px solid #ccc;width:100%}
+.dig-select{padding:9px 0;width:100%;border:none;border-bottom:1px solid #ccc}
+.dig-dropdown-click,.dig-dropdown-hover{position:relative;display:block;cursor:pointer}
+.dig-dropdown-hover:hover .dig-dropdown-content{display:block;background-color: #f9f9f9;min-width: 160px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
+.dig-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    position: relative;
+  }
+  
+.dropdown-content a:hover {background-color: #f1f1f1}
+  
+.dig-dropdown-hover:first-child,.dig-dropdown-click:hover{background-color:#ccc;color:#000}
+.dig-dropdown-hover:hover > .dig-button:first-child,.dig-dropdown-click:hover > .dig-button:first-child{background-color:#ccc;color:#000}
+.dig-dropdown-content{cursor:auto;color:#000;background-color:#fff;display:none;position:absolute;min-width:160px;margin:0;padding:0;z-index:1}
+.dig-check,.dig-radio{width:24px;height:24px;position:relative;top:6px}
+.dig-sidebar{height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
+.dig-bar-block .dig-dropdown-hover,.dig-bar-block .dig-dropdown-click{width:100%}
+.dig-bar-block .dig-dropdown-hover .dig-dropdown-content,.dig-bar-block .dig-dropdown-click .dig-dropdown-content{min-width:100%}
+.dig-bar-block .dig-dropdown-hover .dig-button,.dig-bar-block .dig-dropdown-click .dig-button{width:100%;text-align:left;padding:8px 16px}
+.dig-main,#main{transition:margin-left .4s}
+.dig-modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
+.dig-modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}
+.dig-bar{width:100%;overflow:hidden}.dig-center .dig-bar{display:inline-block;width:auto}
+.dig-bar .dig-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+.dig-bar .dig-dropdown-hover,.dig-bar .dig-dropdown-click{position:static;float:left}
+.dig-bar .dig-button{white-space:normal}
+.dig-bar-block .dig-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
+.dig-bar-block.dig-center .dig-bar-item{text-align:center}.dig-block{display:block;width:100%}
+.dig-responsive{display:block;overflow-x:auto}
+.dig-container:after,.dig-container:before,.dig-panel:after,.dig-panel:before,.dig-row:after,.dig-row:before,.dig-row-padding:after,.dig-row-padding:before,
+.dig-cell-row:before,.dig-cell-row:after,.dig-clear:after,.dig-clear:before,.dig-bar:before,.dig-bar:after{content:"";display:table;clear:both}
+.dig-col,.dig-half,.dig-third,.dig-twothird,.dig-threequarter,.dig-quarter{float:left;width:100%}
+.dig-col.s1{width:8.33333%}.dig-col.s2{width:16.66666%}.dig-col.s3{width:24.99999%}.dig-col.s4{width:33.33333%}
+.dig-col.s5{width:41.66666%}.dig-col.s6{width:49.99999%}.dig-col.s7{width:58.33333%}.dig-col.s8{width:66.66666%}
+.dig-col.s9{width:74.99999%}.dig-col.s10{width:83.33333%}.dig-col.s11{width:91.66666%}.dig-col.s12{width:99.99999%}
+@media (min-width:601px){.dig-col.m1{width:8.33333%}.dig-col.m2{width:16.66666%}.dig-col.m3,.dig-quarter{width:24.99999%}.dig-col.m4,.dig-third{width:33.33333%}
+.dig-col.m5{width:41.66666%}.dig-col.m6,.dig-half{width:49.99999%}.dig-col.m7{width:58.33333%}.dig-col.m8,.dig-twothird{width:66.66666%}
+.dig-col.m9,.dig-threequarter{width:74.99999%}.dig-col.m10{width:83.33333%}.dig-col.m11{width:91.66666%}.dig-col.m12{width:99.99999%}}
+@media (min-width:993px){.dig-col.l1{width:8.33333%}.dig-col.l2{width:16.66666%}.dig-col.l3{width:24.99999%}.dig-col.l4{width:33.33333%}
+.dig-col.l5{width:41.66666%}.dig-col.l6{width:49.99999%}.dig-col.l7{width:58.33333%}.dig-col.l8{width:66.66666%}
+.dig-col.l9{width:74.99999%}.dig-col.l10{width:83.33333%}.dig-col.l11{width:91.66666%}.dig-col.l12{width:99.99999%}}
+.dig-rest{overflow:hidden}.dig-stretch{margin-left:-16px;margin-right:-16px}
+.dig-content,.dig-auto{margin-left:auto;margin-right:auto}.dig-content{max-width:980px}.dig-auto{max-width:1140px}
+.dig-cell-row{display:table;width:100%}.dig-cell{display:table-cell}
+.dig-cell-top{vertical-align:top}.dig-cell-middle{vertical-align:middle}.dig-cell-bottom{vertical-align:bottom}
+.dig-hide{display:none!important}.dig-show-block,.dig-show{display:block!important}.dig-show-inline-block{display:inline-block!important}
+@media (max-width:1205px){.dig-auto{max-width:95%}}
+@media (max-width:600px){.dig-modal-content{margin:0 10px;width:auto!important}.dig-modal{padding-top:30px}
+.dig-dropdown-hover.dig-mobile .dig-dropdown-content,.dig-dropdown-click.dig-mobile .dig-dropdown-content{position:relative}	
+.dig-hide-small{display:none!important}.dig-mobile{display:block;width:100%!important}.dig-bar-item.dig-mobile,.dig-dropdown-hover.dig-mobile,.dig-dropdown-click.dig-mobile{text-align:center}
+.dig-dropdown-hover.dig-mobile,.dig-dropdown-hover.dig-mobile .dig-btn,.dig-dropdown-hover.dig-mobile .dig-button,.dig-dropdown-click.dig-mobile,.dig-dropdown-click.dig-mobile .dig-btn,.dig-dropdown-click.dig-mobile .dig-button{width:100%}}
+@media (max-width:768px){.dig-modal-content{width:500px}.dig-modal{padding-top:50px}}
+@media (min-width:993px){.dig-modal-content{width:900px}.dig-hide-large{display:none!important}.dig-sidebar.dig-collapse{display:block!important}}
+@media (max-width:992px) and (min-width:601px){.dig-hide-medium{display:none!important}}
+@media (max-width:992px){.dig-sidebar.dig-collapse{display:none}.dig-main{margin-left:0!important;margin-right:0!important}.dig-auto{max-width:100%}}
+.dig-top,.dig-bottom{position:fixed;width:100%;z-index:1}.dig-top{top:0}.dig-bottom{bottom:0}
+.dig-overlay{position:fixed;display:none;width:100%;height:100%;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.5);z-index:2}
+.dig-display-topleft{position:absolute;left:0;top:0}.dig-display-topright{position:absolute;right:0;top:0}
+.dig-display-bottomleft{position:absolute;left:0;bottom:0}.dig-display-bottomright{position:absolute;right:0;bottom:0}
+.dig-display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.dig-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.dig-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+.dig-display-topmiddle{position:absolute;left:50%;top:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.dig-display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.dig-display-container:hover .dig-display-hover{display:block}.dig-display-container:hover span.dig-display-hover{display:inline-block}.dig-display-hover{display:none}
+.dig-display-position{position:absolute}
+.dig-circle{border-radius:50%}
+.dig-round-small{border-radius:2px}.dig-round,.dig-round-medium{border-radius:4px}.dig-round-large{border-radius:8px}.dig-round-xlarge{border-radius:16px}.dig-round-xxlarge{border-radius:32px}
+.dig-row-padding,.dig-row-padding>.dig-half,.dig-row-padding>.dig-third,.dig-row-padding>.dig-twothird,.dig-row-padding>.dig-threequarter,.dig-row-padding>.dig-quarter,.dig-row-padding>.dig-col{padding:0 8px}
+.dig-container,.dig-panel{padding:0.01em 16px}.dig-panel{margin-top:16px;margin-bottom:16px}
+.dig-code,.dig-codespan{font-family:Consolas,"courier new";font-size:16px}
+.dig-code{width:auto;background-color:#fff;padding:8px 12px;border-left:4px solid #4CAF50;word-wrap:break-word}
+.dig-codespan{color:crimson;background-color:#f1f1f1;padding-left:4px;padding-right:4px;font-size:110%}
+.dig-card,.dig-card-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+.dig-card-4,.dig-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
+.dig-spin{animation:dig-spin 2s infinite linear}@keyframes dig-spin{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}
+.dig-animate-fading{animation:fading 4s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.dig-animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.dig-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.dig-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.dig-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.dig-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+.dig-animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+.dig-animate-input{transition:width 0.4s ease-in-out}.dig-animate-input:focus{width:100%!important}
+.dig-opacity,.dig-hover-opacity:hover{opacity:0.60}.dig-opacity-off,.dig-hover-opacity-off:hover{opacity:1}
+.dig-opacity-max{opacity:0.25}.dig-opacity-min{opacity:0.75}
+.dig-greyscale-max,.dig-grayscale-max,.dig-hover-greyscale:hover,.dig-hover-grayscale:hover{filter:grayscale(100%)}
+.dig-greyscale,.dig-grayscale{filter:grayscale(75%)}.dig-greyscale-min,.dig-grayscale-min{filter:grayscale(50%)}
+.dig-sepia{filter:sepia(75%)}.dig-sepia-max,.dig-hover-sepia:hover{filter:sepia(100%)}.dig-sepia-min{filter:sepia(50%)}
+.dig-tiny{font-size:10px!important}.dig-small{font-size:12px!important}.dig-medium{font-size:15px!important}.dig-large{font-size:18px!important}
+.dig-xlarge{font-size:24px!important}.dig-xxlarge{font-size:36px!important}.dig-xxxlarge{font-size:48px!important}.dig-jumbo{font-size:64px!important}
+.dig-left-align{text-align:left!important}.dig-right-align{text-align:right!important}.dig-justify{text-align:justify!important}.dig-center{text-align:center!important}
+.dig-border-0{border:0!important}.dig-border{border:1px solid #ccc!important}
+.dig-border-top{border-top:1px solid #ccc!important}.dig-border-bottom{border-bottom:1px solid #ccc!important}
+.dig-border-left{border-left:1px solid #ccc!important}.dig-border-right{border-right:1px solid #ccc!important}
+.dig-topbar{border-top:6px solid #ccc!important}.dig-bottombar{border-bottom:6px solid #ccc!important}
+.dig-leftbar{border-left:6px solid #ccc!important}.dig-rightbar{border-right:6px solid #ccc!important}
+.dig-section,.dig-code{margin-top:16px!important;margin-bottom:16px!important}
+.dig-margin{margin:16px!important}.dig-margin-top{margin-top:16px!important}.dig-margin-bottom{margin-bottom:16px!important}
+.dig-margin-left{margin-left:16px!important}.dig-margin-right{margin-right:16px!important}
+.dig-padding-small{padding:4px 8px!important}.dig-padding{padding:8px 16px!important}.dig-padding-large{padding:12px 24px!important}
+.dig-padding-16{padding-top:16px!important;padding-bottom:16px!important}.dig-padding-24{padding-top:24px!important;padding-bottom:24px!important}
+.dig-padding-32{padding-top:32px!important;padding-bottom:32px!important}.dig-padding-48{padding-top:48px!important;padding-bottom:48px!important}
+.dig-padding-64{padding-top:64px!important;padding-bottom:64px!important}
+.dig-left{float:left!important}.dig-right{float:right!important}
+.dig-button:hover{color:#000!important;background-color:#ccc!important}
+.dig-transparent,.dig-hover-none:hover{background-color:transparent!important}
+.dig-hover-none:hover{box-shadow:none!important}
+/* Colors */
+.dig-amber,.dig-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
+.dig-aqua,.dig-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
+.dig-blue,.dig-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
+.dig-light-blue,.dig-hover-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
+.dig-brown,.dig-hover-brown:hover{color:#fff!important;background-color:#795548!important}
+.dig-cyan,.dig-hover-cyan:hover{color:#000!important;background-color:#00bcd4!important}
+.dig-blue-grey,.dig-hover-blue-grey:hover,.dig-blue-gray,.dig-hover-blue-gray:hover{color:#fff!important;background-color:#607d8b!important}
+.dig-green,.dig-hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
+.dig-light-green,.dig-hover-light-green:hover{color:#000!important;background-color:#8bc34a!important}
+.dig-indigo,.dig-hover-indigo:hover{color:#fff!important;background-color:#3f51b5!important}
+.dig-khaki,.dig-hover-khaki:hover{color:#000!important;background-color:#f0e68c!important}
+.dig-lime,.dig-hover-lime:hover{color:#000!important;background-color:#cddc39!important}
+.dig-orange,.dig-hover-orange:hover{color:#000!important;background-color:#ff9800!important}
+.dig-deep-orange,.dig-hover-deep-orange:hover{color:#fff!important;background-color:#ff5722!important}
+.dig-pink,.dig-hover-pink:hover{color:#fff!important;background-color:#e91e63!important}
+.dig-purple,.dig-hover-purple:hover{color:#fff!important;background-color:#9c27b0!important}
+.dig-deep-purple,.dig-hover-deep-purple:hover{color:#fff!important;background-color:#673ab7!important}
+.dig-red,.dig-hover-red:hover{color:#fff!important;background-color:#f56c6c!important}
+.dig-sand,.dig-hover-sand:hover{color:#000!important;background-color:#fdf5e6!important}
+.dig-teal,.dig-hover-teal:hover{color:#fff!important;background-color:#009688!important}
+.dig-yellow,.dig-hover-yellow:hover{color:#000!important;background-color:#ffeb3b!important}
+.dig-white,.dig-hover-white:hover{color:#000!important;background-color:#fff!important}
+.dig-black,.dig-hover-black:hover{color:#fff!important;background-color:#000!important}
+.dig-grey,.dig-hover-grey:hover,.dig-gray,.dig-hover-gray:hover{color:#000!important;background-color:#9e9e9e!important}
+.dig-light-grey,.dig-hover-light-grey:hover,.dig-light-gray,.dig-hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
+.dig-dark-grey,.dig-hover-dark-grey:hover,.dig-dark-gray,.dig-hover-dark-gray:hover{color:#fff!important;background-color:#616161!important}
+.dig-pale-red,.dig-hover-pale-red:hover{color:#000!important;background-color:#ffdddd!important}
+.dig-pale-green,.dig-hover-pale-green:hover{color:#000!important;background-color:#ddffdd!important}
+.dig-pale-yellow,.dig-hover-pale-yellow:hover{color:#000!important;background-color:#ffffcc!important}
+.dig-pale-blue,.dig-hover-pale-blue:hover{color:#000!important;background-color:#ddffff!important}
+.dig-text-amber,.dig-hover-text-amber:hover{color:#ffc107!important}
+.dig-text-aqua,.dig-hover-text-aqua:hover{color:#00ffff!important}
+.dig-text-blue,.dig-hover-text-blue:hover{color:#2196F3!important}
+.dig-text-light-blue,.dig-hover-text-light-blue:hover{color:#87CEEB!important}
+.dig-text-brown,.dig-hover-text-brown:hover{color:#795548!important}
+.dig-text-cyan,.dig-hover-text-cyan:hover{color:#00bcd4!important}
+.dig-text-blue-grey,.dig-hover-text-blue-grey:hover,.dig-text-blue-gray,.dig-hover-text-blue-gray:hover{color:#607d8b!important}
+.dig-text-green,.dig-hover-text-green:hover{color:#4CAF50!important}
+.dig-text-light-green,.dig-hover-text-light-green:hover{color:#8bc34a!important}
+.dig-text-indigo,.dig-hover-text-indigo:hover{color:#3f51b5!important}
+.dig-text-khaki,.dig-hover-text-khaki:hover{color:#b4aa50!important}
+.dig-text-lime,.dig-hover-text-lime:hover{color:#cddc39!important}
+.dig-text-orange,.dig-hover-text-orange:hover{color:#ff9800!important}
+.dig-text-deep-orange,.dig-hover-text-deep-orange:hover{color:#ff5722!important}
+.dig-text-pink,.dig-hover-text-pink:hover{color:#e91e63!important}
+.dig-text-purple,.dig-hover-text-purple:hover{color:#9c27b0!important}
+.dig-text-deep-purple,.dig-hover-text-deep-purple:hover{color:#673ab7!important}
+.dig-text-red,.dig-hover-text-red:hover{color:#f56c6c!important}
+.dig-text-sand,.dig-hover-text-sand:hover{color:#fdf5e6!important}
+.dig-text-teal,.dig-hover-text-teal:hover{color:#009688!important}
+.dig-text-yellow,.dig-hover-text-yellow:hover{color:#d2be0e!important}
+.dig-text-white,.dig-hover-text-white:hover{color:#fff!important}
+.dig-text-black,.dig-hover-text-black:hover{color:#000!important}
+.dig-text-grey,.dig-hover-text-grey:hover,.dig-text-gray,.dig-hover-text-gray:hover{color:#757575!important}
+.dig-text-light-grey,.dig-hover-text-light-grey:hover,.dig-text-light-gray,.dig-hover-text-light-gray:hover{color:#f1f1f1!important}
+.dig-text-dark-grey,.dig-hover-text-dark-grey:hover,.dig-text-dark-gray,.dig-hover-text-dark-gray:hover{color:#3a3a3a!important}
+.dig-border-amber,.dig-hover-border-amber:hover{border-color:#ffc107!important}
+.dig-border-aqua,.dig-hover-border-aqua:hover{border-color:#00ffff!important}
+.dig-border-blue,.dig-hover-border-blue:hover{border-color:#2196F3!important}
+.dig-border-light-blue,.dig-hover-border-light-blue:hover{border-color:#87CEEB!important}
+.dig-border-brown,.dig-hover-border-brown:hover{border-color:#795548!important}
+.dig-border-cyan,.dig-hover-border-cyan:hover{border-color:#00bcd4!important}
+.dig-border-blue-grey,.dig-hover-border-blue-grey:hover,.dig-border-blue-gray,.dig-hover-border-blue-gray:hover{border-color:#607d8b!important}
+.dig-border-green,.dig-hover-border-green:hover{border-color:#4CAF50!important}
+.dig-border-light-green,.dig-hover-border-light-green:hover{border-color:#8bc34a!important}
+.dig-border-indigo,.dig-hover-border-indigo:hover{border-color:#3f51b5!important}
+.dig-border-khaki,.dig-hover-border-khaki:hover{border-color:#f0e68c!important}
+.dig-border-lime,.dig-hover-border-lime:hover{border-color:#cddc39!important}
+.dig-border-orange,.dig-hover-border-orange:hover{border-color:#ff9800!important}
+.dig-border-deep-orange,.dig-hover-border-deep-orange:hover{border-color:#ff5722!important}
+.dig-border-pink,.dig-hover-border-pink:hover{border-color:#e91e63!important}
+.dig-border-purple,.dig-hover-border-purple:hover{border-color:#9c27b0!important}
+.dig-border-deep-purple,.dig-hover-border-deep-purple:hover{border-color:#673ab7!important}
+.dig-border-red,.dig-hover-border-red:hover{border-color:#f44336!important}
+.dig-border-sand,.dig-hover-border-sand:hover{border-color:#fdf5e6!important}
+.dig-border-teal,.dig-hover-border-teal:hover{border-color:#009688!important}
+.dig-border-yellow,.dig-hover-border-yellow:hover{border-color:#ffeb3b!important}
+.dig-border-white,.dig-hover-border-white:hover{border-color:#fff!important}
+.dig-border-black,.dig-hover-border-black:hover{border-color:#000!important}
+.dig-border-grey,.dig-hover-border-grey:hover,.dig-border-gray,.dig-hover-border-gray:hover{border-color:#9e9e9e!important}
+.dig-border-light-grey,.dig-hover-border-light-grey:hover,.dig-border-light-gray,.dig-hover-border-light-gray:hover{border-color:#f1f1f1!important}
+.dig-border-dark-grey,.dig-hover-border-dark-grey:hover,.dig-border-dark-gray,.dig-hover-border-dark-gray:hover{border-color:#616161!important}
+.dig-border-pale-red,.dig-hover-border-pale-red:hover{border-color:#ffe7e7!important}.dig-border-pale-green,.dig-hover-border-pale-green:hover{border-color:#e7ffe7!important}
+.dig-border-pale-yellow,.dig-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.dig-border-pale-blue,.dig-hover-border-pale-blue:hover{border-color:#e7ffff!important}
