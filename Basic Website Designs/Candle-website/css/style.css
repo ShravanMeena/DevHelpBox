@@ -1,0 +1,281 @@
+
+/*************************************************
+
+        PROJECT NAME     :    candles
+
+                    DEFAULT VALUES
+        FONT             :      Roboto Condensed
+                                Sacramento (headings)
+        Hot pink :       :      #ffd3d9 (Buttons, Icons, Lines, &Bg)
+
+        Steel Grey       :      #41464B (Headings)
+
+        Blue Bayoux      :      #64707B (Paragraphs)
+    
+        White            :      #FFF (Text with dark bg)
+
+        Black            :      #000
+
+
+********************************************/
+/*************************************************
+                GENERAL CSS SECTION
+*************************************************/
+html,
+body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Roboto Condensed',sans-serif;
+    letter-spacing: .05em;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Sacramento', cursive;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+h3{
+    color: #41464B;
+    font-weight: 700;
+}
+p{
+    color: #64707B;
+    font-size: 16px;
+    font-weight: 300px;
+}
+/*************************************************
+                BUTTON SECTION GENERIC
+*************************************************/
+.btn-shop-now{
+     border-radius: 15%;
+}
+.btn-general{
+    
+    text-transform: uppercase;
+    padding: 12px 26px;
+    font-size: 16px;
+}
+.btn-pink{
+   background: #ffd3d9;
+    color: #41464B;
+}
+.btn-pink:hover,
+.btn-pink:focus{
+    background: #41464B;
+    color: #ffd3d9 ;
+}
+
+.btn-brown{
+    background: #8B4513;
+    color: #fff;
+}
+.btn-brown:hover,
+.btn-brown:focus{
+    background:#fff;
+    color: #8B4513;
+}
+
+/*************************************************
+                CONTENT BOX ANIMATION
+*************************************************/
+
+
+.content-title .content-title-white{
+    color: #fff;
+}
+.content-box{
+    padding: 60px 0;
+}
+.content-title h3{
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+/*************************************************
+                HOME CSS SECTION
+*************************************************/
+
+.home{
+    background-color: #FFF0F5 ;
+    position: relative;
+}
+.home-text{
+    margin-top: 200px;
+    padding: 50px;
+}
+.img-home{
+    padding: 0;
+}
+.new h2{
+    font-size: 42px;
+    font-weight: bolder;
+}
+.new p{
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+}
+.home-img{
+    width: 100%;
+    height: 350px;
+    background-image: url(../img/girl.jpeg) ;
+    background-repeat: no-repeat;
+    margin-top: 90px;
+    position: absolute;
+    top: 150px;
+}
+
+/*************************************************
+                WORK CSS SECTION
+*************************************************/
+
+.work{
+    position: relative;
+}
+.work button{
+    margin: 0 120px;
+    position: absolute;
+    bottom: -25px;
+}
+/*************************************************
+                TEAM CSS SECTION
+*************************************************/
+.team{
+    margin: 30px 0;
+    position: relative;
+}
+.team-cover{
+    background-image: url(../img/team.png);
+    background-repeat: no-repeat;
+     width: 100%;
+    height: 700px;
+    background-size: cover;
+}
+.team-text{
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+.team-text h1{
+    font-size: 66px;
+    font-weight: bolder;
+    color: #fff;
+}
+.team-text p{
+    font-size: 24px;
+    color: #fff;
+}
+/*************************************************
+                BLOG CSS SECTION
+*************************************************/
+
+.blog-img{
+    width: 100%;
+    height: 350px;
+}
+.blog-pink{
+    background-color: #FFF0F5;
+    padding: 50px;
+}
+.blog-heading{
+    text-transform: uppercase;
+    padding: 5px;
+    color: #000;
+    font-weight: bold;
+}
+.blog-btn{
+    margin: 50px 550px;
+}
+.blog .content-box{
+    padding-bottom: 0;
+}
+
+.row.no-gutters [class*=col-]{
+    padding-left: 0;
+    padding-right: 0;
+}
+/*************************************************
+                FOOTER CSS SECTION
+*************************************************/
+.contactus{
+    padding: 50px;
+    background-color: #41464B;
+    color: #fff;
+    padding-bottom: 0px;
+}
+.contactus h2{
+    font-family: sans-serif;
+    font-size: 24px;
+}
+ul{
+    padding: 0;
+}
+li{
+ list-style: none;
+    padding: 5px;
+}
+.footer-bottom{
+    color: #fff;
+    margin: 0px 500px;
+   margin-top: 50px
+}
+/*************************************************
+                nav bar CSS SECTION
+*************************************************/
+
+.navbar{
+    background: #fff;
+    transition: all 0.5s ease-in-out;
+    border: none;
+}
+.fable-top-nav{
+    background-color: #fff;;
+}
+.fable-nav-wrapper{
+    padding: 0 50px;
+}
+.navbar-brand{
+    font-size: 26px;
+}
+.navbar-brand:hover{
+    color: #fff;
+}
+
+#fable-menu{
+    float: right;
+}
+.navbar-nav>li>a{
+    color: #000;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.navbar-nav>li>a:focus,
+.navbar-nav>li>a:hover{
+    background: none;
+    color: #ffd3d9; 
+}
+.navbar-toggle{
+    background-color: rgba(255,255,255,0.5);
+    border: solid 1px #fff;
+    border-radius: 0;
+}
+.navbar-toggle .icon-bar{
+    background: #fff;
+}
+.navbar-collapse{
+    max-height: none!important;
+}
+.navbar ul.navbar-nav>li.active>a{
+    color: #34C6D3; 
+}
+
+.navbar-brand{
+     height: 0px; 
+     padding: 0
+}
