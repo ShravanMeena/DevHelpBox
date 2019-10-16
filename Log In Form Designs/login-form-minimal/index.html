@@ -1,0 +1,107 @@
+<!-- 
+  Minimal Login form made by Edwin Chen.
+ -->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sign in</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:600,900&display=swap");
+      body {
+        background: #e3e3e3;
+        font-family: "Source Sans Pro", sans-serif;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      .container {
+        width: 450px;
+        background: #ffffff;
+        padding: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+          0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+          0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+        display: flex;
+        flex-flow: column;
+      }
+      h2 {
+        font-size: 1.75rem;
+        font-weight: 900;
+        margin: 0 0 25px 0;
+      }
+      form {
+        display: flex;
+        flex-flow: column;
+      }
+      form > input[type="text"],
+      form > input[type="password"] {
+        width: 100%;
+        padding: 15px 20px;
+        font: 600 1rem/1 "Source Sans Pro", sans-serif;
+        color: #6f6f6f;
+        border: 1px solid #c9c9c9;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        outline: 0;
+      }
+      form > input[type="text"]:focus,
+      form > input[type="password"]:focus {
+        border: 1px solid #008aea;
+        box-shadow: 0 0 5px 0 rgba(20, 124, 197, 0.5);
+      }
+      form > input[type="submit"],
+      .btn {
+        font: 600 1rem/1 "Source Sans Pro", sans-serif;
+        color: #ffffff;
+        padding: 20px 0;
+        text-align: center;
+        background: #008aea;
+        border: 0;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .register {
+        color: #585858;
+        margin-top: 15px;
+        text-align: center;
+      }
+      ::placeholder {
+        color: #afafaf;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Sign in</h2>
+      <form method="post">
+        <input
+          type="text"
+          name="username"
+          placeholder="Username"
+          autocomplete="off"
+          required
+        />
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          autocomplete="off"
+          required
+        />
+        <input type="submit" name="login" value="Sign in" />
+
+        <div class="register">Register</div>
+      </form>
+    </div>
+  </body>
+</html>
