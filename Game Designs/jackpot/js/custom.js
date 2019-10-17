@@ -1,3 +1,7 @@
+// Create by alan sarluv
+// https://github.com/alansarluv
+// www.ruslan.id
+
 const listenerEvent = () => {
 	const btnPlay = document.getElementsByClassName('play')[0];
 	btnPlay.addEventListener('click', startSlider);
