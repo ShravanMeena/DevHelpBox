@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Paint Mixer</title>
+  <meta name="description" content="Paint Mixer">
+  <meta name="author" content="Colin Demaine">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="overlay" class="overlay-fade"></div>
+<div id="popup" class="popup-box">
+  <div class='popup-text'>
+    <h2>Welcome to Primary Colour Mixer!</h2>
+    <p>Use the colour buttons to make the colour shown on the jar's sticker.</p>
+    <p>Each button fills the jar with 50% colour.</p>
+    <button id="close-popup" class="button button-close" onclick="startTimer();">Start Mixing!</button>
+  </div>
+</div>
+<div id="results" class="popup-results">
+  <div class='popup-text'>
+    <h3>Game Over!</h3>
+    <h3>You scored <span class="results-score">0</span> points!</h3>
+    <p class="keyboard-hint">Hint: You can play with a keyboard! A = Red. S = Blue. D = Yellow</p>
+    <button id="close-results" class="button button-close" onclick="startTimer();">Play Again?</button>
+  </div>
+</div>
+<div id="time">
+  Time Left:
+  <span id="seconds" class="timer">0</span>
+</div>
+<div id="scoreboard">
+  Score: <span id="score">0</span>
+</div>
+<div id="factory"></div>
+<div id="control-panel">
+  <button class="button-paint button-red" onclick="fillPaint('red')">Red</button>
+  <button class="button-paint button-blue" onclick="fillPaint('blue')">Blue</button>
+  <button class="button-paint button-yellow" onclick="fillPaint('yellow')">Yellow</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
