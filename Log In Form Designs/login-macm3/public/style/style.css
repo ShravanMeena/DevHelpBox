@@ -1,0 +1,25 @@
+body{
+    background: #A189BD;
+}
+.card-title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.text-muted.text-center.subtitle{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 35px;
+}
+img{
+    margin-top: 30px;
+}
+.checkbox{
+    font-size: 12px;
+}
+#btn-login{
+    background: #EFB127;
+    border: #EFB127;
+}
+#btn-login:focus{    
+    box-shadow: 0 0 0 0.3rem #EFB127;
+}
