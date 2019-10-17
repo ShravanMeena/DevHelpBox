@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="public/style/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="mx-auto">
+                        <!-- form card login -->
+                        <div class="card rounded-2">
+                            <div class="card-group">
+                                <div class="card">
+                                    <img class="card-img-center" src="public/assets/img-login.jpg" alt="Login Form">
+                                </div>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title" id="card-title">Be the change you want to see in the world</h4>
+                                        <p class="text-muted text-center subtitle">Let's make people happier!</p>
+                                        <form class="form" id="formLogin"
+                                        method="POST" onsubmit="login();">
+                                            <div class="form-group">
+                                                <label for="uname1">E-mail</label>
+                                                <input type="email" class="form-control form-control-lg rounded-2"
+                                                    name="uname1" id="email" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Password</label>
+                                                <input type="password" class="form-control form-control-lg rounded-2"
+                                                    id="pwd1" required>
+                                            </div>
+                                            <div>
+                                                <label class="checkbox">
+                                                    <input type="checkbox" />&nbsp&nbspRemember me
+                                                    on this computer
+                                                </label>
+                                            </div>
+                                            <button class="btn btn-success btn-lg float-right"
+                                            id="btn-login" type="submit">Login</button>
+                                        </form>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
