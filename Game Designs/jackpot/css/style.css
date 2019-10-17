@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+.container{
+	width:60%;
+	height:100vh;
+	margin:0 auto;
+}
+
+.header, .bottom-bar{
+	padding: 20px;
+	background-color:#f4f4f4;
+	text-align:center;
+	margin-top: 50px;
+}
+
+.header h1{ margin: 0; }
+
+.content { 
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+}
+
+.content .screen-wrapper{ text-align: center; }
+
+.content .screen-wrapper button{
+	background-color: crimson;
+	color: white;
+	padding: 8px 16px;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	transition: all .3s;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+}
+
+.content .screen-wrapper button.is-disabled{
+	pointer-events: none;
+	background: lightgray;
+	color: gray;
+	opacity: .5;
+}
+
+.content .screen-wrapper button:hover{
+	background-color: #a91b36;
+}
+
+.bottom-bar .play{
+	width:30%;
+	padding: 8px 16px;
+	background-color: #4be6ff;
+	border-radius: 4px;
+	letter-spacing: 6px;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: crimson;
+	cursor: pointer;	
+	transition: all .3s;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+}
+
+.bottom-bar .play.is-disabled {
+	pointer-events: none;
+	background: lightgray;
+	color: gray;
+	opacity: .5;
+}
+
+.bottom-bar .play:hover{
+	background-color: #12c8e4;
+}
+
+.scoreResult {
+	text-align: center;
+}
+
+.scoreResult .score{
+	font-size: 24px;
+	transition: all .5s;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+}
+
+.scoreResult .score.zoom{
+	transform: scale(4);
+	-webkit-transform: scale(4);
+	-moz-transform: scale(4);
+}
+
+.d-none {
+	display: none;
+}
+/* 	=========================================
+			CSS Image Slider
+	========================================= */
+
+.slider {
+	width:150px;
+	height:150px;
+	overflow:hidden;
+}
+
+.slides {
+	display:block;
+	width:150px;
+	height:1215px;
+	margin:0;
+	padding:0;
+}
+
+.slide {
+	float:left;
+	list-style-type:none;
+	width:150px;
+	height:150px;
+}
