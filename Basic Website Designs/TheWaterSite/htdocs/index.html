@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/dark.min.css">
     <style>
         body {
-            background: linear-gradient(0deg, #202b38, #156a9b);
+            background: linear-gradient(315deg, #202b38, #156a9b);
             background-size: 400% 400%;
-            animation: water-animation 6s ease infinite;
+            animation: water-animation 4s ease infinite;
         }
         @keyframes water-animation {
-            0%{background-position:49% 0%}
-            50%{background-position:52% 100%}
-            100%{background-position:49% 0%}
+            0%{background-position:0% 45%}
+            50%{background-position:100% 56%}
+            100%{background-position:0% 45%}
         }
         ul {
             align-items: center;
@@ -29,6 +29,18 @@
         }
         li {
             width: 33%;
+        }
+        a svg:hover path {
+            fill: #202b38;
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.4);
+        }
+        footer nav {
+            align-items: center;
+            display: flex;
+            justify-content: space-around;
+            padding: 2em;
         }
     </style>
 </head>
@@ -75,9 +87,17 @@
                     </li>
                 </ul>
             </section>
+            <section>
+                <h2 id="contact">Contact</h2>
+                <p>Let's get in touch!</p>
+            </section>
         </article>
     </main>
     <footer>
+        <nav>
+            <a href='&#109;a&#105;lt&#111;&#58;%&#54;Birk&#46;&#99;lem&#111;&#110;s&#64;&#37;&#54;7&#109;ail%2Ec&#37;&#54;Fm'>k&#105;rk&#46;c&#108;emo&#110;&#115;&#64;gmail&#46;c&#111;&#109;</a>
+            <a href="https://github.com/kcclemo"><svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill="#156a9b" fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg></a>
+        </nav>
     </footer>
 </body>
 </html>
