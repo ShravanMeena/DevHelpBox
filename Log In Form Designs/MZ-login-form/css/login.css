@@ -30,20 +30,18 @@ form *{
     text-align: center;
     border: 2px solid rgba(255, 255, 255, 0.5);
     font-family: inherit;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 form input::placeholder{
     color: #ddd;
 }
 form input:first-child{
     border-left: none;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
 }
 form input:nth-child(2){
-    border-right: transparent;
+    border-right: 0;
     border-top: 0;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
 }
 form input:nth-child(3){
     border-top: 0;
@@ -52,6 +50,16 @@ form input:nth-child(3){
 form input:nth-child(4){
     border-right: 0;
     border-top: 0;
+}
+form input:focus, form input:nth-child(3):focus{
+    -webkit-box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.5);
+    box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.5);
+}
+form input:nth-child(2):focus, form input:nth-child(4):focus{
+    -webkit-box-shadow: -5px 0px 5px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: -5px 0px 5px rgba(255, 255, 255, 0.5);
+    box-shadow: -5px 0px 5px rgba(255, 255, 255, 0.5);
 }
 form button{
     margin-top: 30px;
@@ -68,6 +76,9 @@ form button:hover{
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
     transform: scale(1.1);
+    -webkit-box-shadow: 0 0 7px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: 0 0 7px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 7px rgba(255, 255, 255, 0.5);
 }
 @media only screen and (max-width: 768px){
     #login-container{
