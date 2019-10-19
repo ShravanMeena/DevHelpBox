@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Helvetica|Great+Vibes: 400, 600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+  
+  /* Add a gray background color with some padding */ 
+body {
+    font-family: 'Nunito', Arial, 'Helvetica';
+}
+  
+nav a.nav-link.active {
+  color: rgba(0, 0, 0, 0.87);
+  font: 16px 'Nunito';
+  background: none;
+  padding: 14.8571px 18.28571px;
+  transition: background 0.1s ease, box-shadow 0.1s ease, color 0.1s ease, -webkit-box-shadow 0.1s ease;
+}
+
+nav a.navbar-brand {
+  color: rgba(0, 0, 0, 0.87);
+  font: 1.5em 'Nunito';
+  padding: 16.7143px 20.5714px;
+  background: #ffffff;
+}
+
+i.fa.fa-coffee{
+  margin-right: 5px;
+  font-size: 1.2em;
+}
+
+nav {
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  -webkit-box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
+  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
+  border-radius: 0.28571429rem;
+}
+
+  /* Header/Blog Title */
+  .header {
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+
+
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 100%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background: url("https://images.unsplash.com/photo-1552566626-52f8b828add9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: translateX(0);
+    opacity: 1;
+    width: 100%;
+    overflow: hidden;
+
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+     border: none;
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+     
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  .footer {
+    background: #1B1C1D;
+    color: rgba(255, 255, 255, 0.9); 
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+  }
+  
+.footer{
+    padding: 20px;
+}  
+
+
+  
+  .social-media{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .social-media li{
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .social-media li .fa{ 
+    background: #5d5d5d;
+    color: #262626;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align:center;
+    line-height:50px;
+    transition: all .3s ease;
+  }
+  
+  .social-media .fa:hover {
+    transition: all .3s ease;
+    box-shadow: 5px 5px 5px #000;
+    transform: translateY(-5px);
+  }
+  
+  .social-media .fa.fa-twitter:hover{
+    background:#55acee;
+    color:#fff;
+   
+  }
+  
+  .social-media .fa.fa-facebook:hover{
+    background:#3b5998;
+    color:#fff;
+  }
+  
+  .social-media .fa.fa-linkedin:hover{
+    background:#0083be;
+    color:#fff;
+  }
+
+  .social-media .fa.fa-instagram:hover{
+    background:#6a453b;
+    color:#fff;
+  }

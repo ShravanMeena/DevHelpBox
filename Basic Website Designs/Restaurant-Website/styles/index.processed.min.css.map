@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles/index.processed.css","styles/index.scss"],"names":[],"mappings":"AAKA,KCEC,WAAA","file":"index.processed.min.css","sourcesContent":["/**\n * index.scss\n * - Add any styles you want here!\n */\n\nbody {\n  background: #f5f5f5;\n}","/**\n * index.scss\n * - Add any styles you want here!\n */\n\nbody {\n  background: #f5f5f5;\n}"]}
