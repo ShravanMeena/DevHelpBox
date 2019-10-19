@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>INTERACTIVE BUTTONS</title>
+        <link rel="stylesheet" href="colors.css">
+    </head>
+
+    <script type="text/javascript">
+    function onHover()
+    {
+        document.getElementById('bt1').style.background='#9b59b6';
+       // alert("you did the right thing");
+       transition=1.0;
+    }
+    function onClick()
+    {
+        //alert("you clicked on the button");
+        document.getElementById('bt2').style.background='#27ae60';
+        transition=2.0;
+    }
+    function onMouseOut()
+    {
+    document.getElementById('bt1').style.background='#61d0fc';
+    document.getElementById('bt2').style.background='#61d0fc';
+    }
+    </script>
+    <body >
+        
+        <marquee direction='up'><h1>This is an example of interactive buttons</h1></marquee>
+    <hr>
+    <div class="container">
+
+            <button id="bt1" class="btn btn1" onmouseover="onHover()"  onmouseout="onMouseOut()">HOVER HERE</button>
+            <button id="bt2" class="btn btn2" onmouseout="onMouseOut()"    onclick="onClick()">CLICK ME</button>
+    </div>
+    
+    </body>
+</html>
