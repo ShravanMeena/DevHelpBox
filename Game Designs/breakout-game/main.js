@@ -179,7 +179,7 @@ function draw(t) {
 	requestAnimationFrame(draw);
 
 }
-// var interval = setInterval(draw, 10); //function will be called every 10 milliseconds forever until we stop it
+
 requestAnimationFrame(draw);
 
 // Key event functions
@@ -212,24 +212,3 @@ document.addEventListener("keyup", keyUpHandler, false);
 
 //Listen for click on restart button 
 restartButton.addEventListener("click", restartGame);
-
-
-
-
-
-// Rectangle
-	// ctx.beginPath();
-	// ctx.rect(20, 40, 200, 30); // 20 px from left side of our canvas // 40 px from the top // 50px width and height
-	// ctx.fillStyle = "rgb(228, 188, 244)";
-	// ctx.fill();
-	// ctx.closePath();
-
-//Circle 
-	// ctx.beginPath();
-	// ctx.arc(240, 160, 20, 0, Math.PI*2, false); // 240/160 is x/y in the canvas (from arc center), 20 is arc radius, 0 Math.Pi*2 is start and end angle, false is direction of drawing (optional)
-	// ctx.fillStyle = "rgb(228, 188, 244)";
-	// ctx.fill();
-	// ctx.strokeStyle = "rgba(74, 14, 99, 0.7)";
-	// ctx.lineWidth = 2;
-	// ctx.stroke();
-	// ctx.closePath();
