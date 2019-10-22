@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Water Site</title>
+    <meta name="description" content="This is an example website that uses water.css, a classless CSS framework.">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/dark.min.css">
+    <style>
+        body {
+            background: linear-gradient(315deg, #202b38, #156a9b);
+            background-size: 400% 400%;
+            animation: water-animation 4s ease infinite;
+        }
+        @keyframes water-animation {
+            0%{background-position:0% 45%}
+            50%{background-position:100% 56%}
+            100%{background-position:0% 45%}
+        }
+        ul {
+            align-items: center;
+            display: flex;
+            flex-wrap: nowrap;
+            height: auto;
+            justify-content: space-between;
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            width: 33%;
+        }
+        a svg:hover path {
+            fill: #fff;
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.4);
+        }
+        footer nav {
+            align-items: center;
+            display: flex;
+            justify-content: space-around;
+            padding: 2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Water Site</h1>
+        <p>An example site that uses basic HTML and classless CSS styles.</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <article>
+            <section>
+                <img src="./img/water-01.jpg" alt="A photo taken from under the surface of the water.">
+                <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@timmarshall?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Tim Marshall"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Tim Marshall</span></a>
+                <h2 id="about">About Water</h2>
+                <blockquote cite="https://en.wikipedia.org/wiki/Water">
+                    <p>Water is a transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth's streams, lakes, and oceans, and the fluids of most living organisms. It is vital for all known forms of life, even though it provides no calories or organic nutrients. Its chemical formula is H<sub>2</sub>O, meaning that each of its molecules contains one oxygen and two hydrogen atoms, connected by covalent bonds. Water is the name of the liquid state of H<sub>2</sub>O at standard ambient temperature and pressure. It forms precipitation in the form of rain and aerosols in the form of fog. Clouds are formed from suspended droplets of water and ice, its solid state. When finely divided, crystalline ice may precipitate in the form of snow. The gaseous state of water is steam or water vapor. Water moves continually through the water cycle of evaporation, transpiration (evapotranspiration), condensation, precipitation, and runoff, usually reaching the sea.</p>
+                    <p>Water covers 71% of the Earth's surface, mostly in seas and oceans. Small portions of water occur as groundwater (1.7%), in the glaciers and the ice caps of Antarctica and Greenland (1.7%), and in the air as vapor, clouds (formed of ice and liquid water suspended in air), and precipitation (0.001%).</p>
+                    <p>Water plays an important role in the world economy. Approximately 70% of the freshwater used by humans goes to agriculture.[4] Fishing in salt and fresh water bodies is a major source of food for many parts of the world. Much of long-distance trade of commodities (such as oil and natural gas) and manufactured products is transported by boats through seas, rivers, lakes, and canals. Large quantities of water, ice, and steam are used for cooling and heating, in industry and homes. Water is an excellent solvent for a wide variety of chemical substances; as such it is widely used in industrial processes, and in cooking and washing. Water, ice and snow are also central to many sports and other forms of entertainment, such as swimming, pleasure boating, boat racing, surfing, sport fishing, diving, ice skating and skiing.</p>
+                    <footer>
+                        <cite><a href="https://en.wikipedia.org/wiki/Water">Water - Wikipedia</a></cite>
+                    </footer>
+                </blockquote>
+            </section>
+            <section>
+                <h2 id="portfolio">Portfolio</h2>
+                <ul>
+                    <li>
+                        <img src="./img/grand-canyon.jpg" alt="The grand canyon.">
+                        <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@sonaal?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Sonaal Bangera"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Sonaal Bangera</span></a>
+                    </li>
+                    <li>
+                        <img src="./img/watering-plants.jpg" alt="Watering plants.">
+                        <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@markusspiske?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Markus Spiske"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Markus Spiske</span></a>
+                    </li>
+                    <li>
+                        <img src="./img/waterfall.jpg" alt="Waterfall">
+                        <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@davidkovalenkoo?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from David Kovalenko"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">David Kovalenko</span></a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h2 id="contact">Contact</h2>
+                <p>Let's get in touch!</p>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <nav>
+            <script>document.write('<'+'a'+' '+'h'+'r'+'e'+'f'+'='+"'"+'m'+'&'+'#'+'9'+'7'+';'+'i'+'&'+'#'+'1'+'0'+'8'+';'+'t'+'o'+'&'+'#'+'5'+'8'+';'+'&'+'#'+'1'+'0'+'7'+';'+'%'+'6'+'9'+'r'+'k'+'&'+'#'+'4'+'6'+';'+'c'+'&'+'#'+'1'+'0'+'8'+';'+'&'+'#'+'1'+'0'+'1'+';'+'m'+'o'+'n'+'s'+'&'+'#'+'6'+'4'+';'+'g'+'%'+'&'+'#'+'5'+'4'+';'+'D'+'%'+'&'+'#'+'5'+'4'+';'+'1'+'%'+'6'+'9'+'l'+'&'+'#'+'4'+'6'+';'+'c'+'o'+'&'+'#'+'3'+'7'+';'+'&'+'#'+'5'+'4'+';'+'D'+"'"+'>'+'k'+'i'+'&'+'#'+'1'+'1'+'4'+';'+'&'+'#'+'1'+'0'+'7'+';'+'&'+'#'+'4'+'6'+';'+'c'+'l'+'e'+'&'+'#'+'1'+'0'+'9'+';'+'o'+'n'+'&'+'#'+'1'+'1'+'5'+';'+'&'+'#'+'6'+'4'+';'+'g'+'&'+'#'+'1'+'0'+'9'+';'+'a'+'i'+'l'+'&'+'#'+'4'+'6'+';'+'&'+'#'+'9'+'9'+';'+'o'+'m'+'<'+'/'+'a'+'>');</script>
+            <noscript>[Turn on JavaScript to see the email address]</noscript>
+            <a href="https://github.com/kcclemo"><svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill="#156a9b" fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg></a>
+        </nav>
+    </footer>
+</body>
+</html>
