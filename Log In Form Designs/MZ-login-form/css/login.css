@@ -1,0 +1,80 @@
+body{
+    font-family: 'Space Mono', monospace;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+}
+*:focus {
+    outline: none;
+}
+#login-container{
+    background: #8E2DE2;
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+    width: 320px;
+    height: 250px;
+    padding-top: 70px;
+    margin: 5% auto;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    -webkit-box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.2);
+    -moz-box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.2);
+}
+#login-container h1{
+    margin: 0 0 25px 0;
+}
+form *{
+    display: block;
+    margin: auto;
+}
+form input{
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    font-family: inherit;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+form input::placeholder{
+    color: #ccc;
+}
+form input:focus{
+    -webkit-box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.8);
+    -moz-box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.8);
+}
+form button{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 20px;
+    font-family: inherit;
+    cursor: pointer;
+    -webkit-transform: translatey(20px);
+    -moz-transform: translatey(20px);
+    -ms-transform: translatey(20px);
+    -o-transform: translatey(20px);
+    transform: translatey(20px);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+form button:hover{
+    -webkit-box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.3);
+    -moz-box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.3);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}

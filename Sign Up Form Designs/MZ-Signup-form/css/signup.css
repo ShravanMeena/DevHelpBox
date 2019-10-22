@@ -1,0 +1,90 @@
+body{
+    font-family: 'Space Mono', monospace;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+}
+*:focus {
+    outline: none;
+}
+#login-container{
+    background: #12c2e9;
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    display: block;
+    width: 50%;
+    margin: 5% auto;
+    padding: 50px;
+}
+#login-container h1{
+    text-align: center;
+    color: white;
+}
+form *{
+    background-color: unset;
+    color: white;
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 80%;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    font-family: inherit;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+form input::placeholder{
+    color: #ddd;
+}
+form input:first-child{
+    border-left: none;
+}
+form input:nth-child(2){
+    border-right: 0;
+    border-top: 0;
+}
+form input:nth-child(3){
+    border-top: 0;
+    border-left: 0;
+}
+form input:nth-child(4){
+    border-right: 0;
+    border-top: 0;
+}
+form input:focus, form input:nth-child(3):focus{
+    -webkit-box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.5);
+    box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.5);
+}
+form input:nth-child(2):focus, form input:nth-child(4):focus{
+    -webkit-box-shadow: -5px 0px 5px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: -5px 0px 5px rgba(255, 255, 255, 0.5);
+    box-shadow: -5px 0px 5px rgba(255, 255, 255, 0.5);
+}
+form button{
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    -webkit-transition: 0.5s cubic-bezier(0.68, -1.55, 0.265, 1.55);
+    transition: 0.5s cubic-bezier(0.68, -1.55, 0.265, 1.55);
+}
+form button:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-box-shadow: 0 0 7px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: 0 0 7px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 7px rgba(255, 255, 255, 0.5);
+}
+@media only screen and (max-width: 768px){
+    #login-container{
+        width: 75% !important;
+    }
+    form *{
+        width: 90% !important;
+    }
+}
