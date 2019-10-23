@@ -1,0 +1,67 @@
+/* LOGIN FORM DESIGN
+#Hacktoberfest2019 */
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+body {
+	background-color: #333;
+	font-family: 'Source Code Pro', monospace;
+}
+
+._box {
+	width: 400px;
+	height: 450px;
+	background-image: linear-gradient(to bottom right, transparent, transparent);
+	border: 3px solid #b326ff;
+	border-radius: 15px;
+	margin: 70px auto;
+}
+
+div h4 {
+	color: #ddd;
+	margin-bottom: 2px
+}
+
+input {
+	background-color: transparent;
+	display: block;
+	border-radius: 5px;
+	border: 1px solid #dddd00;
+	width: 250px;
+	height: 25px;
+	outline: none;
+}
+
+input:hover {
+	transition: 0.5s;
+	background-color: #888;
+	border-bottom: 5px solid #dddd00;
+}
+
+._login {
+	margin-top: 20px;
+	margin-left: 150px;
+	border: 1px solid;
+	width: 100px;
+	background-color: transparent;
+	color: white;
+	height: 30px;
+	border-radius: 10px;
+	outline: none;
+	font-family: 'Source Code Pro', monospace;
+}
+
+._login:hover {
+	background-color: #929200;
+	color: #333;
+	transition: 1s;
+}
+
+div span {
+	font-size: 12px;
+	color: white;
+}
+
+a {
+	color: #ddd;
+	text-decoration: none;
+}
