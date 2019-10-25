@@ -1,0 +1,4 @@
+.layout_wrapper{
+	min-height: 100vh;
+	background-color: var(--color-cream);
+}

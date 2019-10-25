@@ -1,0 +1,10 @@
+.button_wrapper{
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+	border: 1px solid;
+	border-radius: 4px;
+}
+.button_loading{
+	height: 12px;
+}
