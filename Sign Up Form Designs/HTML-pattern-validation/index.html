@@ -11,26 +11,25 @@
         <div class="form">
             <h1 class="title">Sign Up</h1>
             <form>
-              <label> Username <span>(2 - 20 characters, no spaces)</span>
-                <input type="text" placeholder="Username" required pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$">
+              <label class="form-label"> Username <span>(2 - 20 characters, no spaces)</span>
+                <input class="form-input" type="text" placeholder="Username" required pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$">
               </label>
               
-                <label> Email Address 
-                <input type="email" placeholder="Email Address" required >
+                <label class="form-label"> Email Address 
+                <input class="form-input" type="email" placeholder="Email Address" required >
               </label>
               
-                <label> Password <span>(min 8 characters, 1 uppercase, 1 lowercase, 1 special character)</span>
-                <input type="password" placeholder="Password" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$
+                <label class="form-label"> Password <span>(min 8 characters, 1 uppercase, 1 lowercase, 1 special character)</span>
+                <input class="form-input" type="password" placeholder="Password" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$
           ">
               </label>
               
-                <label> Confirm Password
-                <input type="password" placeholder="Confirm Password" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
+                <label class="form-label"> Confirm Password
+                <input class="form-input" type="password" placeholder="Confirm Password" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
               </label>
               
-               <button role="submit">Submit</button>
-              
-              
+               <button role="submit" class="button">Submit</button>
+
             </form>
             
           </div>
