@@ -1,0 +1,23 @@
+
+.login
+{
+	background-color: #F7F7F7;
+	    padding: 50px;
+	    overflow: hidden;
+	    width: 25%;
+	 border-radius: 2px;
+  box-shadow: 0px 2px 2px grey;
+  margin: auto;
+} 
+
+
+
+.login img
+{
+	position: inherit;
+display:block;
+width: 60%;
+padding: 10px;
+margin-top: 10px;
+margin: auto;
+}
