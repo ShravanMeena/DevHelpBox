@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>TypeLeft</title>
+        <style>
+        body {
+            margin: 0;
+        }
+
+        .gamePane {
+            position: relative;
+            height: 500px;
+            width: 1200px;
+            background: rgb(202, 210, 212);
+            font-size: 50;
+            margin-bottom: 20px;
+        }
+
+        .controls {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: row-reverse;
+        }
+
+        .speed {
+            border: 2px solid lightgray;
+            padding: 20px;
+            margin-left: 15px;
+            border-radius: 5px;
+        }
+
+        input {
+            display: inline-block;
+            font-size: 20px;
+            font-family: "Open Sans",sans-serif;
+            padding: 20px;
+            border-radius: 5px;
+            border: 2px solid lightgray;
+            outline: none;
+        }
+
+        .lives {
+            display: flex;
+        }
+
+        .live {
+            height: 30px;
+            width: 30px;
+            background: red;
+            margin: 5px;
+            border-radius: 50%;
+        }
+
+        .word {
+            position: absolute;
+        }
+        
+        </style>
+    </head>
+    <body>
+        <div class="gamePane"></div>
+        <div class="controls">
+            <div class="speed"><span class="speedNumber">60</span> Spawn Rate</div>
+            <input type="text" placeholder="Type here. . ." autofocus>
+            <div class="lives">
+                <div class="live"></div>
+                <div class="live"></div>
+                <div class="live"></div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
