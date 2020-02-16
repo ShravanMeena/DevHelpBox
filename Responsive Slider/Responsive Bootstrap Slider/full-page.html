@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+        <title>Full Page Slider</title>
+
+        <!-- Bootstrap css -->  
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <!-- Custom styles for this template -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+      <!-- trzy zdjeica on clik JS displays div ze sliderem -->
+        
+        
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Full Page Slider</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home Page Slider</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="bg-img-slider.html">Background Image Slider</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        
+        <!-- Pictures -->
+        <div class="container mt-2">
+            <div class="row">
+                <div class="col-md-4 mb-4 overflow-hidden picture" id="pic-1"> 
+                    <img src="img/heron-4746555_1920.jpg" class="w-100 img" >
+                </div>
+                <div class="col-md-4 mb-4 overflow-hidden overflow-hidden picture" id="pic-2"> 
+                    <img src="img/myanmar-4708901_1920.jpg" class="w-100  img" >
+                </div>
+                <div class="col-md-4 mb-4 overflow-hidden overflow-hidden picture" id="pic-3"> 
+                    <img src="img/wolf-4707294_1920.jpg" class="w-100  img">
+                </div>
+            </div>    
+        </div>
+        
+        <!-- Slider -->
+        <div id="carousel1" class="carousel slide h-100 fixed-top grey-bg" data-ride="carousel">
+            <div class="container h-100">
+                
+                <div class="carousel-item h-100 grey-bg" id="carousel-item-1">
+                    <div class="d-flex flex-column justify-content-center h-100 ">
+                        <div class=" d-flex justify-content-center">
+                            <img src="img/heron-4746555_1920.jpg" class="h-100" >
+                        </div>
+                        <div class="bg-light description">
+                            <p>Image by <a href="https://pixabay.com/users/soap0119-14518348/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4746555">Seonghun Jeong</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4746555">Pixabay</a></p>
+                        </div> 
+                    </div>    
+                </div>
+                    
+                <div class="carousel-item h-100 grey-bg" id="carousel-item-2">
+                    <div class="d-flex flex-column justify-content-center h-100">
+                        <div class="d-flex justify-content-center">
+                            <img src="img/myanmar-4708901_1920.jpg" class="h-100" >
+                        </div>
+                        <div class="bg-light description">
+                            <p>Image by <a href="https://pixabay.com/users/IngoMoringo-14497112/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4707294">IngoMoringo</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4707294">Pixabay</a></p>
+                        </div> 
+                    </div> 
+                </div>
+                
+                <div class="carousel-item h-100 grey-bg" id="carousel-item-3">
+                    <div class="d-flex flex-column justify-content-center h-100">
+                        <div class="d-flex justify-content-center ">
+                            <img src="img/wolf-4707294_1920.jpg" class="h-100" >
+                        </div>
+                        <div class="bg-light description">
+                            <p>Image by <a href="https://pixabay.com/users/sippakorn-1917747/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4708901">sippakorn yamkasikorn</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4708901">Pixabay</a></p>
+                        </div> 
+                    </div>
+                </div>
+                
+                <!-- slider controls -->
+                <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div> <!-- end of container -->
+
+                
+                </div>
+            
+            <!-- Page text -->
+        <div class="container">
+            <div class="starter-template mt-4">
+                <!-- CREDITS -->
+                
+                
+                <h1>Full Page Slider</h1>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                
+            </div>
+        </div> <!-- /.container -->
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+        <script>
+//            const img1 = document.querySelector('#pic-1');
+//            const img2 = document.querySelector('#pic-2');
+//            const img3 = document.querySelector('#pic-3');
+            var pic = document.querySelectorAll('.picture');
+            var slide = document.querySelectorAll('.carousel-item');
+            
+            function showSlider() {
+                [].forEach.call(slide, function(el) {
+                    el.classList.remove("active");
+                });
+                
+                document.getElementById('carousel1').style.display = 'block';
+                
+                for (var i = 0; i < slide.length; i++) {
+                    slide[i].onclick = () => { 
+                        document.getElementById('carousel1').style.display = 'none';
+                    }
+                }
+            }
+            
+            pic[0].onclick = () => {
+                showSlider();
+                document.getElementById('carousel-item-1').classList.add('active');
+            } 
+            pic[1].onclick = () => {
+                showSlider();
+                document.getElementById('carousel-item-2').classList.add('active');
+            } 
+            pic[2].onclick = () => {
+                showSlider();
+                document.getElementById('carousel-item-3').classList.add('active');
+            } 
+        </script>
+        
+    </body>
+</html>

@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
+/* Full page slider -------- */
+
+.slider-img {
+    max-height: 100%;
+}
+
+.slider-frame {
+    padding: 5px;
+    color: white;
+}
+
+.description {
+    height:80px;
+    line-height: 80px;
+    padding-left: 10px;
+}
+
+.grey-bg {
+    background: #222;
+}
+
+#carousel1 {
+    display: none;
+}
