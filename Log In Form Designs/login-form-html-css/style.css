@@ -1,0 +1,48 @@
+
+.login
+{
+	background-color: #F7F7F7;
+	    padding: 50px;
+	    overflow: hidden;
+	    width: 25%;
+	 border-radius: 2px;
+  box-shadow: 0px 2px 2px grey;
+  margin: auto;
+} 
+
+
+
+.login img
+{
+	position: inherit;
+display:block;
+width: 60%;
+padding: 10px;
+margin-top: 10px;
+margin: auto;
+}
+
+
+.one
+{
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	width: 45%;
+}
+
+.two
+{
+	display: block;
+	margin: auto;
+	margin-top: 15px;
+	width: 35%;
+	transition: 0.4s;
+}
+
+
+.two:hover
+{
+transform: scale(1.15, 1.15);
+	border: 1px solid #C0C0C0;
+}
