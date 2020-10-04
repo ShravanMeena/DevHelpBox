@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aldhaneka | Signup Design</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/fbfd4b3bb0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- this is the left box (if you view the page on desktop) -->
+        <div class="box1">
+            <h3>Hello Friends!</h3>
+            <p>We are happy you want to join our community, so what now? create an account now!</p>
+        </div>
+        <!-- this is the right box (if you view the page on desktop) where wrap the inputs, submit button, etc -->
+        <div class="box2">
+            <!-- this is title wrapper -->
+            <div class="titleWrapper">
+                <h2>Sign Up</h2>
+                <p>Wanna join our community? Create an Account now!</p>
+            </div>
+
+            <!-- here is the inputsWrapper where its wrap inputs -->
+            <div class="inputsWrapper">
+                <!-- so here we group the input using div -->
+                <div id="input">
+                    <!-- this is for icon inside the input -->
+                    <i class="fas fa-user-circle" id="icon"></i>
+                    <!-- this is the input -->
+                    <input type="text" name="" id="username" placeholder="username" class="input username">
+                    <!-- this is status text, where it will print out something if the input is empty -->
+                    <p></p>
+                </div>
+                <div id="input">
+                    <i class="fas fa-envelope" id="icon"></i>
+                    <input type="email" name="" id="email" placeholder="email" required class="input email">
+                    <p></p>
+                </div>
+                <div id="input">
+                    <i class="fas fa-lock" id="icon"></i>
+                    <input type="password" name="" id="password" placeholder="password" class="input pass">
+                    <p></p>
+                </div>
+            </div>
+            <div class="otherWay">
+                <a href="" title="sign Up with twitter">
+                    <div class="circle"><i class="fab fa-twitter"></i></div>
+                </a>
+                <a href="" title="sign Up with google">
+                    <div class="circle"><i class="fab fa-google"></i></div>
+                </a>
+                <a href="" title="sign Up with apple">
+                    <div class="circle"><i class="fab fa-apple"></i></div>
+                </a>
+            </div>
+            <input type="submit" value="Submit" class="submitBtn">
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
