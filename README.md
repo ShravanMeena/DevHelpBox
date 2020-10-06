@@ -45,3 +45,5 @@ DevHelpBox is an MIT-licensed open source project with its ongoing development m
 **Thank you for your interest! All types of contributions are welcome.**
 
 ```Happy Coding!```
+
+```Welcome Hackers```
