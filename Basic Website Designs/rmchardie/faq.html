@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Responsive meta tag -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Page CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <title>FAQ - nextmove Property Listings</title>
+  </head>
+  <body>
+    
+    <!-- Header Area (with responsive navbar) -->
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+          <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="nextmove logo"></a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">home</a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link">about</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link">contact</a>
+              </li>
+              <li class="nav-item current">
+                <a href="faq.html" class="nav-link">faq</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Area -->
+    <main>
+        <div class="container heroArea">
+          <h1>
+            Frequently Asked Questions
+          </h1>
+          <div class="col-md-5 col-sm-12 headerText">
+            Below is a list of recurring queries from our past and current clients.
+            <p>Still can't find what you're looking for?</p>
+          </div>
+          <a href="contact.html" class="btn btn-primary">Contact us</a>
+        </div>
+
+        <!-- Accordion Area -->
+        <div class="container accordion">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-12 accordionStyles">
+              <h3>Buying &amp; Selling</h3>
+              <div id="accordion">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" onclick="queryClick('queryOne')">
+                        <i class="far fa-plus-square iconStyle" id="queryOne"></i>Buying &amp; Selling #1
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+                      </p> 
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" onclick="queryClick('queryTwo')">
+                        <i class="far fa-plus-square iconStyle" id="queryTwo"></i>Buying &amp; Selling #2
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+                      </p> 
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" onclick="queryClick('queryThree')">
+                        <i class="far fa-plus-square iconStyle" id="queryThree"></i>Buying &amp; Selling #3
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+                      </p> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center align-items-center">
+            <div class="col-12 accordionStyles">
+              <h3>Renting</h3>
+              <div id="accordion">
+                <div class="card">
+                  <div class="card-header" id="headingFour">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour" onclick="queryClick('queryFour')">
+                        <i class="far fa-plus-square iconStyle" id="queryFour"></i>Renting #1
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                    <div class="card-body">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+                      </p> 
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingFive">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" onclick="queryClick('queryFive')">
+                        <i class="far fa-plus-square iconStyle" id="queryFive"></i>Renting #2
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                    <div class="card-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+                    </p> 
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingSix">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix" onclick="queryClick('querySix')">
+                        <i class="far fa-plus-square iconStyle" id="querySix"></i>Renting #3
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                    <div class="card-body">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+                      </p> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
+
+    <!-- Footer Area -->    
+    <footer>
+      <div class="container">
+        <div class="row justify-content-around align-items-center">
+          <div class="col-md4 navbar">
+            <a href="#" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="faq.html" class="nav-link">FAQ</a>
+          </div>
+          <div class="col-md4 navbar">
+            <a href="#" class="nav-link">
+              <img src="images/facebook.png" width="32px">
+            </a>
+            <a href="#" class="nav-link">
+              <img src="images/twitter.png" width="32px">
+            </a>
+            <a href="#" class="nav-link">
+              <img src="images/linkedin.png" width="32px">
+            </a>
+          </div>
+          <div class="col-md4 navbar">
+            <a href="#" class="nav-link">&copy; 2020</a>
+            <a href="#" class="nav-link">Privacy</a>
+            <a href="#" class="nav-link">Legal</a>
+            <a href="#" class="nav-link">Feedback</a>
+          </div>
+      </div>
+      <div class="row justify-content-center align-items-center">
+        <div class="col12 footerCol">
+          Stock photos from <a href="https://www.freepik.com/">freepik.com</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript for Bootstrap components -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </script>
+  <script src="https://kit.fontawesome.com/6a2607df46.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/accordion.js"></script>
+  </body>
+</html>
