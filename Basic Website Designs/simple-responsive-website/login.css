@@ -1,0 +1,100 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	font-family: 'Baloo 2', cursive;
+}
+
+.nav-bar {
+	width: 100%;
+	height: 60px;
+	background: #9500ae;
+}
+
+.logo a {
+	color: white;
+	position: absolute;
+	left: 50%;
+	font-size: 40px;
+	margin-left: -25px;
+}
+
+.data {
+	display: block;
+	background: #9500ae;
+	width: 40%;
+	text-align: center;
+	margin: 100px auto;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.heading h1 {
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+}
+
+.field-name,
+.field-mail,
+.field-phone,
+.field-pass {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	position: relative;
+	background: white;
+	border-radius: 2px;
+	margin: 5px;
+}
+
+.field input {
+	/*width: 100%;*/
+	outline: none;
+	border: none;
+	height: 3em;
+	flex: 1;
+	border-radius: 5px;
+}
+
+.field i {
+	padding: 10px;
+	cursor: pointer;
+}
+
+.submit {
+	margin: 5px;
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.submit input {
+	width: 100%;
+	background: white;
+	border-radius: 8px;
+	border: none;
+	height: 3em;
+	cursor: pointer;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	color: #9500ae;
+	transition: 0.4s;
+}
+
+.submit input:hover {
+	background: #d500f9;
+	color: white;
+}
+
+@media (max-width:770px),(orientation:potrait){
+	.data {
+		margin: 20px 0;
+		width: 100%;
+	}
+}
