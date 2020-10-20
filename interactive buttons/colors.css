@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+  text-align: center;
+  margin-top: 200px;
+
+}
+
+.btn{
+    background: #3498db;
+    border: 1px solid #3498db;
+    font-size: 40px;
+    padding: 10px;
+    margin: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+.btn1,.btn2{
+    color: #040d13;
+    background: #61d0fc;
+}
