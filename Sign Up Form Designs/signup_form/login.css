@@ -1,0 +1,74 @@
+body{
+    display: table-cell;
+    vertical-align: middle;
+    background:url("https://www.lefthudson.com/wp-content/uploads/2019/11/gray-backgrounds-luxury-black-and-gray-backgrounds-c2b7e291a0-wallpapertag-of-the-day-of-gray-backgrounds.jpg");
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+html {
+    display: table;
+    margin: auto;
+
+}
+
+html, body {
+    height: 100%;
+
+}
+
+#container{
+    border-radius: 20px;
+}
+
+
+.medium-small {
+    font-size: 0.9rem;
+    margin: 0;
+    padding: 0;
+}
+
+.login-form {
+    width: 360px;
+    height: auto;
+    border-radius: 15px;
+    
+}
+
+.login-form-text {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+}
+
+.login-text {
+    margin-top: -6px;
+    margin-left: -6px !important;
+
+}
+
+.margin {
+    margin: 0 !important;
+}
+
+.pointer-events {
+    pointer-events: auto !important;
+}
+
+.input-field >.material-icons  {
+    padding-top:10px;
+}
+
+.input-field div.error{
+    position: relative;
+    top: -1rem;
+    left: 3rem;
+    font-size: 0.8rem;
+    color:#FF4081;
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    transform: translateY(0%);
+}
