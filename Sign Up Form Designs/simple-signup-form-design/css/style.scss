@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+// background for left box
+$primaryColor: #00D8FF;
+
+// function where prints flex
+@mixin flex($flex, $direction, $jc, $ai) {
+    display: $flex;
+    flex-direction: $direction;
+    justify-content: $jc;
+    align-items: $ai;
+}
+//function where prints width and height depends on the arguments
+@mixin widthHeight($width, $height) {
+    width: $width; 
+    height: $height;
+}
+// all element set to margin 0; and padding 0
+* {
+    margin: 0;
+    padding: 0;
+}
+// set font to Roboto
+body {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+// box1 and box2 wrapper
+.container {
+    width: 100%;
+    height: 100%;
+    @include flex(flex, row, center, center)
+}
+// this is the left box (if you view this page on desktop)
+.box1 {
+    background: $primaryColor;
+    height: 100%;
+    width: 40%;
+    @include flex(flex, column, center, center);
+    font-size: 15px;
+    color: #fff;
+    // we style for the [Hello Friends!] text
+    h3 {
+        font-size: 40px;
+    }
+    // we style for the [We are happy you want to join our community, so what now? create an account now!] text
+    p {
+        text-align: center;
+        width: 300px;
+        word-wrap: break-word;
+    }
+}
+
+// box2
+.box2 {
+    height: 100%;
+    width: 60%;
+    // now it has flex
+    @include flex(flex, column, center, center);
+    // this is title wrapper, where wrap the Sign Up title and the description
+    .titleWrapper {
+        width: 470px;
+        text-align: center;
+        font-size: 15px;
+        color: #707070;
+        h2 {
+            font-size: 60px;
+            margin-bottom: 10px;
+        }
+    }
+    // this is inputs wrapper, where wrap inputs such as email input, name input, and 
+    .inputsWrapper {
+        margin-top: 40px;
+        #input {
+            margin: 30px 0;
+            position: relative;
+            // styles for icon, icon inside input
+            #icon {
+                position: absolute;
+                font-size: 30px;
+                left: 20px;
+                top: 20px;
+                color: #BFBFBF;
+            }
+            // styles for first element of element that has input ID
+            &:first-child {
+                margin: 0px 0px 20px 0px;
+            }
+            height: 70px;
+            width: 535px;
+            // styles for name input, email input, and password input
+            input {
+                @include widthHeight(100%, 100%);
+                font-size: 20px;
+                box-sizing: border-box;
+                padding: 5px 30px 5px 60px;
+                outline: none;
+                color: #707070;
+                border: 0px solid transparent;
+                background: rgba(219, 219, 219, 0.35);
+            }
+            // here we style the status text
+            p {
+                color: red;
+                font-size: 10px;
+            }
+        }
+    }
+    // styles for othe login way elements (apple, google, twitter)
+    .otherWay {
+        margin-top: 20px;
+        width: 185px;
+        height: 45px;
+        // now it has flex
+        @include flex(flex, row, space-around, center);
+        // styles each for the circle element which is a google, apple, and twitter sign up button
+        a {
+            color: #707070;
+            text-decoration: none;
+            .circle {
+                width: 45px; 
+                height: 45px;
+                font-size: 25px;
+                background: transparent;
+                border: 1px solid #707070;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 45px;
+                &:hover {
+                    color: #fff;
+                    background: #707070;
+                }
+            }
+        }
+    }
+    // submit button
+    .submitBtn {
+        color: #707070;
+        border: 2px solid #707070;
+        background: transparent;
+
+        margin-top: 30px;
+        padding: 10px 100px;
+
+        font-size: 20px;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: .3s;
+
+        // we style the submit button if it on hover
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}
+
+
+
+// styles for tablet / iPad 
+@media screen and (max-width: 970px) {
+    // box2
+    .box2 {
+        // this is title wrapper, where wrap the Sign Up title and the description
+        .titleWrapper {
+            width: 100%;
+            text-align: center;
+            font-size: 12px;
+            color: #707070;
+            h2 {
+                font-size: 40px;
+                margin-bottom: 10px;
+            }
+        }
+        // this is inputs wrapper, where wrap inputs such as email input, name input, and 
+        .inputsWrapper {
+            margin-top: 40px;
+            #input {
+                margin: 20px 0;
+                position: relative;
+                // styles for icon, icon inside input
+                width: 100%;
+            }
+        }
+        // styles for othe login way elements (apple, google, twitter)
+        .otherWay {
+            margin-top: 20px;
+            width: 35%;
+            height: 45px;
+            // now it has flex
+            @include flex(flex, row, space-around, center);
+            // styles each element
+            a {
+                color: #707070;
+                text-decoration: none;
+                .circle {
+                    width: 35px;
+                    height: 35px;
+                    font-size: 20px;
+                    border-radius: 50%;
+                    line-height: 35px;
+                }
+            }
+        }
+        // submit button
+        .submitBtn {
+            margin-top: 30px;
+            padding: 10px 50px;
+            font-size: 20px;
+        }
+    }
+}
+
+
+// styles for phone device
+@media screen and (max-width: 665px) {
+    .box1 {
+        display: none;
+    }
+    // box2
+    .box2 {
+        width: 80%;
+        // styles for othe login way elements (apple, google, twitter)
+        .otherWay {
+            width: 80%;
+        }
+    }
+    @media screen and (max-height: 575px) {
+    
+        body, .container {
+            height: auto;
+        }
+        .box2 {
+            height: auto;
+            padding: 50px 0px;
+            box-sizing: none;
+        }
+    }
+}
+
+
+

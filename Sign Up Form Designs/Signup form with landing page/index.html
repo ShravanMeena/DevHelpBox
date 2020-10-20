@@ -1,244 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Create Account</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link id="fontawesome" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
+    <link id="fontawesome" rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
 </head>
 <style>
-body, html {
-  height: 100%;
-  font-family:sans-serif; 
-  font-weight: normal;
-  margin: 0;
-}
-.diginput{
-    border-radius: 10px;
-    border: 0.6px solid gray;
-    padding-left: 7px;
-    font-family: sans-serif;
-    font-weight: bold;
-}
-.bg {
-  /* The image used */
-  background-image: url("images/landing.jpg");
+    body,
+    html {
+        height: 100%;
+        font-family: sans-serif;
+        font-weight: normal;
+        margin: 0;
+    }
 
-  /* Full height */
-  height: 100%;
+    .diginput {
+        border-radius: 10px;
+        border: 0.6px solid gray;
+        padding-left: 7px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
 
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+    .bg {
+        /* The image used */
+        background-image: url("images/landing.jpg");
 
-.btn {
-    width:90%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-#loginPanel{
-    float: right;
-    margin-right: 10%;
-    margin-top: 5%;
-    width:400px;
-    height:600px;
-    background-color: white;
-}
-@media only screen and (max-width: 600px) {
-    #loginPanel{
-    margin-left: auto;
-    margin-right: auto;
-    width:80%;
-    height:300px;
-    padding: 10px;
+        /* Full height */
+        height: 100%;
 
-    background-color: #fff;
-}
-}
-#registerPanel{
-    float: right;
-    margin-right: 8%;
-    margin-top: 5%;
-    box-shadow: 0px 0px 15px 0px black;
-    width:350px;
-    padding: 15px 30px 0px 25px;
-    height:500px;
-    background-color: #fff;
-}
-#landing_info{
-    float: left;
-    color: #fff;
-    margin-top: 5%;
-    margin-left: 3%;
-    width: wrap;
-    font-size: 2em;
-    height: wrap;
-}
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .btn {
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #loginPanel {
+        float: right;
+        margin-right: 10%;
+        margin-top: 5%;
+        width: 400px;
+        height: 600px;
+        background-color: white;
+    }
+
+    @media only screen and (max-width: 600px) {
+        #loginPanel {
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            height: 300px;
+            padding: 10px;
+
+            background-color: #fff;
+        }
+    }
+
+    #registerPanel {
+        float: right;
+        margin-right: 8%;
+        margin-top: 5%;
+        box-shadow: 0px 0px 15px 0px black;
+        width: 350px;
+        padding: 15px 30px 0px 25px;
+        height: 500px;
+        background-color: #fff;
+    }
+
+    #landing_info {
+        float: left;
+        color: #fff;
+        margin-top: 5%;
+        margin-left: 3%;
+        width: wrap;
+        font-size: 2em;
+        height: wrap;
+    }
 </style>
+
 <body>
-<!-- Verification Modal -->
-<div class="modal" id="verificationModal" role="dialog">
+    <!-- Verification Modal -->
+    <div class="modal" id="verificationModal" role="dialog">
         <div class="modal-dialog">
-        
-          <!-- Modal content-->
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4 class="modal-title" style="float: left">Verification</h4>
-              <button type="button" class="close" style="float: right" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body" style="word-wrap: break-word;" id="modalContainer" >
-                <h6> An OTP Has been sent to your AADHAR's registered mobile number</h6>
-                <div class="container" style="width: wrap;margin-left:auto;margin-right: auto;display:block">
-                                <input class="diginput" type="text" maxLength="1" size="1" min="0" max="9" id="dig1" pattern="[0-9]{1}" />
-                                <input class="diginput" type="text" maxLength="1" size="1" min="0" max="9" id="dig2" pattern="[0-9]{1}" />
-                                <input class="diginput" type="text" maxLength="1" size="1" min="0" max="9" id="dig3" pattern="[0-9]{1}" />
-                                <input class="diginput" type="text" maxLength="1" size="1" min="0" max="9" id="dig4" pattern="[0-9]{1}" />
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" style="float: left">Verification</h4>
+                    <button type="button" class="close" style="float: right" data-dismiss="modal">&times;</button>
                 </div>
-                <br>
-                <div class="btn btn-success" onclick="verifyOTP()">
-                    Verify
-                </div>
-            </div>
-          </div>
-          
-        </div>
-      </div>
-<!-- Our Page-->
-<div class="bg">
- 
-        <div id="registerPanel">
-        <div class="row">
-            <div class="col-12">
+                <div class="modal-body" style="word-wrap: break-word;" id="modalContainer">
+                    <h6> An OTP Has been sent to your AADHAR's registered mobile number</h6>
+                    <div class="container" style="width: wrap;margin-left:auto;margin-right: auto;display:block">
+                        <input class="diginput" type="text" maxLength="1" size="1" min="0" max="9" id="dig1"
+                            pattern="[0-9]{1}" />
+                        <input class="diginput" type="text" maxLength="1" size="1" min="0" max="9" id="dig2"
+                            pattern="[0-9]{1}" />
+                        <input class="diginput" type="text" maxLength="1" size="1" min="0" max="9" id="dig3"
+                            pattern="[0-9]{1}" />
+                        <input class="diginput" type="text" maxLength="1" size="1" min="0" max="9" id="dig4"
+                            pattern="[0-9]{1}" />
+                    </div>
                     <br>
-                <label><b>AADHAR ID</b></label>
-                <input type="number" id="aadharID" class="form-control" required>
+                    <div class="btn btn-success" onclick="verifyOTP()">
+                        Verify
+                    </div>
+                </div>
             </div>
-            <div class="col-12">
+
+        </div>
+    </div>
+    <!-- Our Page-->
+    <div class="bg">
+
+        <div id="registerPanel">
+            <div class="row">
+                <div class="col-12">
+                    <br>
+                    <label><b>AADHAR ID</b></label>
+                    <input type="number" id="aadharID" class="form-control" required>
+                </div>
+                <div class="col-12">
                     <br>
                     <label><b>First Name</b></label>
                     <input type="text" id="first_name" class="form-control" required>
-            </div>
-            <div class="col-12">
+                </div>
+                <div class="col-12">
                     <br>
                     <label><b>Last Name</b></label>
                     <input type="text" id="last_name" class="form-control" required>
-            </div>
-            <div class="col-12">
+                </div>
+                <div class="col-12">
                     <br>
                     <label><b>Password</b></label>
                     <input type="password" id="password" class="form-control" required>
+                </div>
+                <div class="col-12">
+                    <br>
+                    <button class="btn btn-success center-block" onclick="verify()"> Create Account </button>
+                </div>
             </div>
-            <div class="col-12">
-                <br>
-                <button class="btn btn-success center-block"  onclick="verify()"> Create Account </button>
-            </div>
+
         </div>
-   
-        </div>
-</div>
-<script>
+    </div>
+    <script>
 
-var verificationModal = document.getElementById("verificationModal")
-var aadharID;
-var password;
-var first_name;
-var last_name;
-function verify()
-{
-    aadharID = document.getElementById("aadharID").value;
-    password = document.getElementById("password").value;
-    first_name = document.getElementById("first_name").value;
-    last_name = document.getElementById("last_name").value;
-    if(userID=="Prafulla" && password=="123")
-    {
-        window.location.href="./home.html"
-    }
-    else
-    {
-        alert("Invalid UserID or Password")
-    }
-}
+        var verificationModal = document.getElementById("verificationModal")
+        var aadharID;
+        var password;
+        var first_name;
+        var last_name;
+        function verify() {
+            aadharID = document.getElementById("aadharID").value;
+            password = document.getElementById("password").value;
+            first_name = document.getElementById("first_name").value;
+            last_name = document.getElementById("last_name").value;
+            if (userID == "Prafulla" && password == "123") {
+                window.location.href = "./home.html"
+            }
+            else {
+                alert("Invalid UserID or Password")
+            }
+        }
 
-function verify()
-{
-    console.log("Showing Modal..")
-    $("#verificationModal").modal('show')
-}
-// Key workings
-var dig1 = document.getElementById("dig1");
-var dig2 = document.getElementById("dig2");
-var dig3 = document.getElementById("dig3");
-var dig4 = document.getElementById("dig4");
+        function verify() {
+            console.log("Showing Modal..")
+            $("#verificationModal").modal('show')
+        }
+        // Key workings
+        var dig1 = document.getElementById("dig1");
+        var dig2 = document.getElementById("dig2");
+        var dig3 = document.getElementById("dig3");
+        var dig4 = document.getElementById("dig4");
 
-dig1.addEventListener("keyup",()=>{
-    dig2.focus();
-})
-dig2.addEventListener("keyup",()=>{
-    dig3.focus();
-})
-dig3.addEventListener("keyup",()=>{
-    dig4.focus();
-})
-function verifyOTP(){
- if(dig1.value=="1" && dig2.value=="2" && dig3.value=="3" && dig4.value=="4")
- {
-     console.log("Verified");
-     if(error==0)
-     {
-     aadharID = document.getElementById("aadharID").value;
-    password = document.getElementById("password").value;
-    first_name = document.getElementById("first_name").value;
-    last_name = document.getElementById("last_name").value;
-     console.log(`First name - ${first_name} AADHAR - ${aadharID} , PASSWORD - ${password} , LAST NAME - ${last_name}`)
-     fetch(`/registerUser`,{
-        method:'post', 
-        headers:{
-            'Content-Type':'application/json'
-        },
-        body:JSON.stringify({aadharID:aadharID,password:password,first_name:first_name,last_name:last_name,meta_mask_id:accounts[0]})
-     }).then(res=>res.json()).then(data=>{
-         console.log(data);
-         if(data.is_successful)
-         {
-             var container = document.getElementById("modalContainer");
-             container.innerHTML=`
+        dig1.addEventListener("keyup", () => {
+            dig2.focus();
+        })
+        dig2.addEventListener("keyup", () => {
+            dig3.focus();
+        })
+        dig3.addEventListener("keyup", () => {
+            dig4.focus();
+        })
+        function verifyOTP() {
+            if (dig1.value == "1" && dig2.value == "2" && dig3.value == "3" && dig4.value == "4") {
+                console.log("Verified");
+                if (error == 0) {
+                    aadharID = document.getElementById("aadharID").value;
+                    password = document.getElementById("password").value;
+                    first_name = document.getElementById("first_name").value;
+                    last_name = document.getElementById("last_name").value;
+                    console.log(`First name - ${first_name} AADHAR - ${aadharID} , PASSWORD - ${password} , LAST NAME - ${last_name}`)
+                    fetch(`/registerUser`, {
+                        method: 'post',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ aadharID: aadharID, password: password, first_name: first_name, last_name: last_name, meta_mask_id: accounts[0] })
+                    }).then(res => res.json()).then(data => {
+                        console.log(data);
+                        if (data.is_successful) {
+                            var container = document.getElementById("modalContainer");
+                            container.innerHTML = `
              <h5> You have been successfully registered. </h5>
              <br>
              <p> Your <strong> UserID </strong> is ${data.userID} , save and store it securely </p>
              <p style="color:green;display:bold"> Use your UserID to login to our system, do not share it with anyone </p>
              `
-         }
-         else
-         {
-             alert("Failed to register, perhaps you already have an account")
-         }
-     })
-    }
-    else
-    {
-        alert("Failed to signup")
-    }
- }
- else
- {
-     alert("Failed to signup")
- }
-}
+                        }
+                        else {
+                            alert("Failed to register, perhaps you already have an account")
+                        }
+                    })
+                }
+                else {
+                    alert("Failed to signup")
+                }
+            }
+            else {
+                alert("Failed to signup")
+            }
+        }
 
 
 
-</script>
+    </script>
 </body>
+
 </html>
