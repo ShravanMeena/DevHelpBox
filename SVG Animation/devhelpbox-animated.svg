@@ -1,0 +1,11 @@
+<body>
+<svg style="background:black" width="100%" height="100%" viewBox="-30 -50 600 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+ <path id="path">
+		<animate attributeName="d" from="m0,110 h0" to="m0,110 h1100" dur="2.5s" begin="0s" repeatCount="indefinite"/>
+	</path>
+	<text font-size="100" font-family="Montserrat" fill='#FEBD59'>
+		<textPath xlink:href="#path">DevHelpBox
+    </textPath>
+	</text>
+</svg>
+</body>
