@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header { background-color: #007BFF; }
+
+header a {
+  color: #fff;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-family: Roboto;
+  font-size: 22px;
+}
+
+.current { border-bottom: solid 2px #fff; }
+
+.heroArea {
+  background-image: url('../images/hero bg.png');
+  height: 330px;
+  color: #818181;
+  
+}
+
+.heroArea h1, .heroArea div {
+  padding-left: 15px;
+  padding-top: 30px;
+}
+
+.heroArea div { font-size: 22px; }
+
+.heroArea a { margin-left: 15px; }
+
+.servicesArea {
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Start of Home content styles */
+.serviceCol { margin-bottom: 30px; }
+
+.serviceCard { width: 18rem; }
+
+.btnHidden{ visibility: hidden; }
+
+.footerCol { margin: 30px; }
+/* End of Home content styles */
+
+/* Start of About content styles */
+.quickNav, .aboutCard { 
+  margin-top: 30px; 
+  margin-bottom: 30px; 
+}
+/* End of About content styles */
+
+/* Start of Contact content styles */
+.formMargin { margin: 30px; }
+
+.contactForm { color: #818181; }
+
+.noForms { 
+  background-color: #007bff; 
+  height: 292px; 
+  padding: 30px; 
+  margin: 30px 
+}
+/* End of Contact content styles */
+
+/* Start of FAQ content styles */
+.headerText { margin-bottom: 30px; }
+
+.accordionStyles {
+  margin-top: 30px; 
+  margin-bottom: 30px; 
+}
+
+.iconStyle { margin-right: 30px; }
+/* End of FAQ content styles */
+
+.videoCalls { text-align: center; }
+
+.searchArea {
+  background-color: #d9d9d9;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.searchArea label { color: #999999; }
+
+.header {
+  font-size: 20px;
+  padding: 30px;
+}
+
+#searchBtn { margin-top: 30px; }
+
+footer { margin-bottom: 30px; }
