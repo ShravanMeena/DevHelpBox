@@ -1,0 +1,301 @@
+
+* {margin:0;}
+
+span.white {color:#fff;}
+
+a.white {color:#fff; text-decoration: none;}
+
+.img {
+	width: 100%;
+	clear: both;
+	background-color:#FFF;
+}
+
+.clear {clear:both;}
+
+.content {
+	margin:0 auto;
+	width:100%;
+	background-color:#333;
+	color:#A29B99;
+}
+
+.content-two {
+	margin:0 auto;
+	width:100%;
+	background-color:#fff;
+	color:#666;
+}
+
+.box {
+	margin:0 auto;
+	width:100%;
+}
+
+.text { 
+	width:90%;
+	padding: 8% 0 10% 0;
+}
+
+::selection{
+	background: #5A6AE3;
+	color: #fff;
+}
+
+::-moz-selection{
+	background: #5A6AE3;
+	color: #fff;
+}
+
+::-o-selection{
+	background: #5A6AE3;
+	color: #fff;
+}
+
+::-webkit-selection{
+	background: #5A6AE3;
+	color: #fff;
+}
+.banner{
+	margin:0 auto;
+	width:100%;
+	padding-top:7%;
+	z-index:1;
+}
+
+.fundo {
+	margin:0 auto;
+	width:100%;
+	height:100%;
+}
+
+.fundo:hover {
+	background-color: rgba(46,76,139,0.7);
+	
+	transition-property: background-color;
+	-moz-transition-property: background-color;
+	-ms-transition-property: background-color;
+	-o-transition-property: background-color;
+	-webkit-transition-property: background-color;
+	
+
+	-webkit-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
+    -moz-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
+    -ms-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
+    -o-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
+    transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+	
+	transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -ms-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    -webkit-transition-timing-function: linear;
+  
+    transition-delay: 0.2s;
+    -moz-transition-delay: 0.2s;
+    -ms-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    -webkit-transition-delay: 0.2s;
+  
+	clear:both;
+}
+ 
+.btn {
+	width:100%;
+	height:100%;
+	padding-top:100px;
+	opacity:0;
+}
+	
+.btn:hover{
+	color:#fff;
+	opacity:1.0;
+}
+
+
+.bg2 {
+	background:url(../img/bg2.jpg) center fixed no-repeat;
+}
+
+.bg4 {
+	background: url(../img/bg4.jpg) center fixed no-repeat;
+	padding:15% 0 10% 0;
+}
+
+#top {
+	background-color:#111;
+	position:fixed;
+	z-index:2;
+	width:100%;
+	padding:1% 0 1% 0;
+	top: 0;
+}
+
+#menu {
+	width:70%;
+	color:#fff;
+	clear:both;
+	margin:0 15% 0 15%;
+}
+
+.logo{
+	float:left;
+	width:50%;
+}
+
+.logo a {
+	color:#fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo img {
+	width: 50px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.nav {
+	float:left;
+	width:50%;
+	padding-top:1%;
+}
+
+.nav ul {
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	font-family: "Carme", sans-serif;
+	text-transform:uppercase;
+	text-align:right;
+}
+
+.nav ul li { display: inline; }
+
+.nav ul li a {
+	padding: 2px 10px;
+	display: inline-block;
+	color: #fff;
+	font-size:16px;
+	text-decoration: none;
+}
+
+.nav ul li a:hover {
+	color: #5A6AE3;
+}
+nav a#pull {
+	display: none;
+}
+h1, h2, h3{
+	font-family: Arial, sans-serif;
+	text-transform:uppercase;
+	font-weight: 100;
+}
+.text h1{
+	margin:0 auto;
+	padding:0 0 3% 0;
+	font-size:24px;
+	text-align:center;
+}
+
+.btn h3 {
+	margin:0 auto;
+	padding:5% 0 10% 0;
+	font-size:24px;
+	text-align:left;
+	line-height: 45px;
+	width: 60%;
+}
+
+.btn h2{
+	margin:0 auto;
+	padding:5% 0 10% 0;
+	font-size:24px;
+	line-height: 50px;
+	text-align:center;
+	width: 60%;
+}
+
+.content h1{
+	color:#fff;
+}
+
+.content-two h1{
+	color:#000;
+}
+
+
+h2{
+	font-size: 24px;
+	color: #fff;
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+h3{
+	padding:0 0 13% 0;
+	font-size:2.5em;
+	color:#fff;
+	width:75%;
+}
+
+p{ 
+	font-family: Arial, Helvetica, serif;
+	font-size:1.7em;
+	font-style:normal;
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+	line-height:140%;
+}
+
+.central{
+	width: 70%;
+	margin: 0 auto;
+}
+
+
+#footer {
+	width:98%;
+	background-color:#222;
+	font-family: Arial, Helvetica, serif;
+	font-size:1.0em;
+	text-align:center;
+	color:#FFF;
+	padding:1%;
+}
+
+@media screen and (max-width:480px) {
+	#menu {
+		margin: 0 auto;
+		width: 100%;
+	}
+	#menu .logo {
+		width: 100%;
+		display:block;
+		text-align:center;
+	}
+	#menu .nav {
+		width: 100%;
+		display:block;
+	}
+	#menu .nav ul{		
+		text-align:center;
+	}
+	#home {
+		margin-top:70px;
+	}
+	p {
+		width:100%;
+		font-size:14px;
+	}
+	.btn {
+		padding-top:0;
+	}
+	.btn h3 {
+		width: 80%;
+		line-height:24px;
+	}
+}
