@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+body {font-family: Calibri, Helvetica, sans-serif;  font-size: 18px;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=email], input[type=password] {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #00CED1;
+  color: white;
+  padding: 13px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px; 
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  font-size: 15px; 
+  font-weight: bold;"
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+<div class="panel-heading" style="font-size: 30px;">Login</div>
+
+<div class="panel-body">
+<form class="form-horizontal" method="POST" action="/login_page.php">
+
+<label for="email">E-Mail Address</label>
+
+<input id="email" type="email" class="form-control" name="email" placeholder="Enter E-mail address" required autofocus>
+
+
+
+<label for="password">Password</label>
+
+<input id="password" type="password" class="form-control" name="password" placeholder="Enter Password" required>
+
+
+
+<div class="form-group">
+<div class="checkbox">
+                                   <label>
+                                       <input type="checkbox" name="remember"> Remember Me
+                                   </label>
+</div>
+</div>
+</div>
+<div class="form-group">
+<button type="submit">Login</button>
+
+<div class="container" style="background-color:#f1f1f1">
+<button type="button" class="cancelbtn" >Cancel</button>
+<span class="psw">Forgot <a href="#">password?</a></span>
+</div>                          
+</div>
+</form>
+</div>
+</div>
+</body>
+</html>
+
+
