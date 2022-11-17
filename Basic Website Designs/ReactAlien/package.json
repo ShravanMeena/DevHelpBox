@@ -6,8 +6,8 @@
     "animejs": "^2.2.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "react-scripts": "2.1.1",
-    "simple-flexbox": "^1.2.0"
+    "react-scripts": "5.0.1",
+    "simple-flexbox": "^2.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
